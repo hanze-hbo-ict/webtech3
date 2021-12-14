@@ -59,3 +59,42 @@ plugins:
   - search
   - mknotebooks:
       execute: false
+
+nav:
+  - Introductie: 'index.md'
+  - Werkwijze tijdens de practica: 'practicum.md'
+  - Memory game: 'memory.md'
+  - Hoorcolleges: 'colleges.md'
+  - '1. Inleiding':
+    - Inleiding: 'week1/index.md'
+    - Practicum: 'week1/practicum.md'
+    - Memory: 'week1/emory.md'
+  - '2. HTML en CSS 1':
+    - Inleiding: 'week2/index.md'
+    - Practicum: 'week2/practicum.md'
+    - Memory: 'week2/memory.md'
+  - '3. HTML en CSS 2':
+    - Inleiding: 'week3/index.md'
+    - Practicum: 'week3/practicum.md'
+    - Memory: 'week3/memory.md'
+  - '4. Javascript':
+    - Inleiding: 'week4/index.md'
+    - Practicum: 'week4/practicum.md'
+    - Memory: 'week4/memory.md'
+  - '5. Externe bronnen':
+    - Inleiding: 'week5/index.md'
+    - Practicum: 'week5/practicum.md'
+    - Memory: 'week5/memory.md'
+  - '6. Beveiliging en JWT':
+    - Inleiding: 'week6/index.md'
+    - Practicum: 'week6/practicum.md'
+    - Memory: 'week6/memory.md'
+  - '7. MVC en Frameworks 1':
+    - Inleiding: 'week7/index.md'
+    - Practicum: 'week7/practicum.md'
+    - Memory: 'week7/memory.md'
+  - '8. MVS en Frameworks 2':
+    - Inleiding: 'week8/index.md'
+    - Practicum: 'week8/practicum.md'
+    - Memory: 'week8/memory.md'
+
