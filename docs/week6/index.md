@@ -2,7 +2,7 @@
 
 Zo gauw een applicatie data van een andere computer haalt dan waarop deze zelf draait, of zo gauw je een applicatie via een netwerk aan andere computers beschkbaar stelt, krijg je te maken met beveiliging: hoe voorkom je dat kwaadwillenden beschikking krijgen over de data of over de code-base zelf. Omdat het web inmiddels volledig als applicatieplatform gezien wordt, zijn deze vragen voor dit thema bijzonder relevant.
 
-Vanzelfsprekend gaan we niet in op alle aspecten van beveiliging: daar is immers een hele eigen opleiding voor. We beperken ons tot de meest voor de hand liggende zaken die elke goede (web)-programmeur zou moeten inzetten om de applicaties op z'n minst een *beetje* te beschermen. Specifiek gaan we in op een techniek die sinds enige jaren hier het meests voor wordt gebruikt: [json web tokens](https://jwt.io/).
+Vanzelfsprekend gaan we niet in op alle aspecten van beveiliging: daar is immers een hele eigen opleiding voor. We beperken ons tot de meest voor de hand liggende zaken die elke goede (web)-programmeur zou moeten inzetten om de applicaties op z'n minst een *beetje* te beschermen. Specifiek gaan we in op een techniek die sinds enige jaren hier veel voor wordt gebruikt: [json web tokens](https://jwt.io/).
 
 ## Hoorcollege
 
