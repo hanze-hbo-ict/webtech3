@@ -10,9 +10,9 @@ Vervolgens gaan we in op het concept van `Promises` en het aan elkaar rijgen van
 
 ![De Volharding der Herinnering als metafoor voor asynnchroon programmeren](../imgs/persistència_memòria.jpeg)
 
-## Werkcollege
+## Practicum
 
-In het werkcollege wordt de theorie uit het hoorcollege praktisch uitgewerkt. Aan de hand van een aantal kleine specifieke opgaven wordt Javascript ingezet om remote data op te halen en te verwerken. Hierbij maken we gebruik van technieken die zowel in de browser als op de command line werken. We kijken hoe we data uit verschillende bronnen tot één geheel kunnen integreren, zonder problemen te ondervinden van latency of kapotte links.
+In het practicum wordt de theorie uit het hoorcollege praktisch uitgewerkt. Aan de hand van een aantal kleine specifieke opgaven wordt Javascript ingezet om remote data op te halen en te verwerken. Hierbij maken we gebruik van technieken die zowel in de browser als op de command line werken. We kijken hoe we data uit verschillende bronnen tot één geheel kunnen integreren, zonder problemen te ondervinden van latency of kapotte links.
 
 ## Literatuur
 

@@ -10,9 +10,9 @@ Na deze meer theoretische inleiding bekijken we de technieken die de web-ontwikk
 
 ![De developer-tools in Google Chrome](../imgs/developer-tools.png)
  
-## Werkcollege
+## Practicum
 
-Tja, wat doen we bij het werkcollege in de eerste week...?
+Tja, wat doen we bij het practicum in de eerste week...?
 
 ## Literatuur
 

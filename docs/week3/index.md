@@ -6,13 +6,13 @@ Deze week ronden we het materiaal over html en css voor wat betreft dit thema (e
 
 Het hoorcollege bespreekt deze onderwerpen op een meer theoretische manier. Er wordt ingegaan op de werking van de *flexbox*, de *shadow DOM* en *user components*, de verschillen met de meer traditionele html/css-elementen en de problemen waar deze technieken een oplossing voor proberen te vormen. We kijken naar specifieke *use cases* die hiermee gepaard kunnen gaan.
 
-Behalve een meer theoretische aanpak, zal ook de praktijk aan bod komen. Aan de hand van *live coding* zullen voorbeelden en uitwerkingen de revue passeren, waarbij de mogelijkheden (en problemen natuurlijk) duidelijk gemaakt worden. Deze praktische aanpak zal zijn weerslag hebben in het hierbij horende werkcollege.
+Behalve een meer theoretische aanpak, zal ook de praktijk aan bod komen. Aan de hand van *live coding* zullen voorbeelden en uitwerkingen de revue passeren, waarbij de mogelijkheden (en problemen natuurlijk) duidelijk gemaakt worden. Deze praktische aanpak zal zijn weerslag hebben in het hierbij horende practicum.
 
 ![CSS Flexbox](../imgs/css-flexbox.png)
 
-## Werkcollege
+## Practicum
 
-Ook tijdens het werkcollege staan de *flexbox*, de *shadow DOM* en *user components* centraal. Elk van deze drie zal aan de hand van een kleine concrete en specifieke opgave worden uitgediept. 
+Ook tijdens het practicum staan de *flexbox*, de *shadow DOM* en *user components* centraal. Elk van deze drie zal aan de hand van een kleine concrete en specifieke opgave worden uitgediept. 
 
 ## Literatuur
 

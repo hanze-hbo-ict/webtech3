@@ -12,11 +12,11 @@ Aansluitend gaan we uitgebreid in op `JWT`. We bespreken de technische voordelen
 
 ![Een beveiligde manier van bestandsoverdracht – XKCD](../imgs/file-transfer-xkcd.png)
 
-## Werkcollege
+## Practicum
 
-In het werkcollege gaan studenten zelf aan de slag met kleine concrete praktische opgaven. Er wordt met Javacript connectie gemaakt met een (gegeven) JWT-server, waarna gekeken wordt hoe voorkomen kan worden dat het token te lang niet wordt ververst, of wat er aan te doen valt wanneer dat wel het geval is.
+In het practicum gaan studenten zelf aan de slag met kleine concrete praktische opgaven. Er wordt met Javacript connectie gemaakt met een (gegeven) JWT-server, waarna gekeken wordt hoe voorkomen kan worden dat het token te lang niet wordt ververst, of wat er aan te doen valt wanneer dat wel het geval is.
 
-Tijdens dit werkcollege zal ook gekeken worden naar de voor- en nadelen van opslag van het token in een `cookie` of in de `local storage`. Dit biedt als extra'tje de mogelijkheid om te onderzoeken hoe data in de `local storage` kan worden opgeslagen en geadresseerd. Ook bespreken we hoe het token in de http-header van de request kan worden meegestuurd. 
+Tijdens dit practicum zal ook gekeken worden naar de voor- en nadelen van opslag van het token in een `cookie` of in de `local storage`. Dit biedt als extra'tje de mogelijkheid om te onderzoeken hoe data in de `local storage` kan worden opgeslagen en geadresseerd. Ook bespreken we hoe het token in de http-header van de request kan worden meegestuurd. 
 
 ## Literatuur
 

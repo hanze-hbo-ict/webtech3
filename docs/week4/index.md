@@ -10,9 +10,9 @@ Aan de hand van *live coding* laten we tenslotte zien hoe je een frontend-projec
 
 ![Deze week staat JavaScript centraal](../imgs/javascript.jpeg)
 
-## Werkcollege
+## Practicum
 
-In het werkcollege gaan we de theoretische kennis op een praktische manier toepassen. Aan de hand van kleine concrete opdrachten worden de belangrijkste concepten en constructies geïllustreerd. Hierbij zal met name stilgestaan worden bij enerzijdss eigenschappen die JavaScript uniek maken en anderzijds een vergelijking met reeds besproken talen gemaakt worden.
+In het practicum gaan we de theoretische kennis op een praktische manier toepassen. Aan de hand van kleine concrete opdrachten worden de belangrijkste concepten en constructies geïllustreerd. Hierbij zal met name stilgestaan worden bij enerzijdss eigenschappen die JavaScript uniek maken en anderzijds een vergelijking met reeds besproken talen gemaakt worden.
 
 Tijdens dit practicum zullen methoden en technieken besproken worden die nodig zijn voor het memory-spel.
 
