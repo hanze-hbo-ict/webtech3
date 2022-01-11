@@ -14,8 +14,15 @@ Na deze meer theoretische inleiding bekijken we de technieken die de web-ontwikk
 
 Tja, wat doen we bij het practicum in de eerste week...?
 
+Misschien in ieder geval een leesopdracht/docu/discussie over de geschiedenis van browsers / webpagina's gecombineerd met wat opdrachten waarmee de browser geinspecteerd wordt? Dit om alvast te onderzoeken / spelen en een idee te krijgen van de browser en de opbouw van webpagina's. Zie het practicum bestand voor een schets hiervan.
+
 ## Literatuur
 
 Misschien die documentaire laten kijken? 
 https://mandarin.nl/heralds/
+
+Kunstzinnige en grappige projecten over de architectuur van webpagina's (leuk voor in hoorcollege):
+- Live web coding performance, een soort VJ'en in de JavaScript console: https://player.vimeo.com/video/318721981?dnt=true
+- Scultpuren van websites: https://jip.debeer.it/facebook-in-gold/ & https://jip.debeer.it/google-in-gold/
+- http://motherfuckingwebsite.com/ & http://bettermotherfuckingwebsite.com/ & https://thebestmotherfucking.website/
 
