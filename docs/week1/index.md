@@ -25,4 +25,5 @@ Kunstzinnige en grappige projecten over de architectuur van webpagina's (leuk vo
 - Live web coding performance, een soort VJ'en in de JavaScript console: https://player.vimeo.com/video/318721981?dnt=true
 - Scultpuren van websites: https://jip.debeer.it/facebook-in-gold/ & https://jip.debeer.it/google-in-gold/
 - http://motherfuckingwebsite.com/ & http://bettermotherfuckingwebsite.com/ & https://thebestmotherfucking.website/
-
+- https://theuselessweb.com/
+- https://pointerpointer.com/
