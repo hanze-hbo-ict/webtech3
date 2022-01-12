@@ -6,7 +6,7 @@ Deze week staan de technieken HTML en CSS centraal. We bouwen verder op webtechn
 
 ## Hoorcollege
 
-In het hoorcollege komen de hierboven genoemde onderwerpen op een meer theoretische manier langs. We analyseren we meer complexe *matching rules* met uitgebreidere *selectors*, bestuderen we het verschil tussen *tags* en *html-elements* en kijken we op welke manier we de standaard *flow layout* kunnen manipuleren. Aan de hand van concrete voorbeelden (websites) bekijken we verschillende manier waarop deze technieken ingezet kunnen worden en welke gevolgen dat heeft of kan hebben voor het ontwerp en de toegankelijkheid. 
+In het hoorcollege komen de hierboven genoemde onderwerpen op een meer theoretische manier langs. We analyseren meer complexe *matching rules* met uitgebreidere *selectors*, bestuderen we het verschil tussen *tags* en *html-elements* en kijken we op welke manier we de standaard *flow layout* kunnen manipuleren. Aan de hand van concrete voorbeelden (websites) bekijken we verschillende manier waarop deze technieken ingezet kunnen worden en welke gevolgen dat heeft of kan hebben voor het ontwerp en de toegankelijkheid. 
 
 Behalve een meer theoretische aanpak, zal ook de praktijk aan bod komen. Aan de hand van *live coding* zullen voorbeelden en uitwerkingen de revue passeren, waarbij de mogelijkheden (en problemen natuurlijk) duidelijk gemaakt worden. Deze praktische aanpak zal zijn weerslag hebben in het hierbij horende practicum.
 
@@ -17,5 +17,10 @@ Aan de hand van specifieke en concrete opdrachten zullen tijdens het practicum v
 ## Literatuur
 
 - [MDN over de DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-
 - [Over tags, elements en attributes](https://www.geeksforgeeks.org/tags-vs-elements-vs-attributes-in-html/)
+- [W3Schools history of HTML](https://www.w3schools.in/html-tutorial/history/)
+- [W3Schools Document Object Model (DOM)](https://www.w3schools.com/js/js_htmldom.asp)
+- [W3Schools HTML](https://www.w3schools.com/html/)
+- [W3.org history of CSS](https://www.w3.org/Style/CSS20/history.html)
+- [W3Schools CSS](https://www.w3schools.com/css/)
+- [CSS Tricks, om altijd bij de hand te hebben](https://css-tricks.com/)
