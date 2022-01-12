@@ -4,7 +4,7 @@ Deze week verlaten we het meer user-design gerichte onderwerp en gaan we in op h
 
 ## Hoorcollege
 
-Na een zeer korte historische inleiding bespreken we de rol en positie die JavaScript inneemt in het hedendaagse vakgebied in het algemeen en in web-development in het bijzonder. We laten zien hoe JavaScript wordt uitgevoerd en welke gevolgen dat heeft voor de ontwikkeling. Vervolgens gaan we in op de syntax en semantiek van JavaScript – hierbij bespreken we de belangrijkste concepten, constructies en datatypen. 
+Na een zeer korte historische inleiding bespreken we de rol en positie die JavaScript inneemt in het hedendaagse vakgebied in het algemeen en in web-development in het bijzonder. We laten zien hoe JavaScript wordt uitgevoerd en welke gevolgen dat heeft voor de ontwikkeling. Vervolgens gaan we in op client-side scripting met JavaScript, en bespreken we onder andere syntax, variabelen, verschillende data types, functies, objecten, events en loops. Ook behandelen we DOM manipulation: het aanpassen van de HTML elementen in de Document Object Model met behulp van bijvoorbeeld een query selector.
 
 Aan de hand van *live coding* laten we tenslotte zien hoe je een frontend-project opzet, wat een goeie manier van werken is en tegen welke problemen je aan zult (kunnen) lopen.
 
