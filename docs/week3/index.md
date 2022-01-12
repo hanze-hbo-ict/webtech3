@@ -2,6 +2,8 @@
 
 Deze week ronden we het materiaal over html en css voor wat betreft dit thema (en de opleiding) af. Deze technieken zijn dusdanig uitgebreid dat ze op zichzelf een heel thema zouden legitimeren (dat ook bestaat), maar voor software engineers is het voldoende een meer dan *hands-on* kennis van te hebben. Specifiek gaan we deze week in op *media queries*, het concept van de *flexbox*, de *shadow DOM* en *user components*. 
 
+**Wellicht termen responsiveness & cross browser support toevoegen?**
+
 ## Hoorcollege
 
 Het hoorcollege bespreekt deze onderwerpen op een meer theoretische manier. Er wordt ingegaan op de werking van de *flexbox*, de *shadow DOM* en *user components*, de verschillen met de meer traditionele html/css-elementen en de problemen waar deze technieken een oplossing voor proberen te vormen. We kijken naar specifieke *use cases* die hiermee gepaard kunnen gaan.
