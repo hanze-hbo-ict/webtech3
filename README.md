@@ -19,4 +19,6 @@ mkdocs build
 ```
 
 &copy;2022 Hanzehogeschool Groningen
+
+
 ![Hanze logo](docs/imgs/hanze-logo.jpeg)
