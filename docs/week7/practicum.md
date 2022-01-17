@@ -1,4 +1,4 @@
 # Practicum week 7
 
-[TodoMVC? KnockoutJS Tutorial?](https://todomvc.com/)
+[TodoMVC? Dit keer in Angular?](https://todomvc.com/)
 Als 'bootstrap' voor eindopdracht

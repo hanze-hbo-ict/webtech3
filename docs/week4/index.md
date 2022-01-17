@@ -1,27 +1,22 @@
-# Week 4: Javascript
+# Week 4: Javascript async
 
-Deze week verlaten we het meer user-design gerichte onderwerp en gaan we in op het interactief maken van onze webpagina's. Dat doen we met behulp van de meest populaire taal op StackOverflow: JavaScript. We bespreken het domein waarin deze taal voorkomt, waarin hij verschilt van de andere talen die al besproken zijn (met name op het gebied van syntax, maar toch zeker ook op met betrekking op missie en doel) en hoe je een project hiermee zou kunnen opzetten.
+Nadat vorige week de basis is gelegd, gaan we deze week in op één van de meest fundamentele eigenschappen van Javascript: *asynchroon programmeren*. De meeste programmeertalen die je tot nu toe bent tegengekomen gaan in basis uit van een *call stack* waarbij functies of methoden elkaar aanroepen en wachten totdat die call is afgerond voordat de caller zelf door kan gaan. JavaScript is van meet af aan ingesteld op het werken met calls die lange tijd in beslag kunnen nemen, bijvoorbeeld data ophalen over een netwerk. Om deze reden (en omdat Javascript altijd maar in één *thread* draait) heeft [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich) al vanaf het prille begint gewerkt met zogenaamde *callback functions*. 
 
 ## Hoorcollege
 
-Na een zeer korte historische inleiding bespreken we de rol en positie die JavaScript inneemt in het hedendaagse vakgebied in het algemeen en in web-development in het bijzonder. We laten zien hoe JavaScript wordt uitgevoerd en welke gevolgen dat heeft voor de ontwikkeling. Vervolgens gaan we in op client-side scripting met JavaScript, en bespreken we onder andere syntax, variabelen, verschillende data types, functies, objecten, events en loops. Ook behandelen we DOM manipulation: het aanpassen van de HTML elementen in de Document Object Model met behulp van bijvoorbeeld een query selector.
+In het hoorcollege wordt de theorie van asynchroon programmeren toegelicht. We bespreken de noodzaak van deze techniek en de verschillende manieren waarop aan deze noodzaak voldaan kan worden. Aan de hand van de werking van de *callback queue* en de *event loop* wordt toegelicht hoe functies conditioneel gemaakt kunnen worden – en hoe ze pas kunnen worden aangeroepen wanneer er aan die conditie voldaan is. We bespreken de theoretische werking van deze techniek en laten zien hoe deze concreet is gerealiseerd in de browser (in de [V8-engine](https://github.com/v8/v8)) en in [nodejs](https://github.com/nodejs/node).
 
-Aan de hand van *live coding* laten we tenslotte zien hoe je een frontend-project opzet, wat een goeie manier van werken is en tegen welke problemen je aan zult (kunnen) lopen.
+Vervolgens gaan we in op het concept van `Promises` en het aan elkaar rijgen van functie-aanroepen. We kijken naar goede architecturen om dit soort code efficiënt en leesbaar te maken.
 
-![Deze week staat JavaScript centraal](../imgs/javascript.jpeg)
+![De Volharding der Herinnering als metafoor voor asynchroon programmeren](../imgs/dali.jpeg)
 
 ## Practicum
 
-In het practicum gaan we de theoretische kennis op een praktische manier toepassen. Aan de hand van kleine concrete opdrachten worden de belangrijkste concepten en constructies geïllustreerd. Hierbij zal met name stilgestaan worden bij enerzijdss eigenschappen die JavaScript uniek maken en anderzijds een vergelijking met reeds besproken talen gemaakt worden.
-
-Tijdens dit practicum zullen methoden en technieken besproken worden die nodig zijn voor het memory-spel.
+In het practicum wordt de theorie uit het hoorcollege praktisch uitgewerkt. Aan de hand van een aantal kleine specifieke opgaven wordt Javascript ingezet om data van externe bronnen op te halen en te verwerken. Hierbij maken we gebruik van technieken die zowel in de browser als op de command line werken. We kijken hoe we data uit verschillende bronnen tot één geheel kunnen integreren, zonder problemen te ondervinden van latency of kapotte links.
 
 ## Literatuur
 
-Er is de wereld aan literatuur over JavaScript te vinden. Zelf vinden we de serie [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) van [Kyle Simpson](https://me.getify.com/) erg fijn: hij bespreekt de echte ins en outs van deze taal. 
+- Simpson, Kyle (2015), *Async and Performance*. Uit de (aan te raden) serie [You Don't Know JavaScript](https://github.com/getify/You-Dont-Know-JS). Dit boek is eenvoudig via de Hanze mediatheek te vinden.
 
-Natuurlijk kun je ook [op w3schools](https://www.w3schools.com/js/default.asp) een goeie introductie krijgen van hoe en wat in JavaScript. Het nadeel van deze site is dat het niet heel diep gaat en een beetje *cherry picking* blijft.
+- [`fetch` op MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
-Wat dat betreft kun je, als altijd, beter te rade gaan [bij MDN](https://developer.mozilla.org/en-US/docs/Web/javascript). Als feitelijke makers van JavaScript houden ze ook de documentatie hiervan goed bij.
-
-Als je op zoek bent naar een online training op het gebied van JavaScript (of een andere front-end techniek) dan raden we je [Frontend Masters](https://frontendmasters.com/) aan. 

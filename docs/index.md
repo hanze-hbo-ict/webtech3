@@ -12,13 +12,13 @@ De module kent de volgende weekindeling
 
 week | onderwerpen | oplevering
 --|--|--
-1 | Inleiding, HTML en CSS 1 | 
-2 | HTML en CSS 2 | 1 Memory in HTML en CSS
-3 | JavaScript | Herkansing oplevering 1
-4 | JavaScript async programmeren | 2 Memory met interactieve functionaliteit
-5 | Beveiliging en JWT | Herkansing oplevering 2
-6 | MVC en Frameworks 1 | 3 Memory met geaggregeerde data
-7 | MVC en Frameworks 2 | Herkansing oplevering 3
+1 | [Inleiding, HTML en CSS 1](week1/) | 
+2 | [HTML en CSS 2](week2) | 1 Memory in HTML en CSS
+3 | [JavaScript](week3) | Herkansing oplevering 1
+4 | [JavaScript async programmeren](week4) | 2 Memory met interactieve functionaliteit
+5 | [Beveiliging en JWT](week5) | Herkansing oplevering 2
+6 | [MVC en Frameworks 1](week6) | 3 Memory met geaggregeerde data
+7 | [MVC en Frameworks 2](week7) | Herkansing oplevering 3
 8 | Uitloop | 4 Memory eindoplevering
 
 

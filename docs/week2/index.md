@@ -1,26 +1,22 @@
-# Week 2: HTML en CSS 1
+# Week 2: HTML en CSS 2
 
-Deze week staan de technieken HTML en CSS centraal. We bouwen verder op webtechnologie 1 (dat in de propdeuse gegeven wordt) en op de eerste week van webtechnologie 2 (periode 2.3). We gaan hier in op de exacte werking van deze technieken, bespreken de meer semantische elementen en kijken hoe je kunt ontwerpen voor toegankelijkheid. 
+Deze week ronden we het materiaal over html en css voor wat betreft dit thema (en de opleiding) af. Deze technieken zijn dusdanig uitgebreid dat ze op zichzelf een heel thema zouden legitimeren (dat ook bestaat), maar voor software engineers is het voldoende een meer dan *hands-on* kennis van te hebben. Specifiek gaan we deze week in op *media queries*, het concept van de *flexbox*, de *shadow DOM* en *user components*. 
 
-![How do you annoy a web developer? xkcd 1144](../imgs/annoy.png)
+**Wellicht termen responsiveness & cross browser support toevoegen?**
 
 ## Hoorcollege
 
-In het hoorcollege komen de hierboven genoemde onderwerpen op een meer theoretische manier langs. We analyseren meer complexe *matching rules* met uitgebreidere *selectors*, bestuderen we het verschil tussen *tags* en *html-elements* en kijken we op welke manier we de standaard *flow layout* kunnen manipuleren. Aan de hand van concrete voorbeelden (websites) bekijken we verschillende manier waarop deze technieken ingezet kunnen worden en welke gevolgen dat heeft of kan hebben voor het ontwerp en de toegankelijkheid. 
+Het hoorcollege bespreekt deze onderwerpen op een meer theoretische manier. Er wordt ingegaan op de werking van de *flexbox*, de *shadow DOM* en *user components*, de verschillen met de meer traditionele html/css-elementen en de problemen waar deze technieken een oplossing voor proberen te vormen. We kijken naar specifieke *use cases* die hiermee gepaard kunnen gaan.
 
 Behalve een meer theoretische aanpak, zal ook de praktijk aan bod komen. Aan de hand van *live coding* zullen voorbeelden en uitwerkingen de revue passeren, waarbij de mogelijkheden (en problemen natuurlijk) duidelijk gemaakt worden. Deze praktische aanpak zal zijn weerslag hebben in het hierbij horende practicum.
 
+![CSS Flexbox](../imgs/css-flexbox.png)
+
 ## Practicum
 
-Aan de hand van specifieke en concrete opdrachten zullen tijdens het practicum verschillende voorbeelden uitgewerkt worden, waarbij geëxperimenteerd wordt met complexe *matching rules*, *reflection* en *global attributes*. We zullen aan de hand van een eenvoudige zelfgemaakte browser de *flow layout* demonstreren.
+Ook tijdens het practicum staan de *flexbox*, de *shadow DOM* en *user components* centraal. Elk van deze drie zal aan de hand van een kleine concrete en specifieke opgave worden uitgediept. 
 
 ## Literatuur
 
-- [MDN over de DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-- [Over tags, elements en attributes](https://www.geeksforgeeks.org/tags-vs-elements-vs-attributes-in-html/)
-- [W3Schools history of HTML](https://www.w3schools.in/html-tutorial/history/)
-- [W3Schools Document Object Model (DOM)](https://www.w3schools.com/js/js_htmldom.asp)
-- [W3Schools HTML](https://www.w3schools.com/html/)
-- [W3.org history of CSS](https://www.w3.org/Style/CSS20/history.html)
-- [W3Schools CSS](https://www.w3schools.com/css/)
-- [CSS Tricks, om altijd bij de hand te hebben](https://css-tricks.com/)
+- [MDN over de flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+- [MDN over de shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM)

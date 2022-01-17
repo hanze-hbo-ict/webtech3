@@ -1,25 +1,23 @@
-# Week 6: Beveiliging en jwt
+# Week 6: MVC en Frameworks 1
 
-Zo gauw een applicatie data van een andere computer haalt dan waarop deze zelf draait, of zo gauw je een applicatie via een netwerk aan andere computers beschkbaar stelt, krijg je te maken met beveiliging: hoe voorkom je dat kwaadwillenden beschikking krijgen over de data of over de code-base zelf. Omdat het web inmiddels volledig als applicatieplatform gezien wordt, zijn deze vragen voor dit thema bijzonder relevant.
+Eén van de problemen waar je mee te maken krijgt wanneer je serieus voor het web (en überhaupt) gaat ontwikkelen is *compartamentalisatie*: hoe deel je je applicatie op zo'n manier in dat je enerzijds een wildgroei aan bestanden en scripts voorkomt en anderzijds klassen en objecten hebt die een duidelijke en afgebakende verantwoordelijkheid hebben ([SOLID](https://www.baeldung.com/solid-principles) kortom)?
 
-Vanzelfsprekend gaan we niet in op alle aspecten van beveiliging: daar is immers een hele eigen opleiding voor. We beperken ons tot de meest voor de hand liggende zaken die elke goede (web)-programmeur zou moeten inzetten om de applicaties op z'n minst een *beetje* te beschermen. Specifiek gaan we in op een techniek die sinds enige jaren hier veel voor wordt gebruikt: [json web tokens](https://jwt.io/).
+In deze en de volgende week gaan we in op methoden en technieken die hiervoor veelvuldig ingzet worden. We grijpen hier terug op het MVC-ontwerppatroon dat al eerder in de opleiding besproken is. We kijken hoe dit patroon ingezet wordt in een web-omgeving en op welke manier dat de problemen op kan lossen.
+
+![Compartimentalisatie in software engineering is een groot goed](../imgs/compartimentalisation.png)
 
 ## Hoorcollege
 
-Na een korte introductie over beveiliging bespreken we methoden en technieken waarmee webapplicaties veiliger gemaakt kunnen worden. Hierin passeren zaken als `password hashing`, het toevoegen van `salt` en `2FA` de revue. In aansluiting hierop gaan we in op de problemen die met al deze technieken samenhangen en waarvoor `json webtokens` (`JWT`) een oplossing probeert te formeren.
+Het eerste hoorcollege van dit tweeluik radicaliseert de problemen die ontstaan wanneer er géén gebruik gemaakt wordt van compartimentalisatie (of MVC). Aan de hand van concrete voorbeelden wordt duidelijk gemaakt dat je al heel snel een onoverzichtelijke brij aan code, klassen en bestanden hebt die niet alleen slecht performet, maar ook nog een onleesbaar en dus ononderhoudbaar is. 
 
-Aansluitend gaan we uitgebreid in op `JWT`. We bespreken de technische voordelen hiervan en laten een concrete implementatie zien. 
-
-![Een beveiligde manier van bestandsoverdracht – XKCD](../imgs/file-transfer-xkcd.png)
+Hierna bespreken we verschillende manieren om deze problemen te voorkomen, waarbij we uiteindelijk uitkomen op het MVC-ontwerppatroon (of meer hedendaagse vormen daarvan). Tenslotte bespreken we hoe je dit patroon in kunt zetten in een JavaScript-ontwikkelproces.
 
 ## Practicum
 
-In het practicum gaan studenten zelf aan de slag met kleine concrete praktische opgaven. Er wordt met Javacript connectie gemaakt met een (gegeven) JWT-server, waarna gekeken wordt hoe voorkomen kan worden dat het token te lang niet wordt ververst, of wat er aan te doen valt wanneer dat wel het geval is.
+In het practicum maken we gebruik van een bestaand micro-framework ([knockout.js](https://knockoutjs.com/) of []) om MVC in een JavaScript-omgeving in te zetten. Aan de hand van concrete en kleine opdrachten wordt dit framework geïntroduceerd, en wordt toegelicht waarom dit een oplossing kan vormen voor de in het theoriecollege genoemde problematiek.
 
-Tijdens dit practicum zal ook gekeken worden naar de voor- en nadelen van opslag van het token in een `cookie` of in de `local storage`. Dit biedt als extra'tje de mogelijkheid om te onderzoeken hoe data in de `local storage` kan worden opgeslagen en geadresseerd. Ook bespreken we hoe het token in de http-header van de request kan worden meegestuurd. 
+Door de introductie van een dergelijk framework kan de ontwikkelstraat wel wat complexer worden. We laten methoden en technieken zien om met deze toegenomen complexiteit om te gaan.
 
 ## Literatuur
 
-- [RFC 8725: JWT Best Current Practices](https://www.hjp.at/doc/rfc/rfc8725.html)
-
-- [How hackers hack JWT](https://infosecwriteups.com/hacking-json-web-tokens-jwts-a6eea2753d23)
+[Wikipedia over MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)

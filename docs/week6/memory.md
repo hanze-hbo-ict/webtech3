@@ -1,3 +1,2 @@
-# Memory week 6: Toetsmoment
-
+# Memory week 6
 

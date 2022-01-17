@@ -1,22 +1,27 @@
-# Week 3: HTML en CSS 2
+# Week 3: Javascript
 
-Deze week ronden we het materiaal over html en css voor wat betreft dit thema (en de opleiding) af. Deze technieken zijn dusdanig uitgebreid dat ze op zichzelf een heel thema zouden legitimeren (dat ook bestaat), maar voor software engineers is het voldoende een meer dan *hands-on* kennis van te hebben. Specifiek gaan we deze week in op *media queries*, het concept van de *flexbox*, de *shadow DOM* en *user components*. 
-
-**Wellicht termen responsiveness & cross browser support toevoegen?**
+Deze week verlaten we het meer user-design gerichte onderwerp en gaan we in op het interactief maken van onze webpagina's. Dat doen we met behulp van de meest populaire taal op StackOverflow: JavaScript. We bespreken het domein waarin deze taal voorkomt, waarin hij verschilt van de andere talen die al besproken zijn (met name op het gebied van syntax, maar toch zeker ook op met betrekking op missie en doel) en hoe je een project hiermee zou kunnen opzetten.
 
 ## Hoorcollege
 
-Het hoorcollege bespreekt deze onderwerpen op een meer theoretische manier. Er wordt ingegaan op de werking van de *flexbox*, de *shadow DOM* en *user components*, de verschillen met de meer traditionele html/css-elementen en de problemen waar deze technieken een oplossing voor proberen te vormen. We kijken naar specifieke *use cases* die hiermee gepaard kunnen gaan.
+Na een zeer korte historische inleiding bespreken we de rol en positie die JavaScript inneemt in het hedendaagse vakgebied in het algemeen en in web-development in het bijzonder. We laten zien hoe JavaScript wordt uitgevoerd en welke gevolgen dat heeft voor de ontwikkeling. Vervolgens gaan we in op client-side scripting met JavaScript, en bespreken we onder andere syntax, variabelen, verschillende data types, functies, objecten, events en loops. Ook behandelen we DOM manipulation: het aanpassen van de HTML elementen in de Document Object Model met behulp van bijvoorbeeld een query selector.
 
-Behalve een meer theoretische aanpak, zal ook de praktijk aan bod komen. Aan de hand van *live coding* zullen voorbeelden en uitwerkingen de revue passeren, waarbij de mogelijkheden (en problemen natuurlijk) duidelijk gemaakt worden. Deze praktische aanpak zal zijn weerslag hebben in het hierbij horende practicum.
+Aan de hand van *live coding* laten we tenslotte zien hoe je een frontend-project opzet, wat een goeie manier van werken is en tegen welke problemen je aan zult (kunnen) lopen.
 
-![CSS Flexbox](../imgs/css-flexbox.png)
+![Deze week staat JavaScript centraal](../imgs/javascript.jpeg)
 
 ## Practicum
 
-Ook tijdens het practicum staan de *flexbox*, de *shadow DOM* en *user components* centraal. Elk van deze drie zal aan de hand van een kleine concrete en specifieke opgave worden uitgediept. 
+In het practicum gaan we de theoretische kennis op een praktische manier toepassen. Aan de hand van kleine concrete opdrachten worden de belangrijkste concepten en constructies geïllustreerd. Hierbij zal met name stilgestaan worden bij enerzijdss eigenschappen die JavaScript uniek maken en anderzijds een vergelijking met reeds besproken talen gemaakt worden.
+
+Tijdens dit practicum zullen methoden en technieken besproken worden die nodig zijn voor het memory-spel.
 
 ## Literatuur
 
-- [MDN over de flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-- [MDN over de shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM)
+Er is de wereld aan literatuur over JavaScript te vinden. Zelf vinden we de serie [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) van [Kyle Simpson](https://me.getify.com/) erg fijn: hij bespreekt de echte ins en outs van deze taal. 
+
+Natuurlijk kun je ook [op w3schools](https://www.w3schools.com/js/default.asp) een goeie introductie krijgen van hoe en wat in JavaScript. Het nadeel van deze site is dat het niet heel diep gaat en een beetje *cherry picking* blijft.
+
+Wat dat betreft kun je, als altijd, beter te rade gaan [bij MDN](https://developer.mozilla.org/en-US/docs/Web/javascript). Als feitelijke makers van JavaScript houden ze ook de documentatie hiervan goed bij.
+
+Als je op zoek bent naar een online training op het gebied van JavaScript (of een andere front-end techniek) dan raden we je [Frontend Masters](https://frontendmasters.com/) aan. 
