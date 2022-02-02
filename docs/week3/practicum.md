@@ -10,3 +10,22 @@ Daarna leukere opdracht met DOM manipulatie en events?
 - Events en event handlers
 - Objecten
 - Bij deze DOM opdrachten komen ook functies aan te pas.
+
+## 1. Statische Manipulatie
+
+### Opgave
+
+## 2. DOM Manipulatie
+
+### Opgave
+
+## 3. Event Handlers
+
+### Opgave
+
+## 4. Look ma, No Classes...
+
+Creatio ex nihilo
+
+### Opgave
+
