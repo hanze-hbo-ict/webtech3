@@ -1,0 +1,16 @@
+voor de statische html: 
+
+- zipje van maken
+- web components toevoegen
+- sidebar en nog meer lijsten van artikelen maken
+- polletje
+
+
+ideeën voor js uitbreidingen:
+
+- polletje interactief maken
+- sliding articles
+- uitklapmenu
+- iets interactiefs met een weerkaart ofzo?
+- hover over titel geeft ondertitel
+- hover over afbeelding laat afbeelding beetje inzoomen
