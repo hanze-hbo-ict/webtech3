@@ -1,9 +1,10 @@
 voor de statische html: 
 
-- zipje van maken
-- web components toevoegen
-- sidebar en nog meer lijsten van artikelen maken
-- polletje
+- zipje van maken voor in de mkdocs
+- web components toevoegen?
++ sidebar en nog meer lijsten van artikelen maken DONE
++ polletje DONE
+- weerkaart
 
 
 ideeën voor js uitbreidingen:

@@ -1,44 +1,162 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
 
-        <div id="header" class="frame shadow-divider"><h1 class="news-logo">Het Nieuws</h1></div>
-        <div id="sub-header" class="frame shadow-divider">
-            <a>Cultuur</a>
-            <a>Binnenland</a>
-            <a>Buitenland</a>
-            <a>Politiek</a>
-            <a>Economie</a>
-            <a>Sport</a>
-            <a>Tech</a>
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div id="header" class="frame shadow-divider">
+        <h1 class="news-logo">Het Nieuws <span>.</span></h1>
+    </div>
+    <div id="sub-header" class="frame shadow-divider">
+        <a>Cultuur</a>
+        <a>Binnenland</a>
+        <a>Buitenland</a>
+        <a>Politiek</a>
+        <a>Economie</a>
+        <a>Sport</a>
+        <a>Tech</a>
+    </div>
+
+    <!--TODO: hier een web component van maken?! Wanneer wordt dat behandeld?-->
+    <div class="content frame">
+
+        <div class="articles">
+
+            <div class="featured">
+                <div class="date">
+                    <p>2 februari 2022</p>
+                </div>
+                <img src="img/bobslee.png">
+                <div class="article-title">
+                    <h2>Onenigheid in tweemansbob: wie mag een biertje drinken?</h2>
+                </div>
+            </div>
+            <div class="listed">
+                <div class="img-container"><img src="img/benzinepomp.png"></div>
+                <div class="info">
+                    <h3>Steeds meer mensen rijden weg bij benzinepomp zonder te tanken</h3>
+                    <p>Als we hun nummerbord hebben, nemen we vaak nog even via de politie contact op om te vragen
+                        waarom.</p>
+                    <a>> Lees verder</a>
+                </div>
+
+            </div>
+            <div class="listed">
+                <div class="img-container"><img src="img/nachtclubs.png"></div>
+                <div class="info">
+                    <h3>Robert blij dat nachtclubs weer open gaan want hij moet nog een nieuwe jas</h3>
+                    <p>“Precies nu ik blut ben en een nieuwe jas moet, geweldig!”</p>
+                    <a>> Lees verder</a>
+                </div>
+            </div>
+            <div class="listed">
+                <div class="img-container"><img src="img/broodjes.png"></div>
+                <div class="info">
+                    <h3>Supermarkt gaat broodjes in grijpmachines doen zodat je niet meer met die tangen staat te
+                        klooien</h3>
+                    <p>Supermarkten willen een einde maken aan het eindeloze geklooi met broodtangen bij de afgebakken
+                        broodjes.</p>
+                    <a>> Lees verder</a>
+                </div>
+
+            </div>
+            <div class="listed">
+                <div class="img-container"><img src="img/wangedrag.png"></div>
+                <div class="info">
+                    <h3>Hoe weet je of je wangedrag gewenst is?</h3>
+                    <p>Iedereen heeft wel eens de neiging om wangedrag te vertonen aan een collega of een vreemde op het
+                        internet.</p>
+                    <a>> Lees verder</a>
+                </div>
+
+            </div>
+            <div class="listed">
+                <div class="img-container"><img src="img/boodschappen.png"></div>
+                <div class="info">
+                    <h3>Nieuwe fitnesstrend: zelf je boodschappen halen bij de supermarkt</h3>
+                    <p>Strak lichaam krijgen in 2022? Vergeet HIIT, Crosstraining en spinning.</p>
+                    <a>> Lees verder</a>
+                </div>
+            </div>
+            <div class="listed">
+                <div class="img-container"><img src="img/huur.png"></div>
+                <div class="info">
+                    <h3>Steeds meer mensen aangewezen op huurmoordenaar omdat ze koopmoordenaar niet kunnen betalen</h3>
+                    <p>De situatie in de moordenaarsmarkt blijft behelpen.</p>
+                    <a>> Lees verder</a>
+                </div>
+
+            </div>
+            <div class="listed">
+                <div class="img-container"><img src="img/sjoerd-en-harco.png"></div>
+                <div class="info">
+                    <h3>Sjoerd wil een vrouw die tegengas geeft, Harco een vrouw die duizend kuub gas geeft</h3>
+                    <p> “Als een vrouw niet minstens met duizend kuub aan komt zetten dan is ze gewoon niet mijn type."
+                    </p>
+                    <a>> Lees verder</a>
+                </div>
+            </div>
+
+            <div class="listed">
+                <div class="img-container"><img src="img/poetin.png"></div>
+                <div class="info">
+                    <h3>Als de NAVO niet was uitgebreid was Poetin een kinderboerderij begonnen</h3>
+                    <p>De hoofdschuldige voor de escalatie in Oekraïne is de NAVO die door jarenlange uitbreiding naar
+                        het oosten het Kremlin heeft geprovoceerd.</p>
+                    <a>> Lees verder</a>
+                </div>
+            </div>
+            <div class="listed">
+                <div class="img-container"><img src="img/aangereden.jpg"></div>
+                <div class="info">
+                    <h3>Vrouw aangereden, waarom gaat ze dan ook de straat op?</h3>
+                    <p>Haar vrienden en familie zijn enorm geschrokken. “Waarom ga je dan ook de straat op?”</p>
+                    <a>> Lees verder</a>
+                </div>
+            </div>
+
         </div>
 
-        <!--TODO: hier een web component van maken?! Wanneer wordt dat behandeld?-->
-        <div class="content frame">
-            <div class="date">
-                <p>2 februari 2022</p>
+        <div class="sidebar">
+            <div class="sidebar-title">Jij kiest</div>
+            <div class="poll sidebar-block">
+                <h4>Welke nieuwe coronamaatregel moet de overheid nu nemen?</h4>
+                <form>
+                    <div class="option"><input type="radio" id="keuze1" name="keuze1"><label for="keuze1">Prijzen van
+                            illegale QR-codes verhogen</label></div>
+                    <div class="option"><input type="radio" id="keuze2" name="keuze2"><label for="keuze2">'Geen corona'
+                            zeggen als je hoest</label></div>
+                    <div class="option"><input type="radio" id="keuze3" name="keuze3"><label for="keuze3">Maximaal 750
+                            mensen op een hospiteeravond</label></div>
+                    <button>Stem</button>
+                </form>
             </div>
-            <div class="articles">
-                <div class="featured">
-                    <div class="article">
-                        <img src="https://speld.nl/wp-content/uploads/bobslee3man_eb3c78f74a3a3c938479e8e66918daa4_2000.png">
-                        <div class="article-title">
-                            <h2>Onenigheid in tweemansbob: wie mag een biertje drinken?</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="sidebar">
 
-                </div>
-                
+            <div class="create-account sidebar-block">
+                <h4>Word vage kennis!</h4>
+                <form>
+                    <div class="option"><input type="text" placeholder="Gebruikersnaam"></div>
+                    <div class="option"><input type="text" placeholder="Wachtwoord"></div>
+                    <button>Maak account</button>
+                </form>
             </div>
-            
+
+            <div class="sidebar-title">Advertentie</div>
+            <div class="sidebar-block ad">
+                <img src="img/ad.PNG" id="ad">
+            </div>
+
+            <div class="sidebar-block ad">
+                <img src="img/weer.PNG" id="ad">
+            </div>
         </div>
+    </div>
 
+    <footer>Bron: <a href="https://speld.nl/">speld.nl</a></footer>
 
+</body>
 
-    </body>
 </html>
