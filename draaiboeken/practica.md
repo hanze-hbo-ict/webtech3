@@ -1,19 +1,20 @@
-Week 1
+Week 1 (BABA)
 
 aanpassen
 
 
-Week 2
+Week 2 (BABA)
 
 css animaties
 media queries
-
+flexbox (poster groot uitprinten)
 
 Voeg een darkmode toe
 Hier is een site, maak hem responsive
+Animeer iets
 
 
-week 3
+Week 3 (BEKL)
 
 Positie / rol van JS
 EventListeners
@@ -27,7 +28,7 @@ js animaties
 
 
 
-Week 4
+Week 4 (BABA)
 
 fetch
 promises
@@ -43,7 +44,16 @@ json handling
 
 
 
-Week 5
+Week 5 (BABA)
 Angular opdracht ombatterijen naar niet-angular
+JavaScript 1 (async en externe bronnen)
+
+- eigen server voor opslag data
+- dog API, lorum picsum (etc) voor plaatjes voor op de kaartjes.
 
 
+Week 6 (BEKL)
+
+Todo mvc in knockout js of https://lit.dev/?
+
+Week 7 (BEKL)
