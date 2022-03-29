@@ -2,9 +2,7 @@ voor de statische html:
 
 - zipje van maken voor in de mkdocs
 - web components toevoegen?
-+ sidebar en nog meer lijsten van artikelen maken DONE
-+ polletje DONE
-+ weerkaart
+- flexbox weghalen
 
 
 ideeën voor js uitbreidingen:
@@ -13,5 +11,8 @@ ideeën voor js uitbreidingen:
 - sliding articles
 - uitklapmenu
 - iets interactiefs met een weerkaart ofzo?
+
+EventListener, css class toevoegen, anonieme functie
+
 - hover over titel geeft ondertitel
 - hover over afbeelding laat afbeelding beetje inzoomen

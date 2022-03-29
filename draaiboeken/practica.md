@@ -1,9 +1,9 @@
-Week 1 (BABA)
+Week 1 - BABA - Inleiding, HTML en CSS 1
 
 aanpassen
 
 
-Week 2 (BABA)
+Week 2 - BABA - HTML en CSS 2
 
 css animaties
 media queries
@@ -14,7 +14,7 @@ Hier is een site, maak hem responsive
 Animeer iets
 
 
-Week 3 (BEKL)
+Week 3 - BEKL - JavaScript
 
 Positie / rol van JS
 EventListeners
@@ -27,14 +27,13 @@ class toevoegen aan elementen
 js animaties
 
 
-
-Week 4 (BABA)
+Week 4 - BABA - JavaScript async programmeren
 
 fetch
 promises
 json handling
 
-
+web components???
 
 1. Data van nieuwssite binnenhalen met json en user components toevoegen
 
@@ -44,7 +43,7 @@ json handling
 
 
 
-Week 5 (BABA)
+Week 5 - BABA - Beveiliging en JWT
 Angular opdracht ombatterijen naar niet-angular
 JavaScript 1 (async en externe bronnen)
 
@@ -52,8 +51,8 @@ JavaScript 1 (async en externe bronnen)
 - dog API, lorum picsum (etc) voor plaatjes voor op de kaartjes.
 
 
-Week 6 (BEKL)
+Week 6 - BEKL - MVC en Frameworks 1
 
 Todo mvc in knockout js of https://lit.dev/?
 
-Week 7 (BEKL)
+Week 7 - BEKL - MVC en Frameworks 2
