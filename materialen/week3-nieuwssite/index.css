@@ -19,6 +19,13 @@ footer {
     padding: 20px;
 }
 
+button {
+    background-color: var(--color-news);
+    border: none;
+    padding: 5px;
+    margin-top: 15px;
+}
+
 .news-logo {
     font-family: Garamond, serif;   
     padding-bottom: 10px;
@@ -56,17 +63,18 @@ h3 {
 }
 
 .frame {
-    padding-left: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .content {
-    display: flex;
     padding-top: 50px;
 }
 
 .sidebar {
     text-align: center;
     padding-top: 45px;
+    float: right;
 }
 
 .sidebar-block {
@@ -84,7 +92,7 @@ h3 {
     font-size: small;
 }
 
-.sidebar-block form {
+.sidebar-block {
     font-size: small;
 }
 
@@ -92,31 +100,24 @@ h3 {
     padding-top: 10px;
 }
 
-.sidebar-block form button {
-    background-color: var(--color-news);
-    border: none;
-    padding: 5px;
-    margin-top: 15px;
-}
-
 .ad img {
     max-width: 100%;
 }
 
-.featured .date p{
+#featured .date p{
     color: var(--color-secondary-text);
     font-size: small;
 }
 
 .articles {
+    float: left;
+    width: 600px;
     display: flex;
     flex-direction: column;
-    width: 600px;
 }
 
-.articles .featured {
+.articles #featured {
     position: relative;
-    z-index: -1;
 }
 
 .articles .listed {
@@ -124,7 +125,7 @@ h3 {
     margin-top: 20px;
 }
 
-.featured img {
+#featured img {
     width: 100%;
 }
 
@@ -154,8 +155,16 @@ h3 {
     bottom: 0;
 }
 
-.article-title h2 {
+.article-title h2, #subtitle{
     color: white;
+}
+
+.article-title #subtitle {
+    display: none;
+}
+
+#subtitle.visible {
+    display: block;
 }
 
 .info p, .info a {
@@ -164,4 +173,12 @@ h3 {
 
 .info h3 {
     margin-top: 0;
+}
+
+.poll-result-number {
+    font-weight: bold;
+}
+
+#poll-results {
+    display: none;
 }

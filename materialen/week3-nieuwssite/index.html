@@ -24,14 +24,16 @@
 
         <div class="articles">
 
-            <div class="featured">
+            <div id="featured">
                 <div class="date">
                     <p>2 februari 2022</p>
                 </div>
                 <img src="img/bobslee.png">
                 <div class="article-title">
                     <h2>Onenigheid in tweemansbob: wie mag een biertje drinken?</h2>
+                    <p id="subtitle">Het blijft ingewikkeld: als je samen met de tweemansbob in Beijing een avond gaat stappen, wie mag er dan een biertje drinken?</p>
                 </div>
+                
             </div>
             <div class="listed">
                 <div class="img-container"><img src="img/benzinepomp.png"></div>
@@ -121,17 +123,24 @@
 
         <div class="sidebar">
             <div class="sidebar-title">Jij kiest</div>
-            <div class="poll sidebar-block">
+            <div class="poll sidebar-block" id="poll-questions">
                 <h4>Welke nieuwe coronamaatregel moet de overheid nu nemen?</h4>
-                <form>
-                    <div class="option"><input type="radio" id="keuze1" name="keuze1"><label for="keuze1">Prijzen van
+                <form id="coronaPoll">
+                    <div class="option"><input type="radio" id="illegal-qr" name="keuze"><label for="illegal-qr">Prijzen van
                             illegale QR-codes verhogen</label></div>
-                    <div class="option"><input type="radio" id="keuze2" name="keuze2"><label for="keuze2">'Geen corona'
+                    <div class="option"><input type="radio" id="no-corona" name="keuze"><label for="no-corona">'Geen corona'
                             zeggen als je hoest</label></div>
-                    <div class="option"><input type="radio" id="keuze3" name="keuze3"><label for="keuze3">Maximaal 750
+                    <div class="option"><input type="radio" id="max-750-people" name="keuze"><label for="max-750-people">Maximaal 750
                             mensen op een hospiteeravond</label></div>
-                    <button>Stem</button>
+                    <button type="submit">Stem</button>
                 </form>
+            </div>
+            <div class="poll sidebar-block" id="poll-results">
+                <h4>Welke nieuwe coronamaatregel moet de overheid nu nemen?</h4>
+                <p>Prijzen van illegale QR-codes verhogen: <span class="poll-result-number" id="result-illegal-qr"></span></p>
+                <p>'Geen corona' zeggen als je hoest: <span class="poll-result-number" id="result-no-corona"></span></p>
+                <p>Maximaal 750 mensen op een hospiteeravond: <span class="poll-result-number" id="result-max-750-people"></span></p>
+                <button onclick="toggleDisplayPollResults()">Terug naar poll</button>
             </div>
 
             <div class="create-account sidebar-block">
@@ -157,5 +166,7 @@
     <footer>Bron: <a href="https://speld.nl/">speld.nl</a></footer>
 
 </body>
+
+<script src="index.js" async></script>
 
 </html>

@@ -3,12 +3,13 @@ voor de statische html:
 - zipje van maken voor in de mkdocs
 - web components toevoegen?
 - flexbox weghalen
+- issues fixen zoals lang enzo
 
 
 ideeën voor js uitbreidingen:
 
 - polletje interactief maken
-- sliding articles
+- sliding articles (ook met pijltjes toetsen?)
 - uitklapmenu
 - iets interactiefs met een weerkaart ofzo?
 
