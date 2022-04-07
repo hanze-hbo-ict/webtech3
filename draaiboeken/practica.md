@@ -16,15 +16,17 @@ Animeer iets
 
 Week 3 - BEKL - JavaScript
 
-Positie / rol van JS
-EventListeners
-DOMtree
-queryselector
-document.createElement enzovoort
-string manipulatie en innerHTML += 
-style toevoegen aan elementen
-class toevoegen aan elementen
-js animaties
+- [ ] Positie / rol van JS
+- [X] EventListeners
+- [ ] DOMtree
+- [X] queryselector
+- [ ] document.createElement enzovoort
+- [ ] string manipulatie += 
+- [X] innerHTML 
+- [X] style toevoegen aan elementen
+- [X] class toevoegen aan elementen
+- [X] js animaties (misschien met een groter en kleiner wordend chat icoontje)
+- [X] meerdere classes selecteren en iets mee doen in een for loop ofzo?
 
 
 Week 4 - BABA - JavaScript async programmeren

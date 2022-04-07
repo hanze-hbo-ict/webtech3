@@ -14,7 +14,9 @@ body {
 }
 
 footer {
-    text-align: right;
+    position: fixed;
+    right: 0;
+    bottom: 0;
     font-size: small;
     padding: 20px;
 }
@@ -69,12 +71,12 @@ h3 {
 
 .content {
     padding-top: 50px;
+    display: flex;
 }
 
 .sidebar {
     text-align: center;
     padding-top: 45px;
-    float: right;
 }
 
 .sidebar-block {
@@ -104,7 +106,7 @@ h3 {
     max-width: 100%;
 }
 
-#featured .date p{
+.date p{
     color: var(--color-secondary-text);
     font-size: small;
 }
@@ -116,7 +118,7 @@ h3 {
     flex-direction: column;
 }
 
-.articles #featured {
+.articles .featured {
     position: relative;
 }
 
@@ -125,7 +127,7 @@ h3 {
     margin-top: 20px;
 }
 
-#featured img {
+.featured img {
     width: 100%;
 }
 
@@ -155,15 +157,15 @@ h3 {
     bottom: 0;
 }
 
-.article-title h2, #subtitle{
+.article-title h2, .article-title>p{
     color: white;
 }
 
-.article-title #subtitle {
+.article-title > p {
     display: none;
 }
 
-#subtitle.visible {
+.article-title > .visible {
     display: block;
 }
 
@@ -180,5 +182,50 @@ h3 {
 }
 
 #poll-results {
+    display: none;
+}
+
+.pop-up {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    width: 300px;
+    top: 35%;
+    left: 35%;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#chat {
+    position: fixed;
+    right: 20px;
+    bottom: 62px;
+}
+
+.see-through {
+    animation: opacityAnimation 0.5s ease-out;
+    animation-fill-mode: forwards
+}
+
+@keyframes opacityAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+#form-warning {
+    color: red;
     display: none;
 }
