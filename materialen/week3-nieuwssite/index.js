@@ -27,7 +27,7 @@ function changeFeaturedArticle() {
     }
     featuredArticles[currentArticleNumber].style.display = 'block';
 }
-
+// Meer info: https://www.w3schools.com/js/js_timing.asp
 
 
 /* -- Uitwerkingen vraag 2b -- */
@@ -98,13 +98,8 @@ function enableScroll() {
 
 
 /* -- Uitwerkingen vraag 4 -- */
-
-
-window.setInterval(function () {
-    
-}, 1000) // 1000ms = 1s
-
-/* -- Uitwerkingen vraag 3 -- */
+// Meer info over forms: https://www.javascripttutorial.net/javascript-dom/javascript-form/
+// Meer info over localStorage: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 // TODO : met queryselector inner html veranderen van die zinnen die hetzelfde zijn voor poll/resultaat?
 
 const form  = document.getElementById('corona-poll');
