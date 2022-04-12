@@ -1,4 +1,4 @@
-# Week 1 - BABA - Inleiding, HTML en CSS 1
+# Week 1 - BEKL/BABA - Inleiding, HTML en CSS 1
 
 - [ ] selectors
 - [ ] pseudo-classes
@@ -10,17 +10,18 @@
 # Week 2 - BABA - HTML en CSS 2
 
 - [ ] css units
+- [ ] 
 - [ ] z-index
 - [ ] masks en gradients
 - [ ] transform
 - [ ] css animaties
 - [ ] media queries
+- [ ] darkmode toevoegen
+- [ ] different display types
+- [ ] grid display
 - [ ] flexbox (poster groot uitprinten)
+- [ ] responsive maken van de site
 - [ ] accessability
-
-Voeg een darkmode toe
-Hier is een site, maak hem responsive
-Animeer iets
 
 
 # Week 3 - BEKL - JavaScript
@@ -38,25 +39,24 @@ Animeer iets
 - [X] meerdere classes selecteren en iets mee doen in een for loop ofzo?
 
 
-Week 4 - BABA - JavaScript async programmeren
+## Week 4 - BABA - JavaScript async programmeren
 
-fetch
-promises
-json handling
-
-web components???
-
-1. Data van nieuwssite binnenhalen met json en user components toevoegen
-
-2. Spinner laten zien terwijl de data binnenkomt; timeout
-
-3. externe api, bv knmi of typicode
+- [ ] generators in JavaScript
+- [ ] json handling
+- [ ] async / await
+- [ ] spinner laten zien terwijl de data binnenkomt; timeout
+- [ ] fetch
+- [ ] promises
+- [ ] data van nieuwssite binnenhalen met json en user components toevoegen
+- [ ] externe api, bv knmi of typicode
 
 
+## Week 5 - BABA - Beveiliging en JWT
 
-Week 5 - BABA - Beveiliging en JWT
-Angular opdracht ombatterijen naar niet-angular
-JavaScript 1 (async en externe bronnen)
+- [ ] JWT token ophalen en opslaan in localstorage
+- [ ] dat token bij elke request injecteren in de header
+- [ ] opbouwen van een request op basis van een API
+- [ ] verwerken van de respons 
 
 - eigen server voor opslag data
 - dog API, lorum picsum (etc) voor plaatjes voor op de kaartjes.
