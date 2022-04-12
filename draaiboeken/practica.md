@@ -40,7 +40,7 @@ Accessibility toevoegen? https://www.youtube.com/watch?v=0hqhAIjE_8I 2e college?
 - [X] meerdere classes selecteren en iets mee doen in een for loop ofzo?
 
 
-Week 4 - BABA - JavaScript async programmeren
+# Week 4 - BABA - JavaScript async programmeren
 
 fetch
 promises
@@ -54,7 +54,7 @@ json handling
 
 
 
-Week 5 - BABA - Beveiliging en JWT
+# Week 5 - BABA - Beveiliging en JWT
 Angular opdracht ombatterijen naar niet-angular
 JavaScript 1 (async en externe bronnen)
 
@@ -62,7 +62,7 @@ JavaScript 1 (async en externe bronnen)
 - dog API, lorum picsum (etc) voor plaatjes voor op de kaartjes.
 
 
-Week 6 - BEKL - MVC en Frameworks 1
+# Week 6 - BEKL - MVC en Frameworks 1
 
 Web components???
 
