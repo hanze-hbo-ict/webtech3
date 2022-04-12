@@ -1,6 +1,6 @@
 # Memory week 2
 
-In deze opgave maken we het bekende spel 'Memory' na, eerst alleen nog in HTML en CSS. Dit spel breiden we elke week uit met meer functionaliteit. Deze week zetten we de layout op en voegen we eventueel al wat minimale styling toe aan het memory spel.
+In deze opgave maken we het bekende spel 'Memory' na, eerst alleen nog in HTML en CSS. Dit spel breiden we elke week uit met meer functionaliteit. Deze week zetten we de layout op en voegen we wat minimale styling toe aan het memory spel.
 
 Maak een leeg HTML bestand aan, en creëer een HTML "skelet" (een soort "hello world" bestand). Zorg in ieder geval dat er een document type gedeclareerd wordt, en dat de html- en bodytags er op een juiste manier in staan. HTML Basic (w3schools.com)
 
