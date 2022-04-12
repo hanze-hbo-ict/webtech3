@@ -1,13 +1,22 @@
-Week 1 - BABA - Inleiding, HTML en CSS 1
+# Week 1 - BABA - Inleiding, HTML en CSS 1
 
-aanpassen
+- [ ] selectors
+- [ ] pseudo-classes
+- [ ] pseudo-elements
+- [ ] at-selectors
+- [ ] positioning en overflow
+- [ ] element properties
 
+# Week 2 - BABA - HTML en CSS 2
 
-Week 2 - BABA - HTML en CSS 2
-
-css animaties
-media queries
-flexbox (poster groot uitprinten)
+- [ ] css units
+- [ ] z-index
+- [ ] masks en gradients
+- [ ] transform
+- [ ] css animaties
+- [ ] media queries
+- [ ] flexbox (poster groot uitprinten)
+- [ ] accessability
 
 Voeg een darkmode toe
 Hier is een site, maak hem responsive
@@ -16,7 +25,7 @@ Animeer iets
 Accessibility toevoegen? https://www.youtube.com/watch?v=0hqhAIjE_8I 2e college?
 
 
-Week 3 - BEKL - JavaScript
+# Week 3 - BEKL - JavaScript
 
 - [ ] Positie / rol van JS
 - [X] EventListeners
