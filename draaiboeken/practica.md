@@ -13,6 +13,8 @@ Voeg een darkmode toe
 Hier is een site, maak hem responsive
 Animeer iets
 
+Accessibility toevoegen? https://www.youtube.com/watch?v=0hqhAIjE_8I 2e college?
+
 
 Week 3 - BEKL - JavaScript
 
@@ -35,8 +37,6 @@ fetch
 promises
 json handling
 
-web components???
-
 1. Data van nieuwssite binnenhalen met json en user components toevoegen
 
 2. Spinner laten zien terwijl de data binnenkomt; timeout
@@ -55,6 +55,12 @@ JavaScript 1 (async en externe bronnen)
 
 Week 6 - BEKL - MVC en Frameworks 1
 
+Web components???
+
 Todo mvc in knockout js of https://lit.dev/?
 
 Week 7 - BEKL - MVC en Frameworks 2
+
+Losse eindjes...
+Server side rendering
+Node.js
