@@ -1,4 +1,4 @@
-# Memory week 2
+# Memory week 1
 
 In deze opgave maken we het bekende spel 'Memory' na, eerst alleen nog in HTML en CSS. Dit spel breiden we elke week uit met meer functionaliteit. Deze week zetten we de layout op en voegen we wat minimale styling toe aan het memory spel.
 
