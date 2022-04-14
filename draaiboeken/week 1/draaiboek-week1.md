@@ -1,6 +1,17 @@
+---
+marp: true
+theme: default
+_class: lead
+paginate: true
+backgroundColor: #fff
+backgroundImage: url('https://marp.app/assets/hero-background.svg')
+---
+
 # Week 1 - HTML & CSS
 
 In dit practicum maak je kennis met algemene frontend technieken, waaronder componenten van de webbrowser en webpagina's, html elementen, developer tools, netwerk, console, JavaScript, styling, etc. 
+
+---
 
 ## De Browser
 
@@ -20,13 +31,19 @@ Wat voor soort HTML elementen/tags worden gebruikt voor het opsommen van opleidi
 
 TODO: Zorgen dat je ergens door een (betaal) muur heen komt? 😈
 
+---
+
 #### Styles, Layout en Event Listeners
 
 Open in het tabje Elements het tabje Styles. Selecteer een element dat de typische Hanze-oranje kleur bevat. Kun je erachter komen wat de kleurcode is?
 
+---
+
 #### Network
 
 Open het tabje Network/Netwerk en ververs de pagina. Wat is de url van de grote bannerafbeelding?
+
+---
 
 #### Console
 
@@ -55,10 +72,16 @@ Voer bovenstaande code nogmaals uit, maar vervang dit keer de woorden ``rotate``
 
 Of: wie kan de webpagina onherkenbaar veranderen?
 
+---
+
 #### Performance
 
 Vergelijk http://motherfuckingwebsite.com/ met hanze.nl en kom erachter waardoor de performance van de één beter is dan de ander.
 
+---
+
 ## HTML & CSS
 
 Hier opgaven over HTML & CSS.
+
+---
