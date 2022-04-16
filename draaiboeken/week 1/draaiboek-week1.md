@@ -7,49 +7,103 @@ backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
 
-# Week 1 - HTML & CSS
+# Week 1 - Browser, HTML & CSS
 
 In dit practicum maak je kennis met algemene frontend technieken, waaronder componenten van de webbrowser en webpagina's, html elementen, developer tools, netwerk, console, JavaScript, styling, etc. 
 
+**1e helft**: Browser & webpagina's
+- Inspect element
+- Styles
+- Network
+- Console
+- Performance
+
+**2e helft**: HTML & CSS
+- CV bouwen
+
 ---
 
-## De Browser
+## Browser & webpagina's
 
-#### Inspect element
+#### [ 1/4 ] Inspect element (10 minuten)
 
 Open de browser en navigeer naar hanze.nl. Klik op rechtermuistoets ergens willekeurig op de pagina en selecteer “inspect” of “inspect element”.
 
-Vind voorbeelden van:
-- `<a>`
-- `<p>`
-- `<h1>`
-- `<input>`
-- `<li>`
-- `<span>`
+1. Wat voor soort HTML elementen/tags worden gebruikt voor het opsommen van de lijst *opleidingen*, *open dagen & voorlichtingen*, en *bedrijven*? 
 
-Wat voor soort HTML elementen/tags worden gebruikt voor het opsommen van opleidingen, open dagen & voorlichtingen, en bedrijven?
-
-TODO: Zorgen dat je ergens door een (betaal) muur heen komt? 😈
+1. Vind voorbeelden van:
+    - `<a>`
+    - `<p>`
+    - `<h1>`
+    - `<input>`
+    - `<li>`
+    - `<span>`
 
 ---
 
-#### Styles, Layout en Event Listeners
+#### [ 2/4 ] Inspect element (10 minuten)
 
-Open in het tabje Elements het tabje Styles. Selecteer een element dat de typische Hanze-oranje kleur bevat. Kun je erachter komen wat de kleurcode is?
+Verander de nieuwskoppen van je favoriete nieuwssite naar wat luchtiger/positiever nieuws, en mail deze naar de docent.
 
----
-
-#### Network
-
-Open het tabje Network/Netwerk en ververs de pagina. Wat is de url van de grote bannerafbeelding?
+![Nieuwskoppen van NOS veranderd](nos.PNG)
 
 ---
 
-#### Console
+#### [ 3/4 ] Inspect element (10 minuten)
+
+Ga naar het Twitter account van de Amerikaanse president Joe Biden. Als je een twitter account hebt, zorg dan dat je **uitgelogd** bent.
+
+1. Scroll naar beneden en je zult gevraagd worden om in te loggen of te registeren. Doe dit niet. Zorg in plaats daarvan dat je de "muur" verwijdert, het het scrollen weer activeert. **Hint**: zoek naar het element waarbij in CSS de `pointer-events` zijn uitgeschakeld (tabje Styles). Als je die gevonden hebt, schakel de pointer events weer in.
+
+1. Pas vervolgens een willekeurige tweet aan door een tekst naar keuze, en mail deze naar de docent.
+
+![Joe Biden](biden.PNG)
+
+---
+
+#### [ 4/4 ] Inspect element - nabespreking (10 minuten)
+Wat vind je ervan dat je zomaar nieuwssites en Twitter posts kunt aanpassen?
+
+![Fact / Fake](fake.jpeg)
+
+---
+
+#### Styles (15 minuten)
+
+Open de browser en navigeer naar hanze.nl. Klik op rechtermuistoets ergens willekeurig op de pagina en selecteer “inspect” of “inspect element”. Open in het tabje Elements het tabje Styles.
+1. Selecteer een element dat de typische Hanze-oranje kleur bevat. Wat is de kleurcode?
+1. Maak het Hanze logo twee keer zo groot.
+1. Verwijder de achtergrond foto.
+1. De Hanze website wordt natuurlijk veel mooier in een developer-achtige look. Geef alle tekst het lettertype `monospace`.
+1. Vervang de teksten bovenaan de pagina (welkomsttekst, menu-items, etc.) door teksten naar keuze.
+1. Vervang de achtergrondkleuren door een kleur naar keuze.
+1. Vervang het Hanze logo door een logo van een ander bedrijf naar keuze (link).
+1. Mail je creatie naar de docent.
+
+![Styles](styles.PNG)
+
+---
+
+#### Network (10 minuten)
+
+1. Open het tabje Network/Netwerk en ververs Hanze.nl. Wat is de url van de achtergrondfoto bovenaan de pagina?
+
+1. We gaan testen hoe snel de website laadt op een snel 3G netwerk.
+  	- Zorg dat de opname knop aan staat
+    - Vink "disable cache" aan. 
+    - Zet network throttling op "Fast 3G".
+    - Wat is de totale laadtijd van de pagina?
+    - Welk bestand is het grootst en neemt het meeste laadtijd in beslag?
+
+![Network](network.PNG)
+
+---
+
+#### Console (15 minuten)
 
 Navigeer naar google.com. Verwijder alle elementen behalve de zoekbalk en het microfoon icoontje.
 
-Selecteer het google logo (img element) en typ naast ``class=".."`` het volgende: 
+Selecteer het google logo (`img` element) en typ naast ``class=".."`` het volgende: 
 
     id="google-logo"
 
@@ -68,20 +122,53 @@ document.getElementById("google-logo").animate([
 ```
 Wat gebeurt er met het logo?
 
-Voer bovenstaande code nogmaals uit, maar vervang dit keer de woorden ``rotate`` door ``skewY``. Wat gebeurt er nu? Kun je dit ook op andere elementen toepassen? (let op: geef elk element een uniek id, en gebruik dit id ook in de code) Wie maakt de meest gestoorde webpagina? ;) (demonstratie aan het eind?)
+Voer bovenstaande code nogmaals uit, maar vervang dit keer de woorden ``rotate`` door ``skewY``. Wat gebeurt er nu? Kun je dit ook op andere elementen toepassen? (let op: geef elk element een uniek id, en gebruik dit id ook in de code) 
 
-Of: wie kan de webpagina onherkenbaar veranderen?
+Voeg dit principe toe aan een andere website naar keuze, en doe dit met meerdere elementen. Wie maakt de meest gestoorde webpagina? Demonstratie aan het eind.
+
+![Google](google.PNG)
 
 ---
 
-#### Performance
+#### Performance (10 minuten)
 
-Vergelijk http://motherfuckingwebsite.com/ met hanze.nl en kom erachter waardoor de performance van de één beter is dan de ander.
+Bekijk en inspecteer de website: http://motherfuckingwebsite.com/. De makers ervan beweren dat dit dé perfecte website is, onder andere omdat het *lightweight* is en snel laadt. We gaan deze bewering over de high performance testen met Lighthouse. 
+- Vergelijk de score voor performance met deze sites: hanze.nl, nos.nl, en w3schools.com. Wat zijn de scores? Waardoor denk je dat de een beter scoort dan de ander?
+- Bekijk de details van de performance scores voor de verschillende sites. Wat valt je op?
+
+Nabespreking (10 minuten)
+
+![Lighthouse](lighthouse.PNG)
 
 ---
 
 ## HTML & CSS
 
-Hier opgaven over HTML & CSS.
+#### [ 1/2 ] CV in HTML (30 minuten)
+
+Maak in een HTML bestand je (fictieve droom) CV en gebruik tenminste de volgende HTML elementen. Je hoeft nog geen CSS toe te voegen.
+- headings (`<h1>`, `<h2>`, etc.)
+- divisions (`<div>`)
+- paragraphs (`<p>`)
+- tekst formatting (`<strong>`, `<i>`, `<small>`, etc.)
+- images (`<img>`)
+- links (`<a>`)
+- lists (`<ul>` of `<ol>`)
+- table (`<table>`)
+
+![CV](CV.jpeg)
+
+---
+
+#### [ 2/2 ] CV met CSS (30 minuten)
+
+Voeg styling toe aan je CV, en denk aan:
+- kleur
+- lettertype
+- grootte
+- positionering
+- etc.
+
+
 
 ---
