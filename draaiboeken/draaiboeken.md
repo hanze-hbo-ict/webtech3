@@ -10,12 +10,12 @@
 # Week 2 - BABA - HTML en CSS 2
 
 - [ ] css units
-- [ ] 
 - [ ] z-index
 - [ ] masks en gradients
 - [ ] transform
 - [ ] css animaties
 - [ ] media queries
+- [ ] var
 - [ ] darkmode toevoegen
 - [ ] different display types
 - [ ] grid display
@@ -68,9 +68,9 @@ Web components???
 
 Todo mvc in knockout js of https://lit.dev/?
 
-Week 7 - BEKL - MVC en Frameworks 2
+## Week 7 - BEKL - MVC en Frameworks 2
 
 Losse eindjes...
 Server side rendering
 Node.js
-rm
+graphQL
