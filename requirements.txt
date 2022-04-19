@@ -1,4 +1,8 @@
-mkdocs==1.2.3
-mkdocs-material==8.1.4
-mknotebooks==0.7.1
-pymdown-extensions==9.1
+mkdocs
+nbdime
+ipython
+mknotebooks
+mkdocs-material
+pymdown-extensions
+mkdocs-bootswatch
+nodeenv
