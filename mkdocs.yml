@@ -2,7 +2,7 @@ site_name: Webtechnologie 3
 copyright: HG 2021
 site_author: Bart Barnard en Kayleigh Beard
 site_description: 'Studiemateriaal voor de module webtechnologie 3 van de Hanzehogeschool Groningen'
-site_url: ''
+site_url: 'https://hanze-hbo-ict.github.io/webtech3/'
 use_directory_urls: false
 
 theme:

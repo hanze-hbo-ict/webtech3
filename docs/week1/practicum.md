@@ -70,7 +70,8 @@ Wat vind je ervan dat je zomaar nieuwssites en Twitter posts kunt aanpassen?
 
 #### Styles (15 minuten)
 
-Open de browser en navigeer naar hanze.nl. Klik op rechtermuistoets ergens willekeurig op de pagina en selecteer “inspect” of “inspect element”. Open in het tabje Elements het tabje Styles.
+Open de browser en navigeer naar [hanze.nl](https://www.hanze.nl). Klik met de rechtermuistoets ergens willekeurig op de pagina en selecteer “inspect” of “inspect element”. Open in het tabje Elements het tabje Styles.
+
 1. Selecteer een element dat de typische Hanze-oranje kleur bevat. Wat is de kleurcode?
 1. Maak het Hanze logo twee keer zo groot.
 1. Verwijder de achtergrond foto.
@@ -86,7 +87,7 @@ Open de browser en navigeer naar hanze.nl. Klik op rechtermuistoets ergens wille
 
 #### Network (10 minuten)
 
-1. Open het tabje Network/Netwerk en ververs Hanze.nl. Wat is de url van de achtergrondfoto bovenaan de pagina?
+1. Open het tabje Network/Netwerk en ververs [hanze.nl](https://www.hanze.nl). Wat is de url van de achtergrondfoto bovenaan de pagina?
 
 1. We gaan testen hoe snel de website laadt op een snel 3G netwerk.
   	- Zorg dat de opname knop aan staat
@@ -101,13 +102,15 @@ Open de browser en navigeer naar hanze.nl. Klik op rechtermuistoets ergens wille
 
 #### Console (15 minuten)
 
-Navigeer naar google.com. Verwijder alle elementen behalve de zoekbalk en het microfoon icoontje.
+Navigeer naar [google.com](https://google.com/). Verwijder alle elementen behalve de zoekbalk en het microfoon icoontje.
 
 Selecteer het google logo (`img` element) en typ naast ``class=".."`` het volgende: 
 
-    id="google-logo"
+```
+id="google-logo"
+```
 
-Open het tabje Console en voer de volgende JavaScript code uit:
+Open de tab 'console' en voer de volgende JavaScript code uit:
 
 ```javascript
 document.getElementById("google-logo").animate([
@@ -120,6 +123,7 @@ document.getElementById("google-logo").animate([
   iterations: Infinity
 });
 ```
+
 Wat gebeurt er met het logo?
 
 Voer bovenstaande code nogmaals uit, maar vervang dit keer de woorden ``rotate`` door ``skewY``. Wat gebeurt er nu? Kun je dit ook op andere elementen toepassen? (let op: geef elk element een uniek id, en gebruik dit id ook in de code) 
@@ -133,7 +137,9 @@ Voeg dit principe toe aan een andere website naar keuze, en doe dit met meerdere
 #### Performance (10 minuten)
 
 Bekijk en inspecteer de website: [http://motherfuckingwebsite.com/](http://motherfuckingwebsite.com/). De makers ervan beweren dat dit dé perfecte website is, onder andere omdat het *lightweight* is en snel laadt. We gaan deze bewering over de high performance testen met Lighthouse. 
-- Vergelijk de score voor performance met deze sites: hanze.nl, nos.nl, en w3schools.com. Wat zijn de scores? Waardoor denk je dat de een beter scoort dan de ander?
+
+- Vergelijk de score voor performance met deze sites: [hanze.nl](https://www.hanze.nl), [nos.nl](https://www.nos.nl), en [w3schools.com](https://www.w3schools.com). Wat zijn de scores? Waardoor denk je dat de een beter scoort dan de ander?
+
 - Bekijk de details van de performance scores voor de verschillende sites. Wat valt je op?
 
 Nabespreking (10 minuten)
@@ -147,6 +153,7 @@ Nabespreking (10 minuten)
 #### [ 1/2 ] CV in HTML (30 minuten)
 
 Maak in een HTML bestand je (fictieve droom) CV en gebruik tenminste de volgende HTML elementen. Je hoeft nog geen CSS toe te voegen.
+
 - headings (`<h1>`, `<h2>`, etc.)
 - divisions (`<div>`)
 - paragraphs (`<p>`)
@@ -163,6 +170,7 @@ Maak in een HTML bestand je (fictieve droom) CV en gebruik tenminste de volgende
 #### [ 2/2 ] CV met CSS (30 minuten)
 
 Voeg styling toe aan je CV, en denk aan:
+
 - kleur
 - lettertype
 - grootte
