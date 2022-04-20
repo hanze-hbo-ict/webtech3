@@ -1,0 +1,19 @@
+voor de statische html: 
+
+- zipje van maken voor in de mkdocs
+- web components toevoegen?
+- flexbox weghalen
+- issues fixen zoals lang enzo
+
+
+ideeën voor js uitbreidingen:
+
+- polletje interactief maken
+- sliding articles (ook met pijltjes toetsen?)
+- uitklapmenu
+- iets interactiefs met een weerkaart ofzo?
+
+EventListener, css class toevoegen, anonieme functie
+
+- hover over titel geeft ondertitel
+- hover over afbeelding laat afbeelding beetje inzoomen
