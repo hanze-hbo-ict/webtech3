@@ -12,6 +12,8 @@
         <meta name="author" content="Bart Barnard en Kayleigh Beard">
       
       
+        <link rel="canonical" href="https://hanze-hbo-ict.github.io/webtech3/week1/practicum.html">
+      
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.9">
     
@@ -934,21 +936,23 @@
 <p><img alt="Fact / Fake" src="files/fake.jpeg" /></p>
 <hr />
 <h4 id="styles-15-minuten">Styles (15 minuten)<a class="headerlink" href="#styles-15-minuten" title="Permanent link">&para;</a></h4>
-<p>Open de browser en navigeer naar hanze.nl. Klik op rechtermuistoets ergens willekeurig op de pagina en selecteer “inspect” of “inspect element”. Open in het tabje Elements het tabje Styles.
-1. Selecteer een element dat de typische Hanze-oranje kleur bevat. Wat is de kleurcode?
-1. Maak het Hanze logo twee keer zo groot.
-1. Verwijder de achtergrond foto.
-1. De Hanze website wordt natuurlijk veel mooier in een developer-achtige look. Geef alle tekst het lettertype <code>monospace</code>.
-1. Vervang de teksten bovenaan de pagina (welkomsttekst, menu-items, etc.) door teksten naar keuze.
-1. Vervang de achtergrondkleuren door een kleur naar keuze.
-1. Vervang het Hanze logo door een logo van een ander bedrijf naar keuze (link).
-1. Mail je creatie naar de docent.</p>
+<p>Open de browser en navigeer naar <a href="https://www.hanze.nl">hanze.nl</a>. Klik met de rechtermuistoets ergens willekeurig op de pagina en selecteer “inspect” of “inspect element”. Open in het tabje Elements het tabje Styles.</p>
+<ol>
+<li>Selecteer een element dat de typische Hanze-oranje kleur bevat. Wat is de kleurcode?</li>
+<li>Maak het Hanze logo twee keer zo groot.</li>
+<li>Verwijder de achtergrond foto.</li>
+<li>De Hanze website wordt natuurlijk veel mooier in een developer-achtige look. Geef alle tekst het lettertype <code>monospace</code>.</li>
+<li>Vervang de teksten bovenaan de pagina (welkomsttekst, menu-items, etc.) door teksten naar keuze.</li>
+<li>Vervang de achtergrondkleuren door een kleur naar keuze.</li>
+<li>Vervang het Hanze logo door een logo van een ander bedrijf naar keuze (link).</li>
+<li>Mail je creatie naar de docent.</li>
+</ol>
 <p><img alt="Styles" src="files/styles.PNG" /></p>
 <hr />
 <h4 id="network-10-minuten">Network (10 minuten)<a class="headerlink" href="#network-10-minuten" title="Permanent link">&para;</a></h4>
 <ol>
 <li>
-<p>Open het tabje Network/Netwerk en ververs Hanze.nl. Wat is de url van de achtergrondfoto bovenaan de pagina?</p>
+<p>Open het tabje Network/Netwerk en ververs <a href="https://www.hanze.nl">hanze.nl</a>. Wat is de url van de achtergrondfoto bovenaan de pagina?</p>
 </li>
 <li>
 <p>We gaan testen hoe snel de website laadt op een snel 3G netwerk.</p>
@@ -964,13 +968,12 @@
 <p><img alt="Network" src="files/network.PNG" /></p>
 <hr />
 <h4 id="console-15-minuten">Console (15 minuten)<a class="headerlink" href="#console-15-minuten" title="Permanent link">&para;</a></h4>
-<p>Navigeer naar google.com. Verwijder alle elementen behalve de zoekbalk en het microfoon icoontje.</p>
+<p>Navigeer naar <a href="https://google.com/">google.com</a>. Verwijder alle elementen behalve de zoekbalk en het microfoon icoontje.</p>
 <p>Selecteer het google logo (<code>img</code> element) en typ naast <code>class=".."</code> het volgende: </p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>id=&quot;google-logo&quot;
+<div class="highlight"><pre><span></span><code>id=&quot;google-logo&quot;
 </code></pre></div>
-</td></tr></table>
-<p>Open het tabje Console en voer de volgende JavaScript code uit:</p>
-<p><div class="highlight"><pre><span></span><code><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;google-logo&quot;</span><span class="p">).</span><span class="nx">animate</span><span class="p">([</span>
+<p>Open de tab 'console' en voer de volgende JavaScript code uit:</p>
+<div class="highlight"><pre><span></span><code><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;google-logo&quot;</span><span class="p">).</span><span class="nx">animate</span><span class="p">([</span>
   <span class="c1">// keyframes</span>
   <span class="p">{</span> <span class="nx">transform</span><span class="o">:</span> <span class="s1">&#39;rotate(0deg)&#39;</span> <span class="p">},</span>
   <span class="p">{</span> <span class="nx">transform</span><span class="o">:</span> <span class="s1">&#39;rotate(360deg)&#39;</span> <span class="p">}</span>
@@ -980,38 +983,48 @@
   <span class="nx">iterations</span><span class="o">:</span> <span class="kc">Infinity</span>
 <span class="p">});</span>
 </code></pre></div>
-Wat gebeurt er met het logo?</p>
+<p>Wat gebeurt er met het logo?</p>
 <p>Voer bovenstaande code nogmaals uit, maar vervang dit keer de woorden <code>rotate</code> door <code>skewY</code>. Wat gebeurt er nu? Kun je dit ook op andere elementen toepassen? (let op: geef elk element een uniek id, en gebruik dit id ook in de code) </p>
 <p>Voeg dit principe toe aan een andere website naar keuze, en doe dit met meerdere elementen. Wie maakt de meest gestoorde webpagina? Demonstratie aan het eind.</p>
 <p><img alt="Google" src="files/google.PNG" /></p>
 <hr />
 <h4 id="performance-10-minuten">Performance (10 minuten)<a class="headerlink" href="#performance-10-minuten" title="Permanent link">&para;</a></h4>
-<p>Bekijk en inspecteer de website: <a href="http://motherfuckingwebsite.com/">http://motherfuckingwebsite.com/</a>. De makers ervan beweren dat dit dé perfecte website is, onder andere omdat het <em>lightweight</em> is en snel laadt. We gaan deze bewering over de high performance testen met Lighthouse. 
-- Vergelijk de score voor performance met deze sites: hanze.nl, nos.nl, en w3schools.com. Wat zijn de scores? Waardoor denk je dat de een beter scoort dan de ander?
-- Bekijk de details van de performance scores voor de verschillende sites. Wat valt je op?</p>
+<p>Bekijk en inspecteer de website: <a href="http://motherfuckingwebsite.com/">http://motherfuckingwebsite.com/</a>. De makers ervan beweren dat dit dé perfecte website is, onder andere omdat het <em>lightweight</em> is en snel laadt. We gaan deze bewering over de high performance testen met Lighthouse. </p>
+<ul>
+<li>
+<p>Vergelijk de score voor performance met deze sites: <a href="https://www.hanze.nl">hanze.nl</a>, <a href="https://www.nos.nl">nos.nl</a>, en <a href="https://www.w3schools.com">w3schools.com</a>. Wat zijn de scores? Waardoor denk je dat de een beter scoort dan de ander?</p>
+</li>
+<li>
+<p>Bekijk de details van de performance scores voor de verschillende sites. Wat valt je op?</p>
+</li>
+</ul>
 <p>Nabespreking (10 minuten)</p>
 <p><img alt="Lighthouse" src="files/lighthouse.PNG" /></p>
 <hr />
 <h2 id="html-css">HTML &amp; CSS<a class="headerlink" href="#html-css" title="Permanent link">&para;</a></h2>
 <h4 id="12-cv-in-html-30-minuten">[ &frac12; ] CV in HTML (30 minuten)<a class="headerlink" href="#12-cv-in-html-30-minuten" title="Permanent link">&para;</a></h4>
-<p>Maak in een HTML bestand je (fictieve droom) CV en gebruik tenminste de volgende HTML elementen. Je hoeft nog geen CSS toe te voegen.
-- headings (<code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, etc.)
-- divisions (<code>&lt;div&gt;</code>)
-- paragraphs (<code>&lt;p&gt;</code>)
-- tekst formatting (<code>&lt;strong&gt;</code>, <code>&lt;i&gt;</code>, <code>&lt;small&gt;</code>, etc.)
-- images (<code>&lt;img&gt;</code>)
-- links (<code>&lt;a&gt;</code>)
-- lists (<code>&lt;ul&gt;</code> of <code>&lt;ol&gt;</code>)
-- table (<code>&lt;table&gt;</code>)</p>
+<p>Maak in een HTML bestand je (fictieve droom) CV en gebruik tenminste de volgende HTML elementen. Je hoeft nog geen CSS toe te voegen.</p>
+<ul>
+<li>headings (<code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, etc.)</li>
+<li>divisions (<code>&lt;div&gt;</code>)</li>
+<li>paragraphs (<code>&lt;p&gt;</code>)</li>
+<li>tekst formatting (<code>&lt;strong&gt;</code>, <code>&lt;i&gt;</code>, <code>&lt;small&gt;</code>, etc.)</li>
+<li>images (<code>&lt;img&gt;</code>)</li>
+<li>links (<code>&lt;a&gt;</code>)</li>
+<li>lists (<code>&lt;ul&gt;</code> of <code>&lt;ol&gt;</code>)</li>
+<li>table (<code>&lt;table&gt;</code>)</li>
+</ul>
 <p><img alt="CV" src="files/CV.jpeg" /></p>
 <hr />
 <h4 id="22-cv-met-css-30-minuten">[ 2/2 ] CV met CSS (30 minuten)<a class="headerlink" href="#22-cv-met-css-30-minuten" title="Permanent link">&para;</a></h4>
-<p>Voeg styling toe aan je CV, en denk aan:
-- kleur
-- lettertype
-- grootte
-- positionering
-- etc.</p>
+<p>Voeg styling toe aan je CV, en denk aan:</p>
+<ul>
+<li>kleur</li>
+<li>lettertype</li>
+<li>grootte</li>
+<li>positionering</li>
+<li>etc.</li>
+</ul>
 <hr />
 
               
