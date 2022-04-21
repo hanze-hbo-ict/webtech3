@@ -9,18 +9,19 @@
 
 # Week 2 - BABA - HTML en CSS 2
 
-- [ ] css units
+- [X] css units
 - [ ] z-index
-- [ ] masks en gradients
-- [ ] transform
-- [ ] css animaties
-- [ ] media queries
-- [ ] var
-- [ ] darkmode toevoegen
+- [X] masks en gradients
+- [X] transform
+- [X] float
+- [X] responsive maken van de site
+- [X] css animaties
+- [X] media queries
+- [X] var
+- [X] darkmode toevoegen
 - [ ] different display types
 - [ ] grid display
 - [ ] flexbox (poster groot uitprinten)
-- [ ] responsive maken van de site
 - [ ] accessability
 
 

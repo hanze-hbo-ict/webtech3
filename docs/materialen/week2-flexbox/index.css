@@ -3,6 +3,14 @@
     color: rgb(50, 50, 50)
 }
 
-body {
-    margin: 0;
-}
+body { margin:0; padding:0 40px;  }
+
+#header, #sub-header {text-align: center; }
+
+div.articles { width:750px; float:left; }
+div.sidebar { width:250px; float:left; padding-top:40px;}
+div.sidebar div {padding:5px;  background-color:sandybrown; }
+div.sidebar img { width:100%; }
+div.featured, div.listed { width: 95%; border-bottom:dotted gray 2px; padding-top:20px; }
+
+footer { clear:both; }
