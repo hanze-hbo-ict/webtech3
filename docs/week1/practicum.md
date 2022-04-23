@@ -1,12 +1,3 @@
----
-marp: true
-theme: default
-_class: lead
-paginate: true
-backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
----
-
 # Practicum week 1 - Browsers, HTML & CSS (1)
 
 In dit practicum maak je kennis met algemene frontend technieken, waaronder componenten van de webbrowser en webpagina's, html elementen, developer tools, netwerk, console, JavaScript, styling, etc. 

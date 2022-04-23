@@ -1,11 +1,3 @@
----
-theme: default
-_class: lead
-paginate: true
-backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
----
-
 # Week 3 - JavaScript
 
 Deze week gaan we verder met de nieuwssite waar we vorige week ook mee hebben gewerkt. We gaan met JavaScript deze site 'tot leven wekken' in de verschillende oefeningen. Bij elke oefening is het de bedoeling dat je alléén JavaScript schrijft, alle benodigde HTML en CSS is namelijk al gegeven.
