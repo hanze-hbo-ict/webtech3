@@ -34,7 +34,7 @@ Open de browser en navigeer naar [hanze.nl](https://www.hanze.nl). Klik met de r
 
 #### [ 2/4 ] Inspect element (10 minuten)
 
-Verander de nieuwskoppen van je favoriete nieuwssite naar wat luchtiger/positiever nieuws, en mail deze naar de docent.
+Verander de nieuwskoppen van je favoriete nieuwssite naar wat luchtiger/positiever nieuws, publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/klbeard1/webtech).
 
 ![Nieuwskoppen van NOS veranderd](files/nos.PNG)
 
@@ -46,7 +46,7 @@ Ga naar het Twitter account van de Amerikaanse president Joe Biden. Als je een t
 
 1. Scroll naar beneden en je zult gevraagd worden om in te loggen of te registeren. Doe dit niet. Zorg in plaats daarvan dat je de "muur" verwijdert, het het scrollen weer activeert. **Hint**: zoek naar het element waarbij in CSS de `pointer-events` zijn uitgeschakeld (tabje Styles). Als je die gevonden hebt, schakel de pointer events weer in.
 
-1. Pas vervolgens een willekeurige tweet aan door een tekst naar keuze, en mail deze naar de docent.
+1. Pas vervolgens een willekeurige tweet aan door een tekst naar keuze, publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/klbeard1/webtech).
 
 ![Joe Biden](files/biden.PNG)
 
@@ -70,7 +70,7 @@ Open de browser en navigeer naar [hanze.nl](https://www.hanze.nl). Klik met de r
 1. Vervang de teksten bovenaan de pagina (welkomsttekst, menu-items, etc.) door teksten naar keuze.
 1. Vervang de achtergrondkleuren door een kleur naar keuze.
 1. Vervang het Hanze logo door een logo van een ander bedrijf naar keuze (link).
-1. Mail je creatie naar de docent.
+1. Publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/klbeard1/webtech).
 
 ![Styles](files/styles.PNG)
 
@@ -119,7 +119,7 @@ Wat gebeurt er met het logo?
 
 Voer bovenstaande code nogmaals uit, maar vervang dit keer de woorden ``rotate`` door ``skewY``. Wat gebeurt er nu? Kun je dit ook op andere elementen toepassen? (let op: geef elk element een uniek id, en gebruik dit id ook in de code) 
 
-Voeg dit principe toe aan een andere website naar keuze, en doe dit met meerdere elementen. Wie maakt de meest gestoorde webpagina? Demonstratie aan het eind.
+Voeg dit principe toe aan een andere website naar keuze, en doe dit met meerdere elementen. Wie maakt de meest gestoorde webpagina? Publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/klbeard1/webtech)
 
 ![Google](files/google.PNG)
 
