@@ -949,8 +949,7 @@
 <p class="admonition-title">meerdere featured artikelen</p>
 <p>Let op: aangezien er meerdere featured artikelen zijn, kun je geen id toekennen aan het element waar de ondertitel in staat. Maak daarom gebruik van <code>getElementsByClassName</code> en voeg een <code>EventListener</code> toe aan alle artikelen dat gebruik maakt van de <code>mouseover</code> en <code>mouseleave</code> events. Zorg er vervolgens voor dat je op het juiste moment de CSS class <code>visible</code> aan de ondertitel toevoegt of juist verwijdert.</p>
 </div>
-<p><img alt="Ondertitel" src="files/week3-ondertitel.PNG" /> </p>
-<p><img src="files/zwevende-muis.PNG" alt="De zwevende muis" width="500"></p>
+<p><img alt="Ondertitel" src="files/week3-ondertitel.PNG" /> <img src="files/zwevende-muis.PNG" alt="De zwevende muis" width="500"></p>
 <hr />
 <h4 id="b-een-irritante-pop-up-tonen-bij-eerste-keer-scrollen">b. Een irritante pop-up tonen bij eerste keer scrollen<a class="headerlink" href="#b-een-irritante-pop-up-tonen-bij-eerste-keer-scrollen" title="Permanent link">&para;</a></h4>
 <p>In het HTML bestand staat een element met id <code>cookies-pop-up</code>. Deze is nu nog niet zichtbaar (<code>display: none</code>). Zorg ervoor dat deze zichtbaar wordt bij de eerste keer scrollen. Voeg hiervoor een <code>EventListener</code> toe voor het <code>scroll</code> event aan de gehele pagina. Zodra je de pop-up zichtbaar hebt gemaakt, zorg dan ook dat het scrollen even niet mogelijk is door <code>overflow</code> toe te voegen aan de gehele <code>body</code>. Voeg ook een <code>EventListener</code> toe voor het <code>click</code> event van de knop met id <code>accept-cookies</code> om te zorgen dat de pop-up weer verdwijnt. Zorg dan ook dat de <code>EventListener</code> voor <code>scroll</code> verwijderd wordt, zodat je niet oneindig koekjes moet blijven accepteren...</p>
@@ -961,7 +960,7 @@
 <p><img alt="Poll" src="files/week3-poll.PNG" /></p>
 <hr />
 <h4 id="a-de-resultaten-client-side-opslaan">a. De resultaten client-side opslaan<a class="headerlink" href="#a-de-resultaten-client-side-opslaan" title="Permanent link">&para;</a></h4>
-<p>De tweede stap is het opslaan van de resultaten in de <code>localStorage</code>. In het <code>form</code> element zie je dat de poll uit drie opties bestaat die elk een uniek id bevatten. Maak gebruik van een <code>EventListener</code> dat luistert naar het <code>submit</code> event van het <code>form</code> element. Tel vervolgens het aantal stemmen per optie en bewaar de resultaten in de <code>localStorage</code>. Voor deze stap is het genoeg om de resultaten uit te printen in de console. </p>
+<p>De eerste stap is het opslaan van de resultaten in de <code>localStorage</code>. In het <code>form</code> element zie je dat de poll uit drie opties bestaat die elk een uniek id bevatten. Maak gebruik van een <code>EventListener</code> dat luistert naar het <code>submit</code> event van het <code>form</code> element. Tel vervolgens het aantal stemmen per optie en bewaar de resultaten in de <code>localStorage</code>. Voor deze stap is het genoeg om de resultaten uit te printen in de console. </p>
 <p><img alt="Poll resultaten in de console" src="files/week3-poll-resultaten-console.PNG" /></p>
 <hr />
 <h4 id="b-resultaten-laten-zien-zodra-er-gestemd-is">b. Resultaten laten zien zodra er gestemd is<a class="headerlink" href="#b-resultaten-laten-zien-zodra-er-gestemd-is" title="Permanent link">&para;</a></h4>
