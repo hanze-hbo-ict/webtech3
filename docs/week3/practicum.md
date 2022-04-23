@@ -35,9 +35,7 @@ Net zoals de 'listed' artikelen, heeft hebben de 'featured' artikelen een ondert
 !!! warning "meerdere featured artikelen"
     Let op: aangezien er meerdere featured artikelen zijn, kun je geen id toekennen aan het element waar de ondertitel in staat. Maak daarom gebruik van `getElementsByClassName` en voeg een `EventListener` toe aan alle artikelen dat gebruik maakt van de `mouseover` en `mouseleave` events. Zorg er vervolgens voor dat je op het juiste moment de CSS class `visible` aan de ondertitel toevoegt of juist verwijdert.
 
-![Ondertitel](files/week3-ondertitel.PNG) 
-
-<img src="files/zwevende-muis.PNG" alt="De zwevende muis" width="500">
+![Ondertitel](files/week3-ondertitel.PNG) <img src="files/zwevende-muis.PNG" alt="De zwevende muis" width="500">
 
 ---
 
@@ -56,7 +54,7 @@ De poll over de coronamaatregelen heeft momenteel nog geen functionaliteit, maar
 ---
 
 #### a. De resultaten client-side opslaan
-De tweede stap is het opslaan van de resultaten in de `localStorage`. In het `form` element zie je dat de poll uit drie opties bestaat die elk een uniek id bevatten. Maak gebruik van een `EventListener` dat luistert naar het `submit` event van het `form` element. Tel vervolgens het aantal stemmen per optie en bewaar de resultaten in de `localStorage`. Voor deze stap is het genoeg om de resultaten uit te printen in de console. 
+De eerste stap is het opslaan van de resultaten in de `localStorage`. In het `form` element zie je dat de poll uit drie opties bestaat die elk een uniek id bevatten. Maak gebruik van een `EventListener` dat luistert naar het `submit` event van het `form` element. Tel vervolgens het aantal stemmen per optie en bewaar de resultaten in de `localStorage`. Voor deze stap is het genoeg om de resultaten uit te printen in de console. 
 
 ![Poll resultaten in de console](files/week3-poll-resultaten-console.PNG)
 
