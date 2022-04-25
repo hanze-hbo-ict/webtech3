@@ -1,8 +1,7 @@
 # Week 2: HTML en CSS 2
 
-Deze week ronden we het materiaal over html en css voor wat betreft dit thema (en de opleiding) af. Deze technieken zijn dusdanig uitgebreid dat ze op zichzelf een heel thema zouden legitimeren (dat ook bestaat), maar voor software engineers is het voldoende een meer dan *hands-on* kennis van te hebben. Specifiek gaan we deze week in op *media queries*, het concept van de *flexbox*, de *shadow DOM* en *user components*. 
+Deze week ronden we het materiaal over html en css voor wat betreft dit thema (en de opleiding) af. Deze technieken zijn dusdanig uitgebreid dat ze op zichzelf een heel thema zouden legitimeren (dat ook bestaat), maar voor software engineers is het voldoende een meer dan *hands-on* kennis van te hebben. Specifiek gaan we deze week in op *media queries*, het concept van de *flexbox*, de *shadow DOM* en *user components*. Met behulp van deze technieken maken we onze websites *responsive* en zorgen we voor *cross browser support*.
 
-**Wellicht termen responsiveness & cross browser support toevoegen?**
 
 ## Hoorcollege
 
