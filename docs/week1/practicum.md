@@ -154,7 +154,7 @@ Maak in een HTML bestand je (fictieve droom) CV en gebruik tenminste de volgende
 - lists (`<ul>` of `<ol>`)
 - table (`<table>`)
 
-![CV](files/CV.jpeg)
+![CV](files/cv.jpeg)
 
 ---
 
