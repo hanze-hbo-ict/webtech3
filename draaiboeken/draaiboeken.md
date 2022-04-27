@@ -9,6 +9,7 @@
 
 # Week 2 - BABA - HTML en CSS 2
 
+- [ ] layout als overkoepelend iets 
 - [X] css units
 - [ ] z-index
 - [X] masks en gradients
