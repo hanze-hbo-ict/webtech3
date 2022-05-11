@@ -13,7 +13,7 @@ Behalve een meer theoretische aanpak, zal ook de praktijk aan bod komen. Aan de 
 
 ## Practicum
 
-Ook tijdens het practicum staan de *flexbox*, de *shadow DOM* en *user components* centraal. Elk van deze drie zal aan de hand van een kleine concrete en specifieke opgave worden uitgediept. 
+Ook tijdens het practicum staan *media queries*, *css-animations* en *positioning* (met name de *flexbox*. Elk van deze onderwerpen zal aan de hand van een kleine concrete en specifieke opgave worden uitgediept. 
 
 ## Literatuur
 
