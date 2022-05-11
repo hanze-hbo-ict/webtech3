@@ -36,6 +36,7 @@ Zorg ervoor dat met behulp van html en css de onderstaande requirements zijn ger
 - tenslotte staat er een knop waarmee (later) het spel gestart kan worden
 - voor de verschillende onderdelen zijn passende HTML elementen gebruikt
 - er is rekening gehouden met toegankelijkheid, zodat bijvoorbeeld gebruikers met een screen reader de webapplicatie kunnen gebruiken
+- het spel is responsive, en wordt gebruiksvriendelijk getoond op zowel desktop apparaten als mobiele telefoons, waarbij gebruik is gemaakt van mobile-first design
 
 ![Het memory-spel zoals het er uit kan komen te zien](../imgs/memory-demo.png)
 
