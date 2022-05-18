@@ -23,7 +23,7 @@ Momenteel is er maar één featured artikel bovenaan de lijst met nieuwsartikele
 #### 2b. Een irritante pop-up tonen na 10 seconden
 In het HTML bestand staat een element met id `subscription-pop-up`. Deze is nu nog niet zichtbaar (`display: none`). Zorg ervoor dat deze 10 seconden na het openen van de pagina zichtbaar wordt met een `setTimeout`. Zodra je de pop-up zichtbaar hebt gemaakt, zorg dan ook dat het scrollen even niet mogelijk is door `overflow` toe te voegen aan de gehele `body`. Voeg ook een `EventListener` toe voor het `click` event van de knop met id `reject-subscription` om te zorgen dat de pop-up weer verdwijnt.
 
-![Vage kennis](files/vage-kennis.png)
+![Vage kennis](files/vage-kennis.PNG)
 
 ---
 
@@ -35,7 +35,7 @@ Net zoals de 'listed' artikelen, heeft hebben de 'featured' artikelen een ondert
 !!! warning "meerdere featured artikelen"
     Let op: aangezien er meerdere featured artikelen zijn, kun je geen id toekennen aan het element waar de ondertitel in staat. Maak daarom gebruik van `getElementsByClassName` en voeg een `EventListener` toe aan alle artikelen dat gebruik maakt van de `mouseover` en `mouseleave` events. Zorg er vervolgens voor dat je op het juiste moment de CSS class `visible` aan de ondertitel toevoegt of juist verwijdert.
 
-![Ondertitel](files/week3-ondertitel.PNG) <img src="files/zwevende-muis.PNG" alt="De zwevende muis" width="500">
+![Ondertitel](files/week3-ondertitel.png) <img src="files/zwevende-muis.PNG" alt="De zwevende muis" width="500">
 
 ---
 
@@ -91,6 +91,6 @@ Rechts onderaan de pagina zie je een chat icoontje. Zorg met een `setInterval` d
 #### b. Bij hover over artikel, doorzichtigheid van overige artikelen animeren
 Alle 'listed' artikelen hebben dezelfde class, namelijk `listed`. Zorg ervoor met `getElementsByClassName` dat deze artikelen de class `see-through` krijgen die de doorzichtigheid van de artikelen animeert, zodra je over een artikel hovert met de muis. Doe dit alleen niet voor het artikel waarover je hovert. Hierdoor krijgt het geselecteerde artikel de focus. Zodra de muis over geen enkel artikel zweeft, verdwijnen alle animaties. Doe dit met `getElementsByClassName`, `EventListeners` en een aantal for loops.
 
-![Opacity](files/opacity.PNG)
+![Opacity](files/opacity.png)
 
 ---
