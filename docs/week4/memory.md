@@ -2,7 +2,7 @@
 
 Voor dit toetsmoment moeten alle functionele eisen die [in week drie besproken zijn](../week3/memory.md) gerealiseerd zijn.
 
-Verder moeten het mogelijk zijn afbeeldingen uit externe API's te gebruiken. Denk hierbij bijvoorbeeld aan 
+Toevoeging voor deze week is om afbeeldingen uit externe API's te gebruiken, in plaats van letters uit het alfabet. Denk hierbij bijvoorbeeld aan:
 
 - [Lorem Picsum](https://picsum.photos/)
 
@@ -11,3 +11,6 @@ Verder moeten het mogelijk zijn afbeeldingen uit externe API's te gebruiken. Den
 - [The Cats API](https://thecatapi.com/)
 
 Maar andere externe api's zijn natuurlijk ook mogelijk.
+
+!!! warning "Beoordeling"
+    Naast de functionaliteit zullen wij ook beoordelen op leesbaarheid en netheid van je code. Ook blijft accessibility en responsiveness belangrijk. Gebruik geen libraries en frameworks.
