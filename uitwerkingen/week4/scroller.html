@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scroller</title>
+    <style>
+        #container {
+            display: grid;
+            height:90vh;
+            grid-template-rows:30vh 30vh 30vh 30vh;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+
+            grid-template-areas: "img1 img2" "img3 img4" "img5 img6";
+        }
+        #contianer > div { text-align:center; }
+        .fit { width: 100%; height: 100%; }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+
+        <div class="image">
+            <img class="fit demo" src="imgs/spinner.gif" alt="spinner">
+        </div>
+        <div class="image">
+            <img class="fit demo" src="imgs/demian.png" alt="spinner">
+        </div>
+        <div class="image">
+            <img class="fit demo" src="imgs/spinner.gif" alt="spinner">
+        </div>
+        <div class="image">
+            <img class="fit demo" src="imgs/spinner.gif" alt="spinner">
+        </div>
+        <div class="image">
+            <img class="fit demo" src="imgs/spinner.gif" alt="spinner">
+        </div>
+        <div class="image">
+            <img class="fit demo" src="imgs/spinner.gif" alt="spinner">
+        </div>
+        <div class="image">
+            <img class="fit demo" src="imgs/spinner.gif" alt="spinner">
+        </div>
+        <div class="image">
+            <img class="fit demo" src="imgs/spinner.gif" alt="spinner">
+        </div>
+
+    </div>
+
+
+<template id="img-row">
+  <div class="image"> <img class="fit demo" src="imgs/spinner.gif" alt="spinner"> </div>
+  <div class="image"> <img class="fit demo" src="imgs/spinner.gif" alt="spinner"> </div>
+</template>
+</body>
+
+<script>
+// YOUR CODE HERE
+</script>
+
+<script src="uitwerkingen.js"></script>
+
+</html>
