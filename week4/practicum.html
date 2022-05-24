@@ -560,29 +560,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#opgave-1-een-spinner" class="md-nav__link">
-    Opgave 1: een spinner
+  <a href="#opgave-1a-omzetten-van-code-in-promises" class="md-nav__link">
+    Opgave 1a: omzetten van code in promises.
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#opgave-2-oneindige-scroll" class="md-nav__link">
-    Opgave 2: Oneindige scroll
+  <a href="#opgave-1b-omzetten-van-een-callback-hell-in-promises" class="md-nav__link">
+    Opgave 1b: omzetten van een callback-hell in promises
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#opgave-3a-omzetten-van-code-in-promises" class="md-nav__link">
-    Opgave 3a: omzetten van code in promises.
+  <a href="#opgave-2-een-spinner" class="md-nav__link">
+    Opgave 2: een spinner
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#opgave-3b-omzetten-van-een-callback-hell-in-promises" class="md-nav__link">
-    Opgave 3b: omzetten van een callback-hell in promises
+  <a href="#opgave-3-oneindige-scroll" class="md-nav__link">
+    Opgave 3: Oneindige scroll
   </a>
   
 </li>
@@ -871,29 +871,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#opgave-1-een-spinner" class="md-nav__link">
-    Opgave 1: een spinner
+  <a href="#opgave-1a-omzetten-van-code-in-promises" class="md-nav__link">
+    Opgave 1a: omzetten van code in promises.
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#opgave-2-oneindige-scroll" class="md-nav__link">
-    Opgave 2: Oneindige scroll
+  <a href="#opgave-1b-omzetten-van-een-callback-hell-in-promises" class="md-nav__link">
+    Opgave 1b: omzetten van een callback-hell in promises
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#opgave-3a-omzetten-van-code-in-promises" class="md-nav__link">
-    Opgave 3a: omzetten van code in promises.
+  <a href="#opgave-2-een-spinner" class="md-nav__link">
+    Opgave 2: een spinner
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#opgave-3b-omzetten-van-een-callback-hell-in-promises" class="md-nav__link">
-    Opgave 3b: omzetten van een callback-hell in promises
+  <a href="#opgave-3-oneindige-scroll" class="md-nav__link">
+    Opgave 3: Oneindige scroll
   </a>
   
 </li>
@@ -914,24 +914,24 @@
 
 <h1 id="practicum-week-4">Practicum week 4<a class="headerlink" href="#practicum-week-4" title="Permanent link">&para;</a></h1>
 <p>Deze week gaan we werken met <code>fetch</code> en met <code>Promises</code>. We bouwen daarbij verder op de technieken die we in de vorige weken hebben besproken en waar we mee hebben geoefend. De bestanden voor deze week vind je <a href="files/week4.zip">in deze zip</a>.</p>
-<h2 id="opgave-1-een-spinner">Opgave 1: een spinner<a class="headerlink" href="#opgave-1-een-spinner" title="Permanent link">&para;</a></h2>
+<h2 id="opgave-1a-omzetten-van-code-in-promises">Opgave 1a: omzetten van code in promises.<a class="headerlink" href="#opgave-1a-omzetten-van-code-in-promises" title="Permanent link">&para;</a></h2>
+<p>Run en bestudeer het bestand <code>cards.html</code>. Hierin maken we gebruik van weer een API om een spel kaarten sequentieel op te halen. Hoewel deze code op zich nog redelijk overzichtelijk is, is het toch beter om dit om te zetten in een wat hedendaagsere manier van werken. Herschrijf deze code waarbij je gebruik maakt van <code>Promise</code>s.</p>
+<h2 id="opgave-1b-omzetten-van-een-callback-hell-in-promises">Opgave 1b: omzetten van een callback-hell in promises<a class="headerlink" href="#opgave-1b-omzetten-van-een-callback-hell-in-promises" title="Permanent link">&para;</a></h2>
+<p>Run en bekijk het bestand <code>numbers.html</code>. Zoals je ziet wordt hier gebruik gemaakt van een externe API om interessante gegevens van een nummer op te halen. Bestudeer met name de werking van de functie <code>getjson()</code>.</p>
+<p>Deze methode wordt uitgebreid gebruikt in het stukje javascript dat hier onder staat. Je kunt je voorstellen dat dit niet heel handig is, qua broncode. Herschrijf deze code in de vorm van promises. Maak hierbij gebruik van <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all"><code>Promises.all</code></a>.</p>
+<p>Pas vervolgens de pagina aan zodat de bezoeker een getal kan invullen waar hij of zij interessante gegevens van te zien wil krijgen (momenteel is dat getal hard gecodeerd). Maak ook een dropdown om een keuze te bieden van het aantal gegevens dat er opgehaald worden. Je hoeft je niet druk te maken over mogelijke dubbele gegevens die over het getal worden getoond (maar dat mag natuurlijk wel).</p>
+<p><img alt="De callback-hell van numbers.html" src="imgs/callback-hell.png" /></p>
+<h2 id="opgave-2-een-spinner">Opgave 2: een spinner<a class="headerlink" href="#opgave-2-een-spinner" title="Permanent link">&para;</a></h2>
 <p>Open het bestand <code>scroller.html</code> en bestudeer de werking hiervan. Zoals je ziet maken we gebruik van een <code>grid-view</code> om een grid van twee kolommen met plaatjes te laten zien. Op één na zijn al deze plaatjes momenteel een spinner, die duidelijk maakt dat er nog geen plaatje is ingeladen.</p>
 <p>Het is de bedoeling om wanneer de DOM is ingeladen de spinners te vervangen door echte plaatjes. Je kunt gebruik maken van de site <a href="https://picsum.photos/">https://picsum.photos/</a>: dit is een site waar je automatisch willekeurige plaatjes vandaan kunt halen. Maak gebruik van <code>fetch</code> en promises.</p>
 <p><img alt="Een willekeurig plaatje uit picsum.photo" src="https://picsum.photos/200/100" /></p>
-<h2 id="opgave-2-oneindige-scroll">Opgave 2: Oneindige scroll<a class="headerlink" href="#opgave-2-oneindige-scroll" title="Permanent link">&para;</a></h2>
+<h2 id="opgave-3-oneindige-scroll">Opgave 3: Oneindige scroll<a class="headerlink" href="#opgave-3-oneindige-scroll" title="Permanent link">&para;</a></h2>
 <p>Zoals je ziet staat de laatste regel plaatjes iets onder de <em>viewport</em>. Het is de bedoeling dat er een nieuwe regel met twee willekeurige plaatjes aan de DOM wordt toegevoegd op het moment dat deze laatste regel helemaal in de <em>viewport</em> terecht is gekomen. Door dit telkens te doen kunnen we een oneindige scroll maken.</p>
 <p>De regel die je moet toevoegen is al voor je voorbereid in de html: we maken hier gebruik van de <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template"><code>template</code>-node</a>. Maak gebruik van de methode <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/importNode"><code>importNode</code></a> om deze node te laden op het moment dat de laatste regel helemaal te zien is. Pas van beide plaatjes in deze template de <code>src</code> aan en voeg het geheel toe aan de <code>container</code>. </p>
 <div class="admonition info">
 <p class="admonition-title"><code>style</code> en <code>computedStyle</code></p>
 <p>In deze opgave moet je de css met behulp van JavaScript aanpassen. Op zich is dat niet heel lastig, maar het kan zinvol zijn je te realiseren dat er een verschil bestaat tussen de <code>style</code> en de <code>computedStyle</code> van een <code>node</code>. Lees eventueel <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle">de documentatie op MDN</a> om een idee te krijgen van de verschillen tussen deze twee.</p>
 </div>
-<h2 id="opgave-3a-omzetten-van-code-in-promises">Opgave 3a: omzetten van code in promises.<a class="headerlink" href="#opgave-3a-omzetten-van-code-in-promises" title="Permanent link">&para;</a></h2>
-<p>Run en bestudeer het bestand <code>cards.html</code>. Hierin maken we gebruik van weer een API om een spel kaarten sequentieel op te halen. Hoewel deze code op zich nog redelijk overzichtelijk is, is het toch beter om dit om te zetten in een wat hedendaagsere manier van werken. Herschrijf deze code waarbij je gebruik maakt van <code>Promise</code>s.</p>
-<h2 id="opgave-3b-omzetten-van-een-callback-hell-in-promises">Opgave 3b: omzetten van een callback-hell in promises<a class="headerlink" href="#opgave-3b-omzetten-van-een-callback-hell-in-promises" title="Permanent link">&para;</a></h2>
-<p>Run en bekijk het bestand <code>numbers.html</code>. Zoals je ziet wordt hier gebruik gemaakt van een externe API om interessante gegevens van een nummer op te halen. Bestudeer met name de werking van de functie <code>getjson()</code>.</p>
-<p>Deze methode wordt uitgebreid gebruikt in het stukje javascript dat hier onder staat. Je kunt je voorstellen dat dit niet heel handig is, qua broncode. Herschrijf deze code in de vorm van promises. Maak hierbij gebruik van <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all"><code>Promises.all</code></a>.</p>
-<p>Pas vervolgens de pagina aan zodat de bezoeker een getal kan invullen waar hij of zij interessante gegevens van te zien wil krijgen (momenteel is dat getal hard gecodeerd). Maak ook een dropdown om een keuze te bieden van het aantal gegevens dat er opgehaald worden. Je hoeft je niet druk te maken over mogelijke dubbele gegevens die over het getal worden getoond (maar dat mag natuurlijk wel).</p>
-<p><img alt="De callback-hell van numbers.html" src="imgs/callback-hell.png" /></p>
 
               
             </article>
