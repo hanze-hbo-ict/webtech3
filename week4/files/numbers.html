@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Awesome number facts</title>
+</head>
+<body>
+  <h1>Hier zijn mooie gegevens over een getal</h1>
+  <div id="container">
+
+  </div>
+</body>
+
+<script>
+function getjson(url, cb) {
+  var xhttp = new XMLHttpRequest()
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       cb(JSON.parse(this.responseText)) }
+  }
+  xhttp.open("GET", url, true)
+  xhttp.send()
+}
+
+const favoriteNumber = 3;
+let facts = [];
+getjson(`http://numbersapi.com/${favoriteNumber}?json`, function(data) {
+  console.log(data.text)
+  facts.push(data.text);
+  getjson(`http://numbersapi.com/${favoriteNumber}?json`, function(data) {
+    facts.push(data.text);
+    getjson(`http://numbersapi.com/${favoriteNumber}?json`, function(data) {
+      facts.push(data.text);
+      getjson(`http://numbersapi.com/${favoriteNumber}?json`, function(data) {
+        facts.push(data.text);
+        facts.forEach(fact => {
+          document.getElementById('container').innerHTML += (`<p>${fact}</p>`);
+        })
+      })
+    })
+  })
+})
+
+</script>
+
+</html>
