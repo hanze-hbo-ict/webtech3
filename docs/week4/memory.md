@@ -12,9 +12,13 @@ Toevoeging voor deze week is om afbeeldingen uit externe API's te gebruiken, in 
 
 - [The Cats API](https://thecatapi.com/)
 
-Maar andere externe api's zijn natuurlijk ook mogelijk.
+Maar andere externe api's zijn natuurlijk ook mogelijk. Verander de keuze-optie aan de rechterkant van het scherm zodat de speler kan kiezen wat voor soort plaatjes hij of zij op de kaartjes wil zien:
+
+![Maak gebruik van een select-box voor het selecteren van plaatjes](imgs/select-box.png)
 
 Maak gebruik van `Promise`s en `fetch` voor het ophalen van de afbeeldingen. 
+
+Zorg er voor dat de *gesloten* kaarten ook de kleur krijgen die de speler met de *color picker* heeft uitgezocht. Ook tijdens het spelen moet je deze kleur kunnen aanpassen.
 
 !!! warning "Beoordeling"
     Naast de functionaliteit zullen wij ook beoordelen op leesbaarheid en netheid van je code. Ook blijft accessibility en responsiveness belangrijk. Gebruik geen libraries en frameworks.
