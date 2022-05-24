@@ -1,0 +1,57 @@
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A deck of Cards</title>
+    <style>
+      body { text-align: center; background-color: green; }
+      button { padding: 15px; background-color: black; color: white; border-radius: 8px; border: none; margin: 0 auto; }
+      button:hover { cursor: pointer; background-color: #444; }
+      button:active, button:focus { outline: none; }
+      #card-area { margin-top: 80px; }
+      #card-area > img { position: absolute; left: 0; right: 0; margin: auto; }
+    </style>
+</head>
+<body>
+    <button>Pick</button>
+    <div id="card-area"></div>
+</body>
+
+<script>
+
+function getjson(url, cb) {
+  var xhttp = new XMLHttpRequest()
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       cb(JSON.parse(this.responseText)) }
+  }
+  xhttp.open("GET", url, true)
+  xhttp.send()
+}
+
+var deckid
+getjson('https://deckofcardsapi.com/api/deck/new/draw/', data => {
+  deckid = data.deck_id
+})
+
+document.querySelector('button').addEventListener('click', function() {
+
+    getjson(`https://deckofcardsapi.com/api/deck/${deckid}/draw/`, function(data) {
+      let cardSrc = data.cards[0].image;
+      let angle = Math.random() * 90 - 45;
+      let randomX = Math.random() * 40 - 20;
+      let randomY = Math.random() * 40 - 20;
+      let node = document.createElement('img')
+      node.setAttribute('src', cardSrc)
+      node.setAttribute('style', `transform:translate(${randomX}px, ${randomY}px) rotate(${angle}deg)`)
+      document.getElementById('card-area').appendChild(node)
+      if (data.remaining === 0) document.querySelector('button').style.display='none'
+    })
+
+})
+
+
+
+</script>
+</html>
