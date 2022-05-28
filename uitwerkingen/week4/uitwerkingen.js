@@ -4,6 +4,7 @@ document.querySelectorAll('img.demo').forEach ( el => {
     fetch("https://picsum.photos/200/300")
     .then ( e => el.src = e.url )
   })
+
   
   // OPGAVE 2: INFINITE SCROLL
   document.addEventListener('scroll', () => {

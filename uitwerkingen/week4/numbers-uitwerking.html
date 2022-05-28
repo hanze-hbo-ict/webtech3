@@ -49,6 +49,8 @@
     .then ( res => Promise.all( res.map(r => r.json())))
     .then ( res => res.forEach (el => document.getElementById('container').innerHTML += `<p>${el.text}</p>`) )
   })
+
+  
 </script>
 
 </html>
