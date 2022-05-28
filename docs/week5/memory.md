@@ -1,6 +1,6 @@
 # Memory week 5: Toetsmoment
 
-Voor dit oplevermoment moet het mogelijk zijn met een backend te communiceren. Hiervoor maken we gebruik van [dezelfde backend als die we bij het practicum hebben gebruikt](https://github.com/hanze-hbo-ict/php-backend). Het is hierbij niet de bedoeling dat je aanpassingen aan deze backend gaat doen (maar zie de opmerking [bij het practicum zelf](practicum.md)), maar dat je alles regelt vanaf de voorkant.
+Voor dit oplevermoment moet het mogelijk zijn met een backend te communiceren. Hiervoor maken we gebruik van [dezelfde backend als die we bij het practicum hebben gebruikt](https://github.com/hanze-hbo-ict/memory-backend). Het is hierbij niet de bedoeling dat je aanpassingen aan deze backend gaat doen (maar zie de opmerking [bij het practicum zelf](practicum.md)), maar dat je alles regelt vanaf de voorkant.
 
 - Zorg ervoor dat de top vijf (of hoeveel je maar laat zien) die je bij het memory-spel laat zien daarwerkelijk de top vijf is die op de backend geregisteerd is.
 
