@@ -825,7 +825,37 @@
 
 
 <h1 id="memory-week-5-toetsmoment">Memory week 5: Toetsmoment<a class="headerlink" href="#memory-week-5-toetsmoment" title="Permanent link">&para;</a></h1>
-<p>Bij dit toetsmoment moet het mogelijk zijn in te loggen op de backend van de memory-game. Hierbij moet gebruik gemaakt worden van <a href="https://jwt.io/">Json Web Tokens</a>.</p>
+<p>Voor dit oplevermoment moet het mogelijk zijn met een backend te communiceren. Hiervoor maken we gebruik van <a href="https://github.com/hanze-hbo-ict/php-backend">dezelfde backend als die we bij het practicum hebben gebruikt</a>. Het is hierbij niet de bedoeling dat je aanpassingen aan deze backend gaat doen (maar zie de opmerking <a href="practicum.html">bij het practicum zelf</a>), maar dat je alles regelt vanaf de voorkant.</p>
+<ul>
+<li>
+<p>Zorg ervoor dat de top vijf (of hoeveel je maar laat zien) die je bij het memory-spel laat zien daarwerkelijk de top vijf is die op de backend geregisteerd is.</p>
+</li>
+<li>
+<p>Maak een pagina waarmee een speler zich bij deze backend kan registeren.</p>
+</li>
+<li>
+<p>Maak een andere pagina waarop de speler zich kan aanmelden. De backend geeft bij correcte gegevens een JWT token terug dat standaard een TTL heeft van 3600 seconden.</p>
+</li>
+<li>
+<p>Sla het JWT op in de <code>localStorage</code> en zorg ervoor dat dit bij <em>elke</em> request naar de backend in de header wordt meegestuurd.</p>
+</li>
+<li>
+<p>Maak een nieuwe pagina waarop de speler zijn of haar voorkeuren kan opgeven. Deze voorkeuren bestaan uit de favoriete plaatjes-API, de kleur voor gevonden kaartjes en de kleur voor gesloten kaarten.</p>
+</li>
+<li>
+<p>Het moet voor de speler ook mogelijk zijn het opgegeven e-mailadres te wijzigen. Dat kun je op dezelfde pagina doen als waar de voorkeuren worden bijgehouden, of je kunt hier weer een nieuwe pagina voor maken.</p>
+</li>
+<li>
+<p>Als de TTL van het JWT verlopen is, moet de speler een melding krijgen en naar de loginpagina verwezen worden. Tip: om dit te testen kun je de TTL in symfony aanpassen. Voeg daarvoor in <code>config/packages/lexik_jwt_authentication.yaml</code> een key <code>token_ttl</code> toe met een waarde in seconden:</p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="nt">lexik_jwt_authentication</span><span class="p">:</span><span class="w"></span>
+<span class="w">    </span><span class="nt">secret_key</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;%env(resolve:JWT_SECRET_KEY)%&#39;</span><span class="w"></span>
+<span class="w">    </span><span class="nt">public_key</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;%env(resolve:JWT_PUBLIC_KEY)%&#39;</span><span class="w"></span>
+<span class="w">    </span><span class="nt">pass_phrase</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;%env(JWT_PASSPHRASE)%&#39;</span><span class="w"></span>
+<span class="w">    </span><span class="nt">token_ttl</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">300</span><span class="w"></span>
+</code></pre></div>
+<p>Bestudeer eventueel <a href="https://github.com/lexik/LexikJWTAuthenticationBundle/blob/2.x/Resources/doc/1-configuration-reference.rst">de documentatie van de LexikJWTAuthenticationBundle</a> om een beeld te krijgen van de werking hiervan.</p>
 
               
             </article>
