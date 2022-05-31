@@ -611,9 +611,68 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Practicum
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="practicum.html" class="md-nav__link md-nav__link--active">
         Practicum
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhoudsopgave">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opgave-1-opwarmen-javascript-arrays" class="md-nav__link">
+    Opgave 1. Opwarmen - JavaScript arrays
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opgave-2-aggregeren-en-weergeven-van-data-van-de-backend" class="md-nav__link">
+    Opgave 2. Aggregeren en weergeven van data van de backend
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opgave-3-opvangen-van-verschillende-response-codes" class="md-nav__link">
+    Opgave 3. Opvangen van verschillende response codes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opgave-4-opvangen-van-een-jwt-van-de-backend" class="md-nav__link">
+    Opgave 4. Opvangen van een JWT van de Backend
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opgave-5-meesturen-van-het-jwt-in-elke-request" class="md-nav__link">
+    Opgave 5: Meesturen van het JWT in elke request
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -812,6 +871,49 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opgave-1-opwarmen-javascript-arrays" class="md-nav__link">
+    Opgave 1. Opwarmen - JavaScript arrays
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opgave-2-aggregeren-en-weergeven-van-data-van-de-backend" class="md-nav__link">
+    Opgave 2. Aggregeren en weergeven van data van de backend
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opgave-3-opvangen-van-verschillende-response-codes" class="md-nav__link">
+    Opgave 3. Opvangen van verschillende response codes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opgave-4-opvangen-van-een-jwt-van-de-backend" class="md-nav__link">
+    Opgave 4. Opvangen van een JWT van de Backend
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opgave-5-meesturen-van-het-jwt-in-elke-request" class="md-nav__link">
+    Opgave 5: Meesturen van het JWT in elke request
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -831,20 +933,31 @@
 <p>Het is de bedoeling dat je <em>alleen</em> aan de frontend werkt. We hebben die backend juist gemaakt om de situatie te simuleren waarin je als developer geen mogelijkheid hebt om een deel van de applicatie (de backend in dit geval) zelf aan te passen.</p>
 <p>Dat gezegd hebbende is het best mogelijk dat je dingen in de backend tegenkomt die echt beter moeten. We hebben dat ding redelijk snel in elkaar gezet, dus we doen geen enkele garantie over hoe goed het is. Het staat je dus zeker vrij om dit aan te passen en een pull-request te doen.</p>
 </div>
-<ol>
-<li>
-<p>serialiseren van form data</p>
-</li>
-<li>
-<p>client side decoderen van jwt</p>
-</li>
-<li>
-<p>opslaan van token in localStorage</p>
-</li>
-<li>
-<p>meesturen van jwt in de header</p>
-</li>
-</ol>
+<h2 id="opgave-1-opwarmen-javascript-arrays">Opgave 1. Opwarmen - JavaScript arrays<a class="headerlink" href="#opgave-1-opwarmen-javascript-arrays" title="Permanent link">&para;</a></h2>
+<p>We beginnen met wat opwarmoefeningen om wat meer inzicht te krijgen in fundamentele JavaScript array-functies. Tijdens het plenaire deel is het één en ander hieromtrent gedemonstreerd; het is de bedoeling dat je hier nu zelf mee aan de gang gaat.</p>
+<p>Gegeven de onderstaande array <code>arr</code>. </p>
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">arr</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="mf">4</span><span class="p">,</span><span class="mf">12</span><span class="p">,</span><span class="mf">4</span><span class="p">,</span><span class="mf">32</span><span class="p">,</span><span class="mf">5</span><span class="p">,</span><span class="mf">1</span><span class="p">,</span><span class="mf">2</span><span class="p">,</span><span class="mf">4</span><span class="p">,</span><span class="mf">5</span><span class="p">,</span><span class="mf">3</span><span class="p">,</span><span class="mf">2</span><span class="p">,</span><span class="mf">1</span><span class="p">,</span><span class="mf">5</span><span class="p">,</span><span class="mf">3</span><span class="p">,</span><span class="mf">2</span><span class="p">,</span><span class="mf">6</span><span class="p">,</span><span class="mf">4</span><span class="p">,</span><span class="mf">23</span><span class="p">,</span><span class="mf">25</span><span class="p">,</span><span class="mf">57</span><span class="p">,</span><span class="mf">78</span><span class="p">,</span><span class="mf">33</span><span class="p">,</span><span class="mf">42</span><span class="p">,</span><span class="mf">65</span><span class="p">,</span><span class="mf">2</span><span class="p">,</span><span class="mf">16</span><span class="p">,</span><span class="mf">85</span><span class="p">,</span><span class="mf">12</span><span class="p">,</span><span class="mf">87</span><span class="p">,</span><span class="mf">23</span><span class="p">,</span><span class="mf">87</span><span class="p">,</span><span class="mf">23</span><span class="p">,</span><span class="mf">87</span><span class="p">,</span><span class="mf">98</span><span class="p">,</span><span class="mf">23</span><span class="p">,</span><span class="mf">6</span><span class="p">,</span><span class="mf">23</span><span class="p">,</span><span class="mf">65</span><span class="p">,</span><span class="mf">87</span><span class="p">,</span><span class="mf">98</span><span class="p">,</span><span class="mf">1</span><span class="p">]</span><span class="w"></span>
+</code></pre></div>
+<p><strong>a</strong> Maak gebruik van de methode <code>filter</code> om een nieuwe array te maken die alleen de elementen uit <code>arr</code> bevat die deelbaar zijn door 3.</p>
+<p><strong>b</strong> Maak gebruik van de methode <code>map</code> om een nieuwe array te maken die alle elementen uit <code>arr</code> verdubbeld bevat.</p>
+<p><strong>c</strong> Maak gebruik van de methode <code>sort</code> om een nieuwe array te maken die de elementen uit <code>arr</code> gesorteerd (van hoog naar laag) bevat</p>
+<p><strong>d</strong> Maak gebruik van de methode <code>reduce</code> om het totaal van alle elementen uit <code>arr</code> te bepalen</p>
+<h2 id="opgave-2-aggregeren-en-weergeven-van-data-van-de-backend">Opgave 2. Aggregeren en weergeven van data van de backend<a class="headerlink" href="#opgave-2-aggregeren-en-weergeven-van-data-van-de-backend" title="Permanent link">&para;</a></h2>
+<p>Download het bestand <a href="files/files-wk5.zip">week5.zip</a> en pak dit op een logische locatie uit. Deze zip bevat een php bestand <code>get-data.php</code> dat een suggestie wekt van spelers-namen met de scores van de spellen die hebben gespeeld. Bestudeer de code om een beeld te krijgen van de werking hiervan. De zip bevat ook een html bestand waarin gevraagd wordt op gebruikersgegevens (gebruikersnaam en wachtwoord). De bedoeling van deze opgave is het weergeven van de top tien beste spelers met hun scores wanneer de opgestuurde gegevens correct zijn.</p>
+<p><img alt="Weergave van de top tien beste spelers" src="imgs/top-tien.png" /></p>
+<p>Start in deze directory een php-server zodat je beschikking hebt over het bestand <code>get-data.php</code> via een netwerk:</p>
+<div class="highlight"><pre><span></span><code><span class="x">php -S localhost:8000</span>
+</code></pre></div>
+<p>Begin met het afvangen van de normale flow van de html: er zit een submit-button in die standaard een <code>POST</code> request doet naar de <code>action</code>. In dit geval willen we de hele boel door JavaScript laten afhandelen, waarbij we de pagina zelf nooit hoeven te verlaten. </p>
+<p>Maak vervolgens gebruik van <a href="https://developer.mozilla.org/en-US/docs/Web/API/FormData"><code>FormData</code></a> om de ingevulde gegevens te serialiseren. Post deze gegevens naar <code>get-data.php</code>. Zorg er in eerste instantie voor dat de gegevens correct zijn (gebruikersnaam: 'Henk', wachtwoord 'OpDeTank').</p>
+<p>De backend geeft alle data van alle spelers terug. Maak gebruik van de kennis die je bij de eerste oefening hebt opgedaan om deze data om te zetten in een array van gebruikersnamen met hun totale score. Als je dit hebt gedaan, kun je deze nieuwe array sorteren op de individuele score van de spelers. Zorg er vervolgens voor dat je van deze nieuwe gesorteerde array alleen de eerste tien elementen overhoudt (zie hiervoor eventueel de methode <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice"><code>slice</code></a>).</p>
+<p>Itereer over deze laatste array en maak gebruik van de <code>template</code> met id <code>scores</code> om tien regels toe te voegen aan de gegeven tabel met id <code>players</code>. Zorg er tenslotte via css voor dat deze tabel ook daadwerkelijk wordt weergegeven.</p>
+<h2 id="opgave-3-opvangen-van-verschillende-response-codes">Opgave 3. Opvangen van verschillende response codes<a class="headerlink" href="#opgave-3-opvangen-van-verschillende-response-codes" title="Permanent link">&para;</a></h2>
+<p>Zoals je kunt zien kan de backend nog twee andere respons codes teruggeven: <code>401 Unauthorized</code> en <code>400 Illegal request</code>. Zorg er voor dat de input-velden een dikke rode lijn krijgen wanneer de eerste fout optreedt.</p>
+<p><img alt="Verkeerde gegevens worden duidelijk gemaakt met dikke rode lijnen" src="imgs/verkeerd.png" /></p>
+<p>Waarom is het onwaarschijnlijk dat in de huidige configuratie de tweede fout optreedt? In wat voor context zou dat wel kunnen, denk je?</p>
+<h2 id="opgave-4-opvangen-van-een-jwt-van-de-backend">Opgave 4. Opvangen van een JWT van de Backend<a class="headerlink" href="#opgave-4-opvangen-van-een-jwt-van-de-backend" title="Permanent link">&para;</a></h2>
+<h2 id="opgave-5-meesturen-van-het-jwt-in-elke-request">Opgave 5: Meesturen van het JWT in elke request<a class="headerlink" href="#opgave-5-meesturen-van-het-jwt-in-elke-request" title="Permanent link">&para;</a></h2>
 
               
             </article>
