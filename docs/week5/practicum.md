@@ -47,6 +47,9 @@ De backend geeft alle data van alle spelers terug. Maak gebruik van de kennis di
 
 Itereer over deze laatste array en maak gebruik van de `template` met id `scores` om tien regels toe te voegen aan de gegeven tabel met id `players`. Zorg er tenslotte via css voor dat deze tabel ook daadwerkelijk wordt weergegeven.
 
+!!! Tip "NumberFormat"
+    Maak gebruik van [Intl.NumberFormat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat) om de (relatief grote) scores wat vriendelijker en leesbaarder weer te geven.
+
 
 ## Opgave 3. Opvangen van verschillende response codes
 
@@ -59,8 +62,39 @@ Waarom is het onwaarschijnlijk dat in de huidige configuratie de tweede fout opt
 
 ## Opgave 4. Opvangen van een JWT van de Backend
 
+In deze en de volgende opgave gaan we gebruik maken van [de backend voor het memory-spel](https://github.com/hanze-hbo-ict/memory-backend). Clone deze repository op een handige plek en volg de instructies in de `README.md` om de boel aan de praat te krijgen. In de directory `create` vind je scripts (feitelijk `cURL` calls) die je kunt gebruiken om de installatie te testen. Bestudeer de scripts om een beeld te krijgen van hoe deze backend werkt. 
+
+Verder maken we hier ook weer gebruik van dezelfde login-pagina als die je in de vorige opgave hebt gebruikt. Zorg ervoor dat je een nieuw JavaScript-bestand aan deze html koppelt.
+
+Als je met goeie credentials op deze backend inlogt, krijg je json terug dat er als volgt uitziet (met een ander jwt, vanzelfsprekend):
+
+```json
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTQwNjQ5MzksImV4cCI6MTY1NDA2ODUzOSwicm9sZXMiOlsiUk9MRV9VU0VSIl0sInVzZXJuYW1lIjoiQ2hhbnRhbCJ9.RJVkBQfZ5DvNwjNlRxsVnQJagwIOwQvsbLGi9bI-rh4aOkzq6-oc3hESDVt-ibWVZSsj33ojdkft8bvUph1ylBrZbG0a96r-HdcHY-IyYaj_l-T_xT7epivvYafXejKRTSou-bBh1KiKhhSLrROjTsNu5CuhrG66qXpq_uLlBC1r4bYWzv6ekqqOAzqUqyBz40dBTkbLhpHFaor6dEO1rMf48AwBg41l4CWTChzTq7WPj_CR3UmETSPBnliTlmE7ge4Y_HjwTVRDvOHaNYZnc8L8h61yM2461h3liLYAEhDrzJ1aRKvuZxBC0wTHGLPmRUv5DbODAas2q7iGj9PVE_o3Y9mHVCKHFw_zqCxpmrcpnh874K9aly8rJYjvoFsEnWJXj976gz87a9nPlsetOyiCwU36aPgQ9ACHU3Lp7mEKQyooYrGz6Fpl_Kx7ii1shoUEumm_QCzZGAZbqAQJxFxJ5fVzcnuf-wVDvxtYCsfaHIRlac4knt14BTSI0JC0m-PWQ6O0PR6_OPrxm177s1QyyqXZgXvqbvHTB0jEd1Wv-znBDzD_mhdmcDvCXuv6hgVtGbvBWLdyQm3sxBMjfIstWCOhtMoTsNoihyHsrGZsYHQNUGW-2vBiii6r9dkaNCIOKJtW3EF_Nzw9WkfwG8lSYB9qcVuvrgO6uIYARvo"}
+```
+
+Sla dit token op in de `localStorage` en geef een duidelijke melding aan de speler dat er is ingelogd. Check de `localStorage` via de `Application`-tab in de developer tools.
+
+![JWT opgeslagen in de `localStorage`](imgs/ingelogd.png)
+
+Wanneer de bezoeker de verkeerde gegevens (gebruikersnaam of wachtwoord) invult, moet daar ook een duidelijke melding van komen.
+
+![Foute inlog-gegevens](imgs/fout.png)
+
 
 ## Opgave 5: Meesturen van het JWT in elke request
+
+De volgende stap is het meesturen van het jwt bij elke request. Je kunt hiervoor [je eigen service maken die elk http-request ondervangt](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Intercept_HTTP_requests) en het jwt injecteert, maar voor deze exercitie is het voldoende om het token handmatig toe te voegen in de headers.
+
+Voeg het jwt toe met de volgende syntax: `Authorization: Bearer <token>` (bekijk [de documentatie op jwt.io](https://jwt.io/introduction); geen handige links in die pagina, maar ongeveer halverwege staat dit toegelicht). Doe een call naar `/api/player/{id}/games` om een overzicht te krijgen van de spellen die de speler met deze id heeft gespeeld (zoek zelf een bestaande id op in de database; het bijhorende wachtwoord vind je in `create/create_users.sh`). 
+
+Vang de respons van de server op en toon deze weer netjes onder het login-scherm.
+
+![De hele pagina inclusief de scores](imgs/scores.png)
+
+!!! Tip "Datum Format" 
+    Maak gebruik van [`toLocaleDateString()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString) om de datum die je terugkrijg van de backend om te zetten in een iets vriendelijker en leesbaarder formaat.
+
+![xkcd over datum formaten](https://imgs.xkcd.com/comics/iso_8601_2x.png)
 
 
 
