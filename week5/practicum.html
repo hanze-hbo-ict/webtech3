@@ -952,12 +952,34 @@
 <p>Maak vervolgens gebruik van <a href="https://developer.mozilla.org/en-US/docs/Web/API/FormData"><code>FormData</code></a> om de ingevulde gegevens te serialiseren. Post deze gegevens naar <code>get-data.php</code>. Zorg er in eerste instantie voor dat de gegevens correct zijn (gebruikersnaam: 'Henk', wachtwoord 'OpDeTank').</p>
 <p>De backend geeft alle data van alle spelers terug. Maak gebruik van de kennis die je bij de eerste oefening hebt opgedaan om deze data om te zetten in een array van gebruikersnamen met hun totale score. Als je dit hebt gedaan, kun je deze nieuwe array sorteren op de individuele score van de spelers. Zorg er vervolgens voor dat je van deze nieuwe gesorteerde array alleen de eerste tien elementen overhoudt (zie hiervoor eventueel de methode <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice"><code>slice</code></a>).</p>
 <p>Itereer over deze laatste array en maak gebruik van de <code>template</code> met id <code>scores</code> om tien regels toe te voegen aan de gegeven tabel met id <code>players</code>. Zorg er tenslotte via css voor dat deze tabel ook daadwerkelijk wordt weergegeven.</p>
+<div class="admonition tip">
+<p class="admonition-title">NumberFormat</p>
+<p>Maak gebruik van <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat">Intl.NumberFormat()</a> om de (relatief grote) scores wat vriendelijker en leesbaarder weer te geven.</p>
+</div>
 <h2 id="opgave-3-opvangen-van-verschillende-response-codes">Opgave 3. Opvangen van verschillende response codes<a class="headerlink" href="#opgave-3-opvangen-van-verschillende-response-codes" title="Permanent link">&para;</a></h2>
 <p>Zoals je kunt zien kan de backend nog twee andere respons codes teruggeven: <code>401 Unauthorized</code> en <code>400 Illegal request</code>. Zorg er voor dat de input-velden een dikke rode lijn krijgen wanneer de eerste fout optreedt.</p>
 <p><img alt="Verkeerde gegevens worden duidelijk gemaakt met dikke rode lijnen" src="imgs/verkeerd.png" /></p>
 <p>Waarom is het onwaarschijnlijk dat in de huidige configuratie de tweede fout optreedt? In wat voor context zou dat wel kunnen, denk je?</p>
 <h2 id="opgave-4-opvangen-van-een-jwt-van-de-backend">Opgave 4. Opvangen van een JWT van de Backend<a class="headerlink" href="#opgave-4-opvangen-van-een-jwt-van-de-backend" title="Permanent link">&para;</a></h2>
+<p>In deze en de volgende opgave gaan we gebruik maken van <a href="https://github.com/hanze-hbo-ict/memory-backend">de backend voor het memory-spel</a>. Clone deze repository op een handige plek en volg de instructies in de <code>README.md</code> om de boel aan de praat te krijgen. In de directory <code>create</code> vind je scripts (feitelijk <code>cURL</code> calls) die je kunt gebruiken om de installatie te testen. Bestudeer de scripts om een beeld te krijgen van hoe deze backend werkt. </p>
+<p>Verder maken we hier ook weer gebruik van dezelfde login-pagina als die je in de vorige opgave hebt gebruikt. Zorg ervoor dat je een nieuw JavaScript-bestand aan deze html koppelt.</p>
+<p>Als je met goeie credentials op deze backend inlogt, krijg je json terug dat er als volgt uitziet (met een ander jwt, vanzelfsprekend):</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">&quot;token&quot;</span><span class="p">:</span><span class="s2">&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTQwNjQ5MzksImV4cCI6MTY1NDA2ODUzOSwicm9sZXMiOlsiUk9MRV9VU0VSIl0sInVzZXJuYW1lIjoiQ2hhbnRhbCJ9.RJVkBQfZ5DvNwjNlRxsVnQJagwIOwQvsbLGi9bI-rh4aOkzq6-oc3hESDVt-ibWVZSsj33ojdkft8bvUph1ylBrZbG0a96r-HdcHY-IyYaj_l-T_xT7epivvYafXejKRTSou-bBh1KiKhhSLrROjTsNu5CuhrG66qXpq_uLlBC1r4bYWzv6ekqqOAzqUqyBz40dBTkbLhpHFaor6dEO1rMf48AwBg41l4CWTChzTq7WPj_CR3UmETSPBnliTlmE7ge4Y_HjwTVRDvOHaNYZnc8L8h61yM2461h3liLYAEhDrzJ1aRKvuZxBC0wTHGLPmRUv5DbODAas2q7iGj9PVE_o3Y9mHVCKHFw_zqCxpmrcpnh874K9aly8rJYjvoFsEnWJXj976gz87a9nPlsetOyiCwU36aPgQ9ACHU3Lp7mEKQyooYrGz6Fpl_Kx7ii1shoUEumm_QCzZGAZbqAQJxFxJ5fVzcnuf-wVDvxtYCsfaHIRlac4knt14BTSI0JC0m-PWQ6O0PR6_OPrxm177s1QyyqXZgXvqbvHTB0jEd1Wv-znBDzD_mhdmcDvCXuv6hgVtGbvBWLdyQm3sxBMjfIstWCOhtMoTsNoihyHsrGZsYHQNUGW-2vBiii6r9dkaNCIOKJtW3EF_Nzw9WkfwG8lSYB9qcVuvrgO6uIYARvo&quot;</span><span class="p">}</span><span class="w"></span>
+</code></pre></div>
+<p>Sla dit token op in de <code>localStorage</code> en geef een duidelijke melding aan de speler dat er is ingelogd. Check de <code>localStorage</code> via de <code>Application</code>-tab in de developer tools.</p>
+<p><img alt="JWT opgeslagen in de localStorage" src="imgs/ingelogd.png" /></p>
+<p>Wanneer de bezoeker de verkeerde gegevens (gebruikersnaam of wachtwoord) invult, moet daar ook een duidelijke melding van komen.</p>
+<p><img alt="Foute inlog-gegevens" src="imgs/fout.png" /></p>
 <h2 id="opgave-5-meesturen-van-het-jwt-in-elke-request">Opgave 5: Meesturen van het JWT in elke request<a class="headerlink" href="#opgave-5-meesturen-van-het-jwt-in-elke-request" title="Permanent link">&para;</a></h2>
+<p>De volgende stap is het meesturen van het jwt bij elke request. Je kunt hiervoor <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Intercept_HTTP_requests">je eigen service maken die elk http-request ondervangt</a> en het jwt injecteert, maar voor deze exercitie is het voldoende om het token handmatig toe te voegen in de headers.</p>
+<p>Voeg het jwt toe met de volgende syntax: <code>Authorization: Bearer &lt;token&gt;</code> (bekijk <a href="https://jwt.io/introduction">de documentatie op jwt.io</a>; geen handige links in die pagina, maar ongeveer halverwege staat dit toegelicht). Doe een call naar <code>/api/player/{id}/games</code> om een overzicht te krijgen van de spellen die de speler met deze id heeft gespeeld (zoek zelf een bestaande id op in de database; het bijhorende wachtwoord vind je in <code>create/create_users.sh</code>). </p>
+<p>Vang de respons van de server op en toon deze weer netjes onder het login-scherm.</p>
+<p><img alt="De hele pagina inclusief de scores" src="imgs/scores.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Datum Format</p>
+<p>Maak gebruik van <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString"><code>toLocaleDateString()</code></a> om de datum die je terugkrijg van de backend om te zetten in een iets vriendelijker en leesbaarder formaat.</p>
+</div>
+<p><img alt="xkcd over datum formaten" src="https://imgs.xkcd.com/comics/iso_8601_2x.png" /></p>
 
               
             </article>
