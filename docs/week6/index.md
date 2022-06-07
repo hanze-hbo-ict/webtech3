@@ -14,10 +14,21 @@ Hierna bespreken we verschillende manieren om deze problemen te voorkomen, waarb
 
 ## Practicum
 
-In het practicum maken we gebruik van een bestaand micro-framework ([knockout.js](https://knockoutjs.com/)) om MVC in een JavaScript-omgeving in te zetten. Aan de hand van concrete en kleine opdrachten wordt dit framework geïntroduceerd, en wordt toegelicht waarom dit een oplossing kan vormen voor de in het theoriecollege genoemde problematiek.
+In het practicum maken we gebruik van een bestaand framework (Angular) om MVC in een JavaScript-omgeving in te zetten. Aan de hand van concrete en kleine opdrachten wordt dit framework geïntroduceerd, en wordt toegelicht waarom dit een oplossing kan vormen voor de in het theoriecollege genoemde problematiek.
 
 Door de introductie van een dergelijk framework kan de ontwikkelstraat wel wat complexer worden. We laten methoden en technieken zien om met deze toegenomen complexiteit om te gaan.
 
 ## Literatuur
 
 [Wikipedia over MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+
+We hebben ook vier *screencasts* gemaakt over werken met Angular. Zier hiervoor de onderstaande links.
+
+1. [Korte eerste inleiding in Angular. Opstarten en data laten zien.](https://video.hanze.nl/media/Angular%20-%20deel%201/1_ac4feiap)
+
+2. [Het aanmaken van compomenten.](https://video.hanze.nl/media/Angular%20-%20deel%202/1_o3hs5jql)
+
+3. [Communicatie tussen componenten.](https://video.hanze.nl/media/Angular%20%E2%80%93%20deel%203/1_fd7yxeho)
+
+4. [Werken met Services](https://video.hanze.nl/media/angular%20-%20deel%204/1_8pz2ah9z)
+
