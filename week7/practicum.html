@@ -851,6 +851,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#opdracht-2d-online-data" class="md-nav__link">
+    Opdracht 2d: online data
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -974,6 +981,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#opdracht-2d-online-data" class="md-nav__link">
+    Opdracht 2d: online data
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1058,14 +1072,9 @@ CREATE src/app/data.service.ts <span class="o">(</span><span class="m">133</span
 <p>Gebruik deze techniek om de data van studenten en docenten via de service beschikbaar te maken aan de <code>result</code>-component (dat wordt in dit verhaal dus de <em>subscriber</em>).</p>
 <h3 id="opdracht-2c-weergeven-van-de-data">Opdracht 2c: weergeven van de data<a class="headerlink" href="#opdracht-2c-weergeven-van-de-data" title="Permanent link">&para;</a></h3>
 <p>Injecteer vervolgens de service in de <code>search</code>-component en zorg ervoor dat de methode <code>handleEvent</code> nu geen gebruik meer maakt van een customevent, maar juist van de method <code>getData()</code> in de service. Als je het goed hebt gedaan, zie je nu opnieuw de resultaten van de zoekopdracht in het veld onderaan de pagina verschijnen.</p>
-<!--
-### Opdracht 2d: online data
-
-Natuurlijk is het meestal niet zo dat de data die getoond moet worden op de frontend zelf beschikbaar is. Normaliter maak je gebruik van een backend, waar een database achter zit. In deze laatste opdracht gaan we deze stap zetten.
-
-In de bestanden van deze week zit ook een directory backend, waarin een heel eenvoudig php-script dezelfde data beschikbaar stelt als die in het bestand `data.ts`. Start in deze directory een php-server op (`php -S localhost:8080`) en vervang de code in de dataservice door een `fetch` naar deze backend. 
-
--->
+<h3 id="opdracht-2d-online-data">Opdracht 2d: online data<a class="headerlink" href="#opdracht-2d-online-data" title="Permanent link">&para;</a></h3>
+<p>Natuurlijk is het meestal niet zo dat de data die getoond moet worden op de frontend zelf beschikbaar is. Normaliter maak je gebruik van een backend, waar een database achter zit. In deze laatste opdracht gaan we deze stap zetten.</p>
+<p>In de bestanden van deze week zit ook een directory backend, waarin een heel eenvoudig php-script dezelfde data beschikbaar stelt als die in het bestand <code>data.ts</code>. Start in deze directory een php-server op (<code>php -S localhost:8080</code>) en vervang de code in de dataservice door een <code>fetch</code> naar deze backend. Het endpoint <code>data.php?what=docent</code> geeft je de docentdata terug en het endpoint <code>data.php?what=student</code> de studentdata.</p>
 
               
             </article>
