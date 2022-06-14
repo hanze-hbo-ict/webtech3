@@ -1,0 +1,14 @@
+<div *ngIf="studentdata">
+    <h2>Gegevens van student {{studentdata.naam}}</h2>
+    <p><b>Studentnummer: </b>{{ studentdata.studentnummer }}</p>
+    <p><b>Opleiding: </b>{{ studentdata.opleiding}}</p>
+</div>
+
+<div *ngIf="docentdata">
+    <h2>Gegevens van docent {{docentdata.naam}}</h2>
+    <p><b>Vierlettercode: {{docentdata.code}}</b></p>
+    <p><b>Vakken: </b></p>
+    <ul>
+        <li *ngFor="let v of docentdata.vakken">{{v}}</li>
+    </ul>
+</div>
