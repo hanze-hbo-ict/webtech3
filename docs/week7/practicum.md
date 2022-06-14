@@ -99,14 +99,12 @@ Gebruik deze techniek om de data van studenten en docenten via de service beschi
 
 Injecteer vervolgens de service in de `search`-component en zorg ervoor dat de methode `handleEvent` nu geen gebruik meer maakt van een customevent, maar juist van de method `getData()` in de service. Als je het goed hebt gedaan, zie je nu opnieuw de resultaten van de zoekopdracht in het veld onderaan de pagina verschijnen.
 
-<!--
 ### Opdracht 2d: online data
 
 Natuurlijk is het meestal niet zo dat de data die getoond moet worden op de frontend zelf beschikbaar is. Normaliter maak je gebruik van een backend, waar een database achter zit. In deze laatste opdracht gaan we deze stap zetten.
 
-In de bestanden van deze week zit ook een directory backend, waarin een heel eenvoudig php-script dezelfde data beschikbaar stelt als die in het bestand `data.ts`. Start in deze directory een php-server op (`php -S localhost:8080`) en vervang de code in de dataservice door een `fetch` naar deze backend. 
+In de bestanden van deze week zit ook een directory backend, waarin een heel eenvoudig php-script dezelfde data beschikbaar stelt als die in het bestand `data.ts`. Start in deze directory een php-server op (`php -S localhost:8080`) en vervang de code in de dataservice door een `fetch` naar deze backend. Het endpoint `data.php?what=docent` geeft je de docentdata terug en het endpoint `data.php?what=student` de studentdata.
 
--->
 
 
 
