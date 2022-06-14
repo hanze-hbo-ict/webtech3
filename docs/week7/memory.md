@@ -1,6 +1,8 @@
 # Memory week 7: 
 
-Maak gebruik van [Angular](https://angular.io) om met behulp van de backend van de memory-game geaggregeerde data op te halen en in een fraaie visualisatie te tonen. Je bent vrij in de uitwerking en layout van de applicatie, dus leef je uit! Zorg er wel voor dat het volgende in je applicatie verwerkt zit:
+Maak gebruik van [Angular](https://angular.io) om met behulp van [de backend van de memory-game](https://github.com/hanze-hbo-ict/memory-backend) geaggregeerde data op te halen en in een fraaie visualisatie te tonen. Bekijk welke geaggregeerde data de backend teruggeeft om een idee te krijgen van de mogelijkheden (en als je een spannende toevoeging ziet, doe vooral een PR). 
+
+Je bent vrij in de uitwerking en layout van de applicatie, dus leef je uit! Zorg er wel voor dat het volgende in je applicatie verwerkt zit:
 
 - (Herhalende) functionaliteiten/onderdelen zijn op een logische manier gescheiden in verschillende `components`.
 - Er worden `services` gebruikt voor het afhandelen van de API requests, JWT logica, en eventueel functionaliteiten en data die gedeeld worden door meerdere `components`.
@@ -8,7 +10,7 @@ Maak gebruik van [Angular](https://angular.io) om met behulp van de backend van 
 - Indien daar een goede reden voor is mogen `NgModules` gebruikt worden, maar dit is niet noodzakelijk.
 - Het Angular project gebruikt Typescript als taal, dus geen JavaScript.
 - Het delen van data tussen componenten d.m.v. `@Input()`, `@Output()`, *property binding* en *event binding* komt voor in de applicatie.
-- Directives `*ngIf` & `*ngFor` komen beiden voor in de applicatie.
+- Directives `*ngIf` en `*ngFor` komen beiden voor in de applicatie.
 - Tot slot is het MVC gedachtegoed aanwezig in de opbouw van de applicatie en worden de principes uit de [Angular Style Guide](https://angular.io/guide/styleguide) toegepast.
 
 ## Leesopdracht
