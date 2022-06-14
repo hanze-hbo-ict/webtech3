@@ -1,4 +1,4 @@
-# Memory week 5: JWT
+# Memory week 5: JWT (toetsmoment)
 
 Voor dit oplevermoment moet het mogelijk zijn met een backend te communiceren. Hiervoor maken we gebruik van [dezelfde backend als die we bij het practicum hebben gebruikt](https://github.com/hanze-hbo-ict/memory-backend). Het is hierbij niet de bedoeling dat je aanpassingen aan deze backend gaat doen (maar zie de opmerking [bij het practicum zelf](practicum.md)), maar dat je alles regelt vanaf de voorkant.
 

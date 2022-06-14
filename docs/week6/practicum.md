@@ -33,7 +33,7 @@ Vervolgens kun je de opgaven maken in `index.ts` en transpileren met `npx tsc`. 
 
 ### Opgave 1: de stad
 
-We beginnen eenvoudig. Maar een klasse `Stad` die de onderstaande eigenschappen bevat. Zorg ervoor dat beide eigenschappen bij het aanmaken van een object van dit type moeten worden meegegeven. Maak `getters` voor beide eigenschappen.
+We beginnen eenvoudig. Maak een klasse `Stad` die de onderstaande eigenschappen bevat. Zorg ervoor dat beide eigenschappen bij het aanmaken van een object van dit type moeten worden meegegeven. Maak `getters` voor beide eigenschappen.
 
 naam | type | omschrijving
 ----|----|---
