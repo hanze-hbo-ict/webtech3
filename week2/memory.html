@@ -904,49 +904,48 @@
 <div class="admonition warning">
 <p class="admonition-title">Let op: alleen visueel!</p>
 <p>Let op: het is specifiek <em>niet</em> de bedoeling dat alle functionaliteit die hieronder gesuggereerd wordt ook al werkt. In dit eerste moment is het juist het doel de voorkant volledig afgerond te hebben voordat we de boel laten werken.</p>
-<p>Dat gezegd hebbende moet de bezoeker natuurlijk wel op de voor de hand liggende interface-elementen, zoals dropdowns en speelkaarten, kunnen klikken.</p>
+<p>Dit gezegd hebbende is het natuurlijk <em>wel</em> de bedoeling dat de bezoeker van het spel duidelijk te zien krijgt welke elementen interactief zijn en welke niet: zorg hiervoor voor correct werkende en duidelijke <em>affordances</em> (in de betekenis zoals <a href="https://en.wikipedia.org/wiki/Affordance">Gibson hieraan gegeven heeft</a>.</p>
 </div>
 <p>Zorg ervoor dat met behulp van html en css de onderstaande requirements zijn gerealiseerd:</p>
 <ul>
-<li>bovenaan de pagina staat een titel</li>
-<li>
-<p>tussen de titel en het speelvlak staat de huidige status van het spel:</p>
-<ul>
+<li>De pagina heeft een titel</li>
+<li>Het is duidelijk wat de huidige staat van het spel is:<ul>
 <li>verlopen tijd</li>
 <li>aantal gevonden paren</li>
 <li>resterende tijd</li>
 </ul>
 </li>
-<li>
-<p>hieronder staat een gekleurde balk die de grootte heeft van twee speelkaarten</p>
-</li>
-<li>er is een speelveld van zes bij zes speelkaarten</li>
-<li>de kaarten hebben één van de volgende drie statussen, die door middel van css visueel van elkaar te onderscheiden zijn:<ul>
+<li>Er is een element dat visueel de tijd weergeeft dat geopende kaarten open blijven (die werkt nu nog niet, maar moet er wel zijn)</li>
+<li>Er is een speelveld van zes bij zes speelkaarten (dat gaan we eveneens later dynamisch maken)</li>
+<li>De kaarten hebben één van de volgende drie statussen, die door middel van css visueel van elkaar te onderscheiden zijn. Zorg ervoor dat van elke status tenminste één kaart in je uitwerking aanwezig is.<ul>
 <li>gesloten</li>
 <li>open</li>
 <li>gevonden</li>
 </ul>
 </li>
-<li>rechts van het speelvlak staat de volgende informatie:<ul>
+<li>Er is ruimte voor de volgende informatie:<ul>
 <li>een top vijf</li>
 <li>totaal gemiddelde speeltijd</li>
 </ul>
 </li>
-<li>hieronder staan twee drop-downs waarmee de volgende instellingen kunnen worden gekozen:<ul>
+<li>Er zijn twee drop-downs waarmee de volgende instellingen kunnen worden gekozen:<ul>
 <li>het karakter op de (gesloten) speelkaarten</li>
 <li>de afmetingen van het speelbord</li>
 </ul>
 </li>
-<li>daaronder staan drie kleur-selecties:<ul>
+<li>Er zijn drie kleurselectieknoppen voor de volgende instellingen:<ul>
 <li>de kleur van de gesloten kaarten</li>
 <li>de kleur van de open kaarten</li>
 <li>de kleur van de gevonden kaarten</li>
 </ul>
 </li>
-<li>tenslotte staat er een knop waarmee (later) het spel gestart kan worden</li>
-<li>voor de verschillende onderdelen zijn passende HTML elementen gebruikt</li>
-<li>er is rekening gehouden met toegankelijkheid, zodat bijvoorbeeld gebruikers met een screen reader de webapplicatie kunnen gebruiken</li>
-<li>het spel is responsive, en wordt gebruiksvriendelijk getoond op zowel desktop apparaten als mobiele telefoons, waarbij gebruik is gemaakt van mobile-first design</li>
+<li>Er is een knop waarmee het spel gestart kan worden</li>
+</ul>
+<p>Verder zijn er nog de volgende niet-functionele vereisten:</p>
+<ul>
+<li>Voor de verschillende onderdelen zijn passende HTML elementen gebruikt</li>
+<li>Er is rekening gehouden <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">met toegankelijkheid</a>, zodat bijvoorbeeld gebruikers met een screen reader de webapplicatie kunnen gebruiken</li>
+<li>Het spel is <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design">responsive</a> en wordt gebruiksvriendelijk getoond op zowel desktop apparaten als mobiele telefoons, waarbij gebruik is gemaakt van <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive/Mobile_first">mobile-first design</a>. Zorg voor de juiste <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">media-queries</a>.</li>
 </ul>
 <p><img alt="Het memory-spel zoals het er uit kan komen te zien" src="../imgs/memory-demo.png" /></p>
 <h3 id="leesopdracht-30">Leesopdracht (30%)<a class="headerlink" href="#leesopdracht-30" title="Permanent link">&para;</a></h3>

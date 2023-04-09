@@ -79,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#memory-week-7" class="md-skip">
+        <a href="#memory-week-7-geaggregeerde-data-toetsmoment" class="md-skip">
           Ga naar inhoud
         </a>
       
@@ -882,16 +882,12 @@
                   
 
 
-<h1 id="memory-week-7">Memory week 7:<a class="headerlink" href="#memory-week-7" title="Permanent link">&para;</a></h1>
-<p>De backend geeft ook geaggregeerde data terug. Het idee hiervan is dat een administrator (<code>ROLE_ADMIN</code>) van deze endpoints gebruik kan maken om te zien hoeveel spellen er gespeeld zijn, wie zich heeft aangemeld (voor irritante direct-marketing-doeleinden bijvoorbeeld) en welke API's populair zijn.</p>
-<p>In deze opdracht moet je de pagina voor de administrator maken. (<em>Je hoeft dus niet het memory-spel opnieuw te bouwen</em>, maar je kunt natuurlijk wel een linkje naar de administrator-kant geven). </p>
-<p>Maak gebruik van <a href="https://angular.io">Angular</a> om met behulp van <a href="https://github.com/hanze-hbo-ict/memory-backend">de backend van de memory-game</a> deze geaggregeerde data op te halen en in een fraaie visualisatie te tonen. Bekijk welke geaggregeerde data de backend teruggeeft om een idee te krijgen van de mogelijkheden (en als je een spannende toevoeging ziet, doe vooral een PR). </p>
-<p>Je bent vrij in de uitwerking en layout van de applicatie, dus leef je uit! Er moet <em>wel</em> een visualisatie inzitten, dus niet gewoon een row-dump van de data. Je mag zelf de visualisatie bedenken, of gebruik maken van de standaarden die in Angular zitten.</p>
-<p>Zorg er ook voor dat het volgende in je applicatie verwerkt zit:</p>
+<h1 id="memory-week-7-geaggregeerde-data-toetsmoment">Memory week 7: Geaggregeerde data (Toetsmoment)<a class="headerlink" href="#memory-week-7-geaggregeerde-data-toetsmoment" title="Permanent link">&para;</a></h1>
+<p>Voor de angular-applicatie gelden dezelfde regels als voor het memory-spel zelf, dus gebruikersvriendelijkheid, responsiveness en mobile first. Zorg er ook voor dat je de applicatie voorziet van een fraaie vormgeving (wat 'fraai' is mag je zelf bedenken).</p>
+<p>Zorg er verder voor dat de volgende niet-functionele requirements in je applicatie verwerkt zitten:</p>
 <ul>
 <li>(Herhalende) functionaliteiten/onderdelen zijn op een logische manier gescheiden in verschillende <code>components</code>.</li>
 <li>Er worden <code>services</code> gebruikt voor het afhandelen van de API requests, JWT logica, en eventueel functionaliteiten en data die gedeeld worden door meerdere <code>components</code>.</li>
-<li>Er is duidelijk aandacht besteed aan het uiterlijk en de gebruiksvriendelijkheid van de applicatie.</li>
 <li>Indien daar een goede reden voor is mogen <code>NgModules</code> gebruikt worden, maar dit is niet noodzakelijk.</li>
 <li>Het Angular project gebruikt Typescript als taal, dus geen JavaScript.</li>
 <li>Het delen van data tussen componenten d.m.v. <code>@Input()</code>, <code>@Output()</code>, <em>property binding</em> en <em>event binding</em> komt voor in de applicatie.</li>
