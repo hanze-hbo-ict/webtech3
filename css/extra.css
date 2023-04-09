@@ -7,6 +7,8 @@ img { display:block; margin:auto; width:55%; border:solid gray 1px;cursor:pointe
 img:hover{opacity:0.7}
 h2 { font-size:1.5rem; }
 h3 { font-size:1.2rem; font-weight:700; }
+sup.small { font-size:small; }
+
 #modal-image { cursor:default; opacity:1;}
 
 /* from https://www.w3schools.com/howto/howto_css_modal_images.asp */

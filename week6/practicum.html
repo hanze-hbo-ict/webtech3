@@ -14,8 +14,14 @@
       
         <link rel="canonical" href="https://hanze-hbo-ict.github.io/webtech3/week6/practicum.html">
       
+      
+        <link rel="prev" href="index.html">
+      
+      
+        <link rel="next" href="memory.html">
+      
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.6">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.6">
     
     
       
@@ -23,17 +29,13 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.4a0965b7.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ded33207.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
-        
-          
-          
-          <meta name="theme-color" content="#546d78">
-        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a0c5b2b5.min.css">
       
       
+
     
     
     
@@ -54,10 +56,11 @@
     
       <link rel="stylesheet" href="../css/pandas-dataframe.css">
     
-    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
+    
     
     
   </head>
@@ -68,7 +71,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue-grey" data-md-color-accent="orange">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="orange">
   
     
     
@@ -90,7 +93,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../index.html" title="Webtechnologie 3" class="md-header__button md-logo" aria-label="Webtechnologie 3" data-md-component="logo">
       
@@ -132,9 +137,9 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
+      <nav class="md-search__options" aria-label="Zoeken">
         
-        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Leegmaken" aria-label="Leegmaken" tabindex="-1">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
       </nav>
@@ -144,9 +149,9 @@
       <div class="md-search__scrollwrap" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Initializing search
+            Zoeken initialiseren
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
@@ -176,7 +181,7 @@
                     
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Navigatie" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../index.html" title="Webtechnologie 3" class="md-nav__button md-logo" aria-label="Webtechnologie 3" data-md-component="logo">
       
@@ -260,17 +265,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_5">
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
           1. HTML en CSS 1
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="1. HTML en CSS 1" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
           1. HTML en CSS 1
@@ -336,17 +342,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_6">
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
           2. HTML en CSS 2
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="2. HTML en CSS 2" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
           2. HTML en CSS 2
@@ -412,17 +419,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_7">
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
           3. Javascript
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="3. Javascript" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
           3. Javascript
@@ -488,17 +496,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_8">
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
           4. Externe bronnen
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="4. Externe bronnen" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_8">
           <span class="md-nav__icon md-icon"></span>
           4. Externe bronnen
@@ -564,17 +573,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_9">
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
           5. Beveiliging en JWT
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="5. Beveiliging en JWT" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_9">
           <span class="md-nav__icon md-icon"></span>
           5. Beveiliging en JWT
@@ -642,17 +652,18 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" checked>
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
       
       
       
-      
-        <label class="md-nav__link" for="__nav_10">
+        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
           6. MVC en Frameworks 1
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="6. MVC en Frameworks 1" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_10">
           <span class="md-nav__icon md-icon"></span>
           6. MVC en Frameworks 1
@@ -682,7 +693,7 @@
   
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
         
@@ -800,17 +811,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_11">
+        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
           7. MVC en Frameworks 2
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="7. MVC en Frameworks 2" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_11">
           <span class="md-nav__icon md-icon"></span>
           7. MVC en Frameworks 2
@@ -947,10 +959,11 @@
               </div>
             
           
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
-              
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
                 
+                  
 
 
 <h1 id="practicum-week-6">Practicum week 6<a class="headerlink" href="#practicum-week-6" title="Permanent link">&para;</a></h1>
@@ -961,17 +974,17 @@
 <h2 id="van-ts-naar-js">Van TS naar JS<a class="headerlink" href="#van-ts-naar-js" title="Permanent link">&para;</a></h2>
 <p>Omdat browsers geen TypeScript aankunnen, moet je je TypeScript-bestanden eerst omzetten naar JavaScript – een techniek die bekend staat als <a href="https://learntypescript.dev/11/l3-transpilation">transpileren</a>. Er zijn verschillende manieren om dat te doen, maar in dit practicum maken we gebruik van <code>tsc</code>. Om dit aan de praat te krijgen moet je even wat infrastructuur opzetten:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># directory waar we gaan werken</span>
-mkdir typescript
-<span class="nb">cd</span> typescript
+mkdir<span class="w"> </span>typescript
+<span class="nb">cd</span><span class="w"> </span>typescript
 
 <span class="c1"># initialiseren van npm met alle default-waarden</span>
-npm init -y
+npm<span class="w"> </span>init<span class="w"> </span>-y
 
 <span class="c1"># installatie van typescript</span>
-npm install typescript --save-dev
+npm<span class="w"> </span>install<span class="w"> </span>typescript<span class="w"> </span>--save-dev
 
 <span class="c1"># instalaltie van tsc</span>
-npx tsc --init
+npx<span class="w"> </span>tsc<span class="w"> </span>--init
 </code></pre></div>
 <p>Vervolgens kun je de opgaven maken in <code>index.ts</code> en transpileren met <code>npx tsc</code>. Dat genereert een bestand <code>index.js</code> wat je vervolgens kun runnen met <code>node</code>.</p>
 <div class="admonition info">
@@ -1005,13 +1018,13 @@ npx tsc --init
 <h3 id="opgave-2-interfaces">Opgave 2: interfaces<a class="headerlink" href="#opgave-2-interfaces" title="Permanent link">&para;</a></h3>
 <p>Eén van de ideeën achter TypeScript is dat deze taal types toevoegt aan JavaScript. In deze opgave gaan we de klasse <code>Stad</code> uitbreiden met twee zelfgemaakte typen: <code>Park</code> en <code>Cafe</code>. Elke goede stad heeft een aantal parken en een aantal café's. Een park heeft een naam, een grootte en een aantal banken dat je in het park kunt vinden. Een café heeft een naam, een aantal tafels en een lijst van bieren die je in dat café kunt bestellen.</p>
 <p>Definieer de beide interfaces <code>Park</code> en <code>Cafe</code>, overeenkomstig de omschrijving die hierboven gegeven is. Voeg vervolgens een attribuut <code>parken</code> en <code>cafés</code> (eventueel zonder accent aigue) toe aan de klasse <code>Stad</code>: aangezien steden meerdere parken en kroegen kunnen hebben, moet dit natuurlijk een <em>lijst</em> zijn. Voorzie daarom deze klasse van een methode <code>addCafe(c:Cafe)</code> en van een methode <code>addPark(p:Park)</code>. Maak ook <code>getters</code> voor beide attributen. Je kunt onderstaande code gebruiken om je uitwerking te testen.</p>
-<div class="highlight"><pre><span></span><code><span class="nx">groningen</span><span class="p">.</span><span class="nx">addCafe</span><span class="p">({</span><span class="nx">naam</span><span class="o">:</span><span class="s2">&quot;De Minnaar&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">bieren</span><span class="o">:</span><span class="p">[</span><span class="s2">&quot;Jupiler&quot;</span><span class="p">,</span><span class="s2">&quot;Karmeliet&quot;</span><span class="p">],</span><span class="w"> </span><span class="nx">stoelen</span><span class="o">:</span><span class="kt">20</span><span class="p">})</span><span class="w"></span>
-<span class="nx">groningen</span><span class="p">.</span><span class="nx">addCafe</span><span class="p">({</span><span class="nx">naam</span><span class="o">:</span><span class="s2">&quot;De Bres&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">bieren</span><span class="o">:</span><span class="p">[</span><span class="s2">&quot;Dommelsch&quot;</span><span class="p">,</span><span class="s2">&quot;Heineken&quot;</span><span class="p">],</span><span class="nx">stoelen</span><span class="o">:</span><span class="kt">13</span><span class="p">})</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="nx">groningen</span><span class="p">.</span><span class="nx">addCafe</span><span class="p">({</span><span class="nx">naam</span><span class="o">:</span><span class="s2">&quot;De Minnaar&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">bieren</span><span class="o">:</span><span class="p">[</span><span class="s2">&quot;Jupiler&quot;</span><span class="p">,</span><span class="s2">&quot;Karmeliet&quot;</span><span class="p">],</span><span class="w"> </span><span class="nx">stoelen</span><span class="o">:</span><span class="kt">20</span><span class="p">})</span>
+<span class="nx">groningen</span><span class="p">.</span><span class="nx">addCafe</span><span class="p">({</span><span class="nx">naam</span><span class="o">:</span><span class="s2">&quot;De Bres&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">bieren</span><span class="o">:</span><span class="p">[</span><span class="s2">&quot;Dommelsch&quot;</span><span class="p">,</span><span class="s2">&quot;Heineken&quot;</span><span class="p">],</span><span class="nx">stoelen</span><span class="o">:</span><span class="kt">13</span><span class="p">})</span>
 
-<span class="nx">groningen</span><span class="p">.</span><span class="nx">addPark</span><span class="p">({</span><span class="nx">naam</span><span class="o">:</span><span class="s2">&quot;Noorderplantsoen&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">grootte</span><span class="o">:</span><span class="kt">120</span><span class="p">,</span><span class="w"> </span><span class="nx">banken</span><span class="o">:</span><span class="kt">20</span><span class="p">})</span><span class="w"></span>
-<span class="nx">groningen</span><span class="p">.</span><span class="nx">addPark</span><span class="p">({</span><span class="nx">naam</span><span class="o">:</span><span class="s2">&quot;Stadspark&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">grootte</span><span class="o">:</span><span class="kt">350</span><span class="p">,</span><span class="w"> </span><span class="nx">banken</span><span class="o">:</span><span class="kt">10</span><span class="p">})</span><span class="w"></span>
+<span class="nx">groningen</span><span class="p">.</span><span class="nx">addPark</span><span class="p">({</span><span class="nx">naam</span><span class="o">:</span><span class="s2">&quot;Noorderplantsoen&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">grootte</span><span class="o">:</span><span class="kt">120</span><span class="p">,</span><span class="w"> </span><span class="nx">banken</span><span class="o">:</span><span class="kt">20</span><span class="p">})</span>
+<span class="nx">groningen</span><span class="p">.</span><span class="nx">addPark</span><span class="p">({</span><span class="nx">naam</span><span class="o">:</span><span class="s2">&quot;Stadspark&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">grootte</span><span class="o">:</span><span class="kt">350</span><span class="p">,</span><span class="w"> </span><span class="nx">banken</span><span class="o">:</span><span class="kt">10</span><span class="p">})</span>
 
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">groningen</span><span class="p">.</span><span class="nx">getCafes</span><span class="p">())</span><span class="w"></span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">groningen</span><span class="p">.</span><span class="nx">getCafes</span><span class="p">())</span>
 </code></pre></div>
 <div class="admonition info">
 <p class="admonition-title">Creatio ex nihilo</p>
@@ -1022,85 +1035,54 @@ npx tsc --init
 <p>Waarschijnlijk heb je tot nu toe alle bovenstaande uitwerkingen in één bestand (<code>index.ts</code>) staan. Eén van de problemen die JavaScript heeft (of <em>had</em>, eigenlijk) is dat het lastig is om code in verschillende bestanden met elkaar samen te laten werken. Je kunt natuurlijk in je html-bestand verschillende <code>script</code>-tags achter elkaar zetten (zoals je weet zijn die <em>blocking</em>), maar dat is niet echt praktisch. Om die reden heeft TypeScript het concept van <a href="https://www.typescriptlang.org/docs/handbook/modules.html"><em>modules</em></a> toegevoegd.</p>
 <p>Hernoem je bestand <code>index.ts</code> naar <code>Stad.ts</code>. Deze module moet zowel de klasse <code>Stad</code> exporteren als de bijhorende interfaces exporteren: voorzie ze daarvoor van het sleutelwoord <a href="https://www.typescriptlang.org/docs/handbook/modules.html#export"><code>export</code></a>.</p>
 <p>Maak vervolgens een nieuw bestand <code>index.ts</code> aan, waarin je de klasse <code>Stad</code> uit het bestand dat je zojuist hebt gemaakt importeert. Verplaats vervolgens de code die je in de vorige twee opgaven hebt gemaakt naar dit nieuwe index-bestand. Transpileer de boel en bestudeer het gegenereerde JavaScript-bestand. Als het goed is, kun je nu opnieuw de <code>index.js</code> runnen en krijg je hetzelfde resultaat.</p>
-<div class="highlight"><pre><span></span><code>&gt; node index.js
+<div class="highlight"><pre><span></span><code>&gt;<span class="w"> </span>node<span class="w"> </span>index.js
 <span class="o">[</span>
-  <span class="o">{</span>
-    naam: <span class="s1">&#39;De Minnaar&#39;</span>,
-    bieren: <span class="o">[</span> <span class="s1">&#39;Jupiler&#39;</span>, <span class="s1">&#39;Karmeliet&#39;</span> <span class="o">]</span>,
-    stoelen: <span class="m">20</span>
-  <span class="o">}</span>,
-  <span class="o">{</span> 
-    naam: <span class="s1">&#39;De Bres&#39;</span>, 
-    bieren: <span class="o">[</span> <span class="s1">&#39;Dommelsch&#39;</span>, <span class="s1">&#39;Heineken&#39;</span> <span class="o">]</span>, 
-    stoelen: <span class="m">13</span> 
-  <span class="o">}</span>
+<span class="w">  </span><span class="o">{</span>
+<span class="w">    </span>naam:<span class="w"> </span><span class="s1">&#39;De Minnaar&#39;</span>,
+<span class="w">    </span>bieren:<span class="w"> </span><span class="o">[</span><span class="w"> </span><span class="s1">&#39;Jupiler&#39;</span>,<span class="w"> </span><span class="s1">&#39;Karmeliet&#39;</span><span class="w"> </span><span class="o">]</span>,
+<span class="w">    </span>stoelen:<span class="w"> </span><span class="m">20</span>
+<span class="w">  </span><span class="o">}</span>,
+<span class="w">  </span><span class="o">{</span><span class="w"> </span>
+<span class="w">    </span>naam:<span class="w"> </span><span class="s1">&#39;De Bres&#39;</span>,<span class="w"> </span>
+<span class="w">    </span>bieren:<span class="w"> </span><span class="o">[</span><span class="w"> </span><span class="s1">&#39;Dommelsch&#39;</span>,<span class="w"> </span><span class="s1">&#39;Heineken&#39;</span><span class="w"> </span><span class="o">]</span>,<span class="w"> </span>
+<span class="w">    </span>stoelen:<span class="w"> </span><span class="m">13</span><span class="w"> </span>
+<span class="w">  </span><span class="o">}</span>
 <span class="o">]</span>
 </code></pre></div>
 <p>Maak nu een nieuwe module waarin je de klasse <code>Provincie</code> definieert. Een provincie heeft een lijst van steden, een hoofdstad en een positie in het land. Maak voor dat laatste attribuut gebruik van het onderstaande <code>enum</code>. </p>
-<div class="highlight"><pre><span></span><code><span class="kd">enum</span><span class="w"> </span><span class="nx">Positie</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">    </span><span class="nx">Noord</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nx">Zuid</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nx">Oost</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="nx">West</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="kd">enum</span><span class="w"> </span><span class="nx">Positie</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">Noord</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">Zuid</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">Oost</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">West</span>
+<span class="p">}</span>
 </code></pre></div>
 <p>Zorg ervoor dat je bij het aanmaken van een object van het type <code>Provincie</code> de <em>naam</em> en de <em>positie</em> mee moet gegven. Voorzie deze klasse verder van een methode <code>getInwoners()</code>, waarin je het totaal van de inwoners van alle steden retourneert, en van een methode <code>addSteden</code>, waaraan je een <em>willekeurig aantal</em> steden kunt meegeven die vervolgens aan de lijst van steden wordt toegevoegd.</p>
 <p>!!! Warning: "Let op"
     Bij deze laatste opgave is het de bedoeling dat je gebruik maakt van de <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax">spread-operator</a></p>
 <p>Je kunt de onderstaande code gebruiken om je uitwerking te testen, en ook om een beeld te krijgen van wat de bedoeling is.</p>
-<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">grunn</span><span class="o">:</span><span class="kt">Provincie</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">Provincie</span><span class="p">(</span><span class="s2">&quot;Grunn&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">Positie</span><span class="p">.</span><span class="nx">Noord</span><span class="p">);</span><span class="w"></span>
-<span class="nx">grunn</span><span class="p">.</span><span class="nx">addSteden</span><span class="p">(</span><span class="nx">groningen</span><span class="p">,</span><span class="w"> </span><span class="nx">winsum</span><span class="p">,</span><span class="w"> </span><span class="nx">delfzijl</span><span class="p">)</span><span class="w"></span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`Onze provincie heeft </span><span class="si">${</span><span class="nx">grunn</span><span class="p">.</span><span class="nx">getInwoners</span><span class="p">()</span><span class="si">}</span><span class="sb"> inwoners`</span><span class="p">)</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">grunn</span><span class="o">:</span><span class="kt">Provincie</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">Provincie</span><span class="p">(</span><span class="s2">&quot;Grunn&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">Positie</span><span class="p">.</span><span class="nx">Noord</span><span class="p">);</span>
+<span class="nx">grunn</span><span class="p">.</span><span class="nx">addSteden</span><span class="p">(</span><span class="nx">groningen</span><span class="p">,</span><span class="w"> </span><span class="nx">winsum</span><span class="p">,</span><span class="w"> </span><span class="nx">delfzijl</span><span class="p">)</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`Onze provincie heeft </span><span class="si">${</span><span class="nx">grunn</span><span class="p">.</span><span class="nx">getInwoners</span><span class="p">()</span><span class="si">}</span><span class="sb"> inwoners`</span><span class="p">)</span>
 </code></pre></div>
 <h2 id="angular">Angular<a class="headerlink" href="#angular" title="Permanent link">&para;</a></h2>
 <p>Na deze relatief eenvoudige oefeningen gaan we verder met het werken met Angular. Hiervoor maken we gebruik van <a href="https://angular.io/start#take-a-tour-of-the-example-application">getting started with Angular</a>. Je kunt Angular op je lokale machine installeren, maar je kunt voor dit practicum ook gebruik maken van <a href="https://stackblitz.com/">StackBlitz</a>. Hier kun je eenvoudig in je browser je Angular-projecten uitproberen. Je kunt hier inloggen met je Github-account.</p>
 <p><img alt="Angular in Stackblitz" src="imgs/stackblitz.png" /></p>
 
-              
-            </article>
-            
-          </div>
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
         </div>
         
       </main>
       
         <footer class="md-footer">
-  
-    
-    <nav class="md-footer__inner md-grid" aria-label="Footer" >
-      
-        
-        <a href="index.html" class="md-footer__link md-footer__link--prev" aria-label="Vorige: Inleiding" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Vorige
-              </span>
-              Inleiding
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="memory.html" class="md-footer__link md-footer__link--next" aria-label="Volgende: Memory" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Volgende
-              </span>
-              Memory
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1126,10 +1108,11 @@ npx tsc --init
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.85cb4492.min.js", "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.config.lang": "nl", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Zoeken", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.result.more.one": "1 extra overeenkomst op deze pagina", "search.result.more.other": "# extra overeenkomsten op deze pagina", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Ontbreekt", "select.version": "Selecteer versie"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.a877e258.min.js"></script>
+      <script src="../assets/javascripts/bundle.51198bba.min.js"></script>
       
         <script src="../js/imgs.js"></script>
       
