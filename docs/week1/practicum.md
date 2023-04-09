@@ -12,11 +12,7 @@ In dit practicum maak je kennis met algemene frontend technieken, waaronder comp
 **2e helft**: HTML & CSS
 - CV bouwen
 
----
-
-## Browser & webpagina's
-
-#### [ 1/4 ] Inspect element (10 minuten)
+## 1. Browser & webpagina's
 
 Open de browser en navigeer naar [hanze.nl](https://www.hanze.nl). Klik met de rechtermuistoets ergens willekeurig op de pagina en selecteer “inspect” of “inspect element”.
 
@@ -32,15 +28,11 @@ Open de browser en navigeer naar [hanze.nl](https://www.hanze.nl). Klik met de r
 
 ---
 
-#### [ 2/4 ] Inspect element (10 minuten)
-
 Verander de nieuwskoppen van je favoriete nieuwssite naar wat luchtiger/positiever nieuws, publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/klbeard1/webtech).
 
 ![Nieuwskoppen van NOS veranderd](files/nos.PNG)
 
 ---
-
-#### [ 3/4 ] Inspect element (10 minuten)
 
 Ga naar het Twitter account van de Amerikaanse president Joe Biden. Als je een twitter account hebt, zorg dan dat je **uitgelogd** bent.
 
@@ -52,14 +44,13 @@ Ga naar het Twitter account van de Amerikaanse president Joe Biden. Als je een t
 
 ---
 
-#### [ 4/4 ] Inspect element - nabespreking (10 minuten)
 Wat vind je ervan dat je zomaar nieuwssites en Twitter posts kunt aanpassen?
 
 ![Fact / Fake](files/fake.jpeg)
 
 ---
 
-#### Styles (15 minuten)
+#### Styles 
 
 Open de browser en navigeer naar [hanze.nl](https://www.hanze.nl). Klik met de rechtermuistoets ergens willekeurig op de pagina en selecteer “inspect” of “inspect element”. Open in het tabje Elements het tabje Styles.
 
@@ -76,7 +67,7 @@ Open de browser en navigeer naar [hanze.nl](https://www.hanze.nl). Klik met de r
 
 ---
 
-#### Network (10 minuten)
+#### Network 
 
 1. Open het tabje Network/Netwerk en ververs [hanze.nl](https://www.hanze.nl). Wat is de url van de achtergrondfoto bovenaan de pagina?
 
@@ -91,7 +82,7 @@ Open de browser en navigeer naar [hanze.nl](https://www.hanze.nl). Klik met de r
 
 ---
 
-#### Console (15 minuten)
+#### Console 
 
 Navigeer naar [google.com](https://google.com/). Verwijder alle elementen behalve de zoekbalk en het microfoon icoontje.
 
@@ -125,7 +116,7 @@ Voeg dit principe toe aan een andere website naar keuze, en doe dit met meerdere
 
 ---
 
-#### Performance (10 minuten)
+#### Performance 
 
 Bekijk en inspecteer de website: [http://motherfuckingwebsite.com/](http://motherfuckingwebsite.com/). De makers ervan beweren dat dit dé perfecte website is, onder andere omdat het *lightweight* is en snel laadt. We gaan deze bewering over de high performance testen met Lighthouse. 
 
@@ -141,7 +132,6 @@ Nabespreking (10 minuten)
 
 ## HTML & CSS
 
-#### [ 1/2 ] CV in HTML (30 minuten)
 
 Maak in een HTML bestand je (fictieve droom) CV en gebruik tenminste de volgende HTML elementen. Je hoeft nog geen CSS toe te voegen.
 
@@ -158,7 +148,6 @@ Maak in een HTML bestand je (fictieve droom) CV en gebruik tenminste de volgende
 
 ---
 
-#### [ 2/2 ] CV met CSS (30 minuten)
 
 Voeg styling toe aan je CV, en denk aan:
 
