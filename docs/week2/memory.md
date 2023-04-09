@@ -7,36 +7,39 @@ Voor het eerste toetsmoment staat hieronder beschreven wat er opgeleverd dient t
 !!! Warning "Let op: alleen visueel!"
     Let op: het is specifiek *niet* de bedoeling dat alle functionaliteit die hieronder gesuggereerd wordt ook al werkt. In dit eerste moment is het juist het doel de voorkant volledig afgerond te hebben voordat we de boel laten werken.
 
-    Dat gezegd hebbende moet de bezoeker natuurlijk wel op de voor de hand liggende interface-elementen, zoals dropdowns en speelkaarten, kunnen klikken.
+    Dit gezegd hebbende is het natuurlijk *wel* de bedoeling dat de bezoeker van het spel duidelijk te zien krijgt welke elementen interactief zijn en welke niet: zorg hiervoor voor correct werkende en duidelijke *affordances* (in de betekenis zoals [Gibson hieraan gegeven heeft](https://en.wikipedia.org/wiki/Affordance).
+
 
 Zorg ervoor dat met behulp van html en css de onderstaande requirements zijn gerealiseerd:
 
-- bovenaan de pagina staat een titel
-- tussen de titel en het speelvlak staat de huidige status van het spel:
+- De pagina heeft een titel
+- Het is duidelijk wat de huidige staat van het spel is:
     - verlopen tijd
     - aantal gevonden paren
     - resterende tijd
-
-- hieronder staat een gekleurde balk die de grootte heeft van twee speelkaarten
-- er is een speelveld van zes bij zes speelkaarten
-- de kaarten hebben één van de volgende drie statussen, die door middel van css visueel van elkaar te onderscheiden zijn:
+- Er is een element dat visueel de tijd weergeeft dat geopende kaarten open blijven (die werkt nu nog niet, maar moet er wel zijn)
+- Er is een speelveld van zes bij zes speelkaarten (dat gaan we eveneens later dynamisch maken)
+- De kaarten hebben één van de volgende drie statussen, die door middel van css visueel van elkaar te onderscheiden zijn. Zorg ervoor dat van elke status tenminste één kaart in je uitwerking aanwezig is.
     - gesloten
     - open
     - gevonden
-- rechts van het speelvlak staat de volgende informatie:
+- Er is ruimte voor de volgende informatie:
     - een top vijf
     - totaal gemiddelde speeltijd
-- hieronder staan twee drop-downs waarmee de volgende instellingen kunnen worden gekozen:
+- Er zijn twee drop-downs waarmee de volgende instellingen kunnen worden gekozen:
     - het karakter op de (gesloten) speelkaarten
     - de afmetingen van het speelbord
-- daaronder staan drie kleur-selecties:
+- Er zijn drie kleurselectieknoppen voor de volgende instellingen:
     - de kleur van de gesloten kaarten
     - de kleur van de open kaarten
     - de kleur van de gevonden kaarten
-- tenslotte staat er een knop waarmee (later) het spel gestart kan worden
-- voor de verschillende onderdelen zijn passende HTML elementen gebruikt
-- er is rekening gehouden met toegankelijkheid, zodat bijvoorbeeld gebruikers met een screen reader de webapplicatie kunnen gebruiken
-- het spel is responsive, en wordt gebruiksvriendelijk getoond op zowel desktop apparaten als mobiele telefoons, waarbij gebruik is gemaakt van mobile-first design
+- Er is een knop waarmee het spel gestart kan worden
+
+Verder zijn er nog de volgende niet-functionele vereisten:
+
+- Voor de verschillende onderdelen zijn passende HTML elementen gebruikt
+- Er is rekening gehouden [met toegankelijkheid](https://developer.mozilla.org/en-US/docs/Web/Accessibility), zodat bijvoorbeeld gebruikers met een screen reader de webapplicatie kunnen gebruiken
+- Het spel is [responsive](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design) en wordt gebruiksvriendelijk getoond op zowel desktop apparaten als mobiele telefoons, waarbij gebruik is gemaakt van [mobile-first design](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive/Mobile_first). Zorg voor de juiste [media-queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries).
 
 ![Het memory-spel zoals het er uit kan komen te zien](../imgs/memory-demo.png)
 

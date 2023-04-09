@@ -25,3 +25,7 @@ lexik_jwt_authentication:
 ```
 
 Bestudeer eventueel [de documentatie van de LexikJWTAuthenticationBundle](https://github.com/lexik/LexikJWTAuthenticationBundle/blob/2.x/Resources/doc/1-configuration-reference.rst) om een beeld te krijgen van de werking hiervan.
+
+## Leesopdracht
+
+TBD
