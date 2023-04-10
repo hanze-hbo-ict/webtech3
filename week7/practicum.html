@@ -816,14 +816,14 @@
       
         <li class="md-nav__item">
   <a href="#2-angular" class="md-nav__link">
-    2: Angular
+    2. Angular
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#3-services" class="md-nav__link">
-    3: Services
+    3. Services
   </a>
   
 </li>
@@ -899,14 +899,14 @@
       
         <li class="md-nav__item">
   <a href="#2-angular" class="md-nav__link">
-    2: Angular
+    2. Angular
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#3-services" class="md-nav__link">
-    3: Services
+    3. Services
   </a>
   
 </li>
@@ -948,16 +948,16 @@
 <p>Voor het geval je het afvraagt, die plaatjes komen van <a href="https://randomuser.me/">randomuser.me</a>. Misschien ook nog een aardige API om toe te voegen aan het memory-spel...?</p>
 </div>
 <p>Een dergelijk veel-herhalend stukje code vraag er gewoon om om gecompartamentaliseerd te worden, en webcomponents zijn daar de tool voor. Bekijk de code in <code>person-card.js</code>. Hierin zit al een stukje css en wat andere steigercode, waarin je als het goed is de html van het voorbeeld hierboven herkent.</p>
-<h4 id="1a-het-webcomponent-maken">1a: het webcomponent maken<a class="headerlink" href="#1a-het-webcomponent-maken" title="Permanent link">&para;</a></h4>
+<h4 id="1a-het-webcomponent-maken">1a. het webcomponent maken<a class="headerlink" href="#1a-het-webcomponent-maken" title="Permanent link">&para;</a></h4>
 <p>Maak een klasse <code>PersonCard</code> die overerft van <code>HTMLElement</code>. Voorzie de klasse van een property <code>static get observerAttributes</code> die een lijstje bevat van <code>image</code>, <code>name</code> en <code>address</code>. Dit worden de attributen die we later aan onze webcomponent mee kunnen geven.</p>
 <p>Zorg voor een constructor waarin je de template die bovenin het bestand gegeven is toevoegt aan <code>this._shadowRoot</code>. Voorzie vervolgens de klassse van drie properties die corresponderen met de <code>img</code>, de <code>h4</code> en de <code>p</code> in de template. Hier gaan we zometeen de waarden aan toekennen die we bij het maken van een <code>&lt;person-card&gt;</code> meegeven.</p>
 <p>Maak tenslotte de methode <code>attributeChanged(name, oldValue, newValue)</code>. In de <code>name</code>-parameter zit één van de geobserveerde attributen die je hierboven hebt aangegeven. De <code>oldValue</code> en <code>newValue</code> spreken voor zich. In deze methode moet de (nieuwe) waarde van een attribuut toegekend worden aan het corresponderende <em>property</em> die je hierboven (in de constructor) hebt gemaakt. Let op: voor de naam en het adres volstaat het om de <code>innerHTML</code> aan te passen, maar voor de avatar moet je natuurlijk de <code>src</code> wijzigen.</p>
-<h4 id="1b-het-webcomponent-gebruiken">1b: het webcomponent gebruiken<a class="headerlink" href="#1b-het-webcomponent-gebruiken" title="Permanent link">&para;</a></h4>
+<h4 id="1b-het-webcomponent-gebruiken">1b. het webcomponent gebruiken<a class="headerlink" href="#1b-het-webcomponent-gebruiken" title="Permanent link">&para;</a></h4>
 <p>Nu we het webcomponent hebben gemaakt en gedefineerd, kunnen we al die duplicate en relatief complexe html vervangen door een stuk eenvoudiger ogende code – wat er beter uitziet en een stuk onderhoudbaarder is. Gebruik de drie attributen die je in 1a hebt gemaakt om de waarden van de verschillende personen aan de <code>&lt;person-card&gt;</code> mee te geven. Als het goed is, is het resultaat hetzelfde (voor het oog althans: de kwaliteit van onze code-base is significant verbeterd).</p>
-<h2 id="2-angular">2: Angular<a class="headerlink" href="#2-angular" title="Permanent link">&para;</a></h2>
+<h2 id="2-angular">2. Angular<a class="headerlink" href="#2-angular" title="Permanent link">&para;</a></h2>
 <p>Vorige week hebben we via wat eenvoudige oefeningen kennis gemaakt met TypeScript en met Angular. We hebben gezien hoe je met behulp van de <code>@Input()</code> en de <code>@Output()</code> annotaties data tussen verschillende componenten kunt versturen en ontvangen. Deze week gaan we dieper in op componenten en data. We kijken hierbij hoe je gebruik kunt maken van DOM-events of van Services om data tussen componenten te delen.</p>
 <p>Zorg ervoor dat je Angular (inclusief de CLI) op je lokale machine hebt draaien. Maak gebruik van <code>ng new week7</code> om een nieuw project op te starten. Dit commando maakt een nieuwe directory (<code>week7</code>) voor je aan. Vervang de bestanden in de <code>src</code>-directory door de directory <code>Angular/src/</code> die je vindt in <a href="files/week7.zip">de bestanden van deze week</a>.</p>
-<h4 id="2a-native-events">2a: Native events<a class="headerlink" href="#2a-native-events" title="Permanent link">&para;</a></h4>
+<h4 id="2a-native-events">2a. Native events<a class="headerlink" href="#2a-native-events" title="Permanent link">&para;</a></h4>
 <p>Deze opgave gaan we werken met <a href="https://angular.io/guide/architecture-modules">modules</a>. Een module kun je zien als een container waarin stukken code worden geplaatst die samen verantwoordelijk zijn voor een bepaalde functionaliteit. Dit kunnen componenten zijn, maar ook services, constanten, of andere stukken programmacode. Alle onderdelen binnen dezelfde module hebben dezelfde scope (namelijk de module en op die manier fungeert een module dan ook als een <em>sandbox</em>.</p>
 <p>Het grootste deel van de infrastructuur is al voor je opgezet. Zoals je ziet zijn er in de directory <code>app/cards</code> twee componenten: <code>docent-search</code> en <code>student-search</code>. Deze twee bestanden vormen een soort kaartje waarvan de bezoeker van de site gebruik kan maken om gegevens van docenten en van (drum roll) studenten op te vragen. Bestudeer de code om je een beeld te vormen van hoe één en ander werkt.</p>
 <p><img alt="Voorbeeld van de twee kaartjes" src="imgs/doel1.png" /></p>
@@ -965,18 +965,18 @@
 <p>In deze opgave gaan we de zoekterm die de bezoeker intypt doorsturen naar de <code>results</code>-component. Als je kijkt naar <code>app.component.ts</code> zie je dat dit een <em>sibling</em> is van de beide zoekkaartjes. De uitdaging is dus om de zoekterm en het zoektype (student of docent) naar deze sibling te krijgen. Zie onderstaande afbeelding door de flow:</p>
 <p><img alt="Algemeen overzicht van de flow van de events" src="imgs/event-handling.png" /></p>
 <p>Voeg aan de zoekkaart (<code>app/shared/search-box.component.ts</code>) een methode <code>handleEvent()</code> toe die luistert naar een <code>blur</code>-event op het input-veld en een <code>click</code> event op het loepje. Deze methode moet <a href="https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent">een custom DomElement uitsturen</a> met als naam <code>newdata</code>. Dit event stuurt de string uit het inputveld en het type waarop wordt gezocht door: deze combinatie is weergegeven in de interface <code>searchdata</code>. Maak hierbij gebruik van het <em>property</em> <code>ElementRef</code> dat je in de constructor geïnjecteerd ziet worden. Het veld <code>searchItem</code> dat je hier zit staan, wordt door de betreffende zoekkaartje geïnitialiseerd (met 'docent' of 'student') Merk op dat het input-element van het formulier voorzien is van de identifier <code>#searchbox</code>. </p>
-<h4 id="2b-afvangen">2b: Afvangen<a class="headerlink" href="#2b-afvangen" title="Permanent link">&para;</a></h4>
+<h4 id="2b-afvangen">2b. Afvangen<a class="headerlink" href="#2b-afvangen" title="Permanent link">&para;</a></h4>
 <p>Omdat dit event helemaal doorloopt tot de bovenste component (<code>app.component</code>) kunnen we het daar ook opvangen. Zoals je kunt zien maken we daar al gebruik van de module <code>search-result</code> om de gevonden resultaten onderop de pagina weer te geven. Het is de bedoeling van deze opdracht om het event dat door de search-box wordt verstuurt wordt opgevangen door de <code>app-component</code> die het vervolgens doorstuurt aan de <code>search-result</code>-component.</p>
 <p>Wanneer het customevent wordt uitgestuurd, moet deze <code>app-component</code> daarop reageren. Zorg er dus voor (in de html) dat dit event wordt afgevangen en dat er een methode in die component daarop reageert (maak gebruik van de <code>(event)="handler()</code>-syntax). Deze methode moet het veld <code>searchdata</code> zetten naar datgene wat er door het event wordt doorgestuurd.</p>
-<h4 id="2c-doorsturen">2c: Doorsturen<a class="headerlink" href="#2c-doorsturen" title="Permanent link">&para;</a></h4>
+<h4 id="2c-doorsturen">2c. Doorsturen<a class="headerlink" href="#2c-doorsturen" title="Permanent link">&para;</a></h4>
 <p>Nu we het veld <code>searchdata</code> van de <code>app.component</code> aanpassen op het moment dat er een customevent wordt doorgestuurd, kunnen we dit veld gebruiken om de corresponderende waarde in de <code>search-result</code>-component te zetten. Maak gebruik van de <code>[attribute]="value"</code>-syntax om dit te bewerkstelligen.</p>
 <p>Implementeer vervolgens (en tenslotte) de methode <code>ngOnChanges</code> in de <code>search-result</code>-component. Deze component heeft al beschikkig over de student- en docentdata, dus het enige wat hier moet doen is checken of er gezocht wordt op een student of een docent en vervolgende de betreffende array filteren op respectievelijk het studentnummer of de vierlettercode. Bekijk de data in <code>data.ts</code> om te zien hier deze arrays eruit zien.</p>
 <p>Geeft het veld <code>docentdata</code> of <code>studentdata</code> de waarde van het gevonden resultaat (en de andere array op <code>undefined</code>) en zoek een student of docent. Als het goed is, krijg je nu de resultaten van je zoekopdracht te zien.</p>
 <p><img alt="Het eindresultaat: we kunnen zoeken!" src="imgs/zoek-resultaat.png" /></p>
-<h2 id="3-services">3: Services<a class="headerlink" href="#3-services" title="Permanent link">&para;</a></h2>
+<h2 id="3-services">3. Services<a class="headerlink" href="#3-services" title="Permanent link">&para;</a></h2>
 <p>Hoewel dit werken met events op zich wel werkt, is het (zoals je merkt) behoorlijk omslachtig en foutgevoelig. Om het werken met data makkelijker te maken, wordt in de regel gebruik gemaakt van <a href="https://angular.io/guide/architecture-services">services</a> – een techniek die we in web 2 ook al zijn tegengekomen. Een service kun je <em>injecteren</em> in de componenten die er gebruik van moeten maken (ze worden dan ook voorzien van de annotatie <code>@Injectable</code>).</p>
 <p><img alt="Services worden geïnjecteerd in de modules" src="imgs/injectable.png" /></p>
-<h4 id="3a-maken-van-een-service">3a: maken van een service<a class="headerlink" href="#3a-maken-van-een-service" title="Permanent link">&para;</a></h4>
+<h4 id="3a-maken-van-een-service">3a. maken van een service<a class="headerlink" href="#3a-maken-van-een-service" title="Permanent link">&para;</a></h4>
 <p>Maak met de angular CLI een service <code>data</code>. Bestudeer de code die voor je gegenereert wordt:</p>
 <div class="highlight"><pre><span></span><code>%<span class="w"> </span>ng<span class="w"> </span>generate<span class="w"> </span>service<span class="w"> </span>data
 CREATE<span class="w"> </span>src/app/data.service.spec.ts<span class="w"> </span><span class="o">(</span><span class="m">347</span><span class="w"> </span>bytes<span class="o">)</span>
@@ -988,7 +988,7 @@ CREATE<span class="w"> </span>src/app/data.service.ts<span class="w"> </span><sp
 <p>Dat tweede bestand <code>spec.ts</code> is het bestand dat je kunt gebruiken voor het <em>testen</em> van de gegenereerde service. Je kunt die eventueel wel weer weghalen, want testen doen we natuurlijk niet.</p>
 </div>
 <p>Feitelijk doet deze service hetzelfde als wat je net in opdracht 1c hebt gedaan: het bevragen van de data op basis van een <code>searchdata</code>-object en dat opslaan in de corresponderende velden (<code>docentdata</code> of <code>studentdata</code>). Je kunt dus grote delen van deze code kopiëren in een methode <code>getData(what:searchdata)</code> die je in deze service moet maken.</p>
-<h4 id="3b-publish-subscribe">3b: publish-subscribe<a class="headerlink" href="#3b-publish-subscribe" title="Permanent link">&para;</a></h4>
+<h4 id="3b-publish-subscribe">3b. publish-subscribe<a class="headerlink" href="#3b-publish-subscribe" title="Permanent link">&para;</a></h4>
 <p>Zoals tijdens de theorieles is besproken, kun je werken met services zien als een vorm van publish-subscribe. Dat betekent dat je de service moet voorzien van een attribuut waar andere componenten zich op kunne abonneren. In het geval van Angular wordt hierbij gebruik gemaakt van <a href="https://www.learnrxjs.io/learn-rxjs/subjects/behaviorsubject">RxJS BehaviorSubject</a>. Je kunt deze properties gebruiken om wijzigingen in een andere property te versturen.  Bekijk onderstaande (pseudo-)code om hier een beeld bij te krijgen.</p>
 <div class="highlight"><pre><span></span><code><span class="kd">@Injectable</span><span class="p">()</span>
 <span class="kd">class</span><span class="w"> </span><span class="nx">Publisher</span><span class="w"> </span><span class="p">{</span>
@@ -1016,9 +1016,9 @@ CREATE<span class="w"> </span>src/app/data.service.ts<span class="w"> </span><sp
 <span class="p">}</span>
 </code></pre></div>
 <p>Gebruik deze techniek om de data van studenten en docenten via de service beschikbaar te maken aan de <code>result</code>-component (dat wordt in dit verhaal dus de <em>subscriber</em>).</p>
-<h4 id="3c-weergeven-van-de-data">3c: weergeven van de data<a class="headerlink" href="#3c-weergeven-van-de-data" title="Permanent link">&para;</a></h4>
+<h4 id="3c-weergeven-van-de-data">3c. weergeven van de data<a class="headerlink" href="#3c-weergeven-van-de-data" title="Permanent link">&para;</a></h4>
 <p>Injecteer vervolgens de service in de <code>search</code>-component en zorg ervoor dat de methode <code>handleEvent</code> nu geen gebruik meer maakt van een customevent, maar juist van de method <code>getData()</code> in de service. Als je het goed hebt gedaan, zie je nu opnieuw de resultaten van de zoekopdracht in het veld onderaan de pagina verschijnen.</p>
-<h4 id="3d-online-data">3d: online data<a class="headerlink" href="#3d-online-data" title="Permanent link">&para;</a></h4>
+<h4 id="3d-online-data">3d. online data<a class="headerlink" href="#3d-online-data" title="Permanent link">&para;</a></h4>
 <p>Natuurlijk is het meestal niet zo dat de data die getoond moet worden op de frontend zelf beschikbaar is. Normaliter maak je gebruik van een backend, waar een database achter zit. In deze laatste opdracht gaan we deze stap zetten.</p>
 <p>In <a href="files/week7.zip">de bestanden van deze week</a> zit ook een directory <code>Backend</code>, waarin een heel eenvoudig php-script dezelfde data beschikbaar stelt als die in het bestand <code>data.ts</code>. Start in deze directory een php-server op (<code>php -S localhost:8080</code>) en vervang de code in de dataservice door een <code>fetch</code> naar deze backend. Het endpoint <code>data.php?what=docent</code> geeft je de docentdata terug en het endpoint <code>data.php?what=student</code> de studentdata.</p>
 <p>Maak gebruik van je kennis van <code>Promises</code> om de boel weer aan de praat te krijgen.</p>
