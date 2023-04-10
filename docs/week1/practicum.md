@@ -38,7 +38,7 @@ Ga naar het Twitter account van de Amerikaanse president Joe Biden. Als je een t
 
 1. Scroll naar beneden en je zult gevraagd worden om in te loggen of te registeren. Doe dit niet. Zorg in plaats daarvan dat je de "muur" verwijdert, het het scrollen weer activeert. **Hint**: zoek naar het element waarbij in CSS de `pointer-events` zijn uitgeschakeld (tabje Styles). Als je die gevonden hebt, schakel de pointer events weer in.
 
-1. Pas vervolgens een willekeurige tweet aan door een tekst naar keuze, publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/klbeard1/webtech).
+1. Pas vervolgens een willekeurige tweet aan door een tekst naar keuze, publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/bbarnard3/web3biden).
 
 ![Joe Biden](files/biden.PNG)
 
@@ -61,7 +61,7 @@ Open de browser en navigeer naar [hanze.nl](https://www.hanze.nl). Klik met de r
 1. Vervang de teksten bovenaan de pagina (welkomsttekst, menu-items, etc.) door teksten naar keuze.
 1. Vervang de achtergrondkleuren door een kleur naar keuze.
 1. Vervang het Hanze logo door een logo van een ander bedrijf naar keuze (link).
-1. Publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/klbeard1/webtech).
+1. Publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/bbarnard3/web3).
 
 ![Styles](files/styles.PNG)
 
@@ -123,8 +123,6 @@ Bekijk en inspecteer de website: [http://motherfuckingwebsite.com/](http://mothe
 - Vergelijk de score voor performance met deze sites: [hanze.nl](https://www.hanze.nl), [nos.nl](https://www.nos.nl), en [w3schools.com](https://www.w3schools.com). Wat zijn de scores? Waardoor denk je dat de een beter scoort dan de ander?
 
 - Bekijk de details van de performance scores voor de verschillende sites. Wat valt je op?
-
-Nabespreking (10 minuten)
 
 ![Lighthouse](files/lighthouse.PNG)
 

@@ -15,8 +15,8 @@ Zorg ervoor dat met behulp van html en css de onderstaande requirements zijn ger
 - De pagina heeft een titel
 - Het is duidelijk wat de huidige staat van het spel is:
     - verlopen tijd
-    - aantal gevonden paren
     - resterende tijd
+    - aantal gevonden paren
 - Er is een element dat visueel de tijd weergeeft dat geopende kaarten open blijven (die werkt nu nog niet, maar moet er wel zijn)
 - Er is een speelveld van zes bij zes speelkaarten (dat gaan we eveneens later dynamisch maken)
 - De kaarten hebben één van de volgende drie statussen, die door middel van css visueel van elkaar te onderscheiden zijn. Zorg ervoor dat van elke status tenminste één kaart in je uitwerking aanwezig is.
@@ -53,4 +53,4 @@ Verder zijn er nog de volgende niet-functionele vereisten:
 
 2. Lees het [artikel over responsive web design](https://www.freecodecamp.org/news/taking-the-right-approach-to-responsive-web-design/) (of hier als [bestand](../materialen/week2-flexbox/responsive.pdf)) en beantwoord de volgende vraag in een korte alinea.
 
-    a. Er zijn twee benaderingen als het gaat om responsive web design: mobile-first of desktop-first. Niet iedereen is het eens over welke de voorkeur zou moeten hebben, alhoewel de één wellicht populairder is dan de ander. Dit artikel betoogt een duidelijke voorkeur. Ben jij het met de schrijver van het artikel eens? Leg uit waarom je het hier wel of niet mee eens bent met behulp van een argument dat in het artikel wordt genoemd.
+Er zijn twee benaderingen als het gaat om responsive web design: mobile-first of desktop-first. Niet iedereen is het eens over welke de voorkeur zou moeten hebben, alhoewel de één wellicht populairder is dan de ander. Dit artikel betoogt een duidelijke voorkeur. Ben jij het met de schrijver van het artikel eens? Leg uit waarom je het hier wel of niet mee eens bent met behulp van een argument dat in het artikel wordt genoemd.

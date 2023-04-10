@@ -20,7 +20,7 @@ De pagina bestaat uit een aantal onderdelen: de titel met daaronder wat rubrieke
 
 De pagina heeft nu niet een heel nieuwswaardige uitstraling: overal is het lettertype hetzelfde en om historische redenen is het gebruikelijk dat nieuws overtuigende overkomt wanneer in ieder geval de titel van de site een schreefletter heeft. Bovendien is het stom dat deze tekst rücktsichlos gecenteerd wordt.
 
-Lijn zowel de titel als de rubrieken links uit. Geef de titel ('Het Nieuws') een schreefletter, bijvoorbeeld een [Garamond](https://en.wikipedia.org/wiki/Garamond) of [Baskerville](https://en.wikipedia.org/wiki/Baskerville). Zorg er daarbij voor dat er altijd kan worden teruggevallen op het systeem-lettertype met schreef. Zet tenslotte, nu je toch bezig bent, de type van de titel om in bovenkast(kapitalen, hoofdletters).
+Lijn zowel de titel als de rubrieken links uit. Geef de titel ('Het Nieuws') een schreefletter, bijvoorbeeld een [Garamond](https://en.wikipedia.org/wiki/Garamond) of [Baskerville](https://en.wikipedia.org/wiki/Baskerville). Zorg er daarbij voor dat er altijd kan worden teruggevallen op het systeem-lettertype met schreef. Zet tenslotte, nu je toch bezig bent, door middel van css de titel om in bovenkast (kapitalen, hoofdletters).
 
 Voorzie de verschillende links in de rubrieke van wat meer ruimte, zodat het geheel een wat professionelere uitstraling krijgt.
 
@@ -34,7 +34,7 @@ Zoals je ziet hebben zowel de titel als de rubrieken een klasse `shadow-divider`
 
 ## Flexibele vormgeving
 
-Momenteel is de site niet echt flexibel: de inhoud past zich niet aan aan de grootte van het scherm (de 'viewport') omdat de breedte van de `div`s hard in pixels is gecodeerd. Dit heeft tot gevolg dat wanneer je je schermgrootte verandert gedeelten van de site buiten beeld komen.
+Momenteel is de site niet echt flexibel: de inhoud past zich niet aan aan de grootte van het scherm (de 'viewport') omdat de breedte van de `div`s hard in pixels is gecodeerd. Dit heeft tot gevolg dat gedeelten van de site buiten beeld komen wanneer je de schermgrootte verandert.
 
 ![De grootte van de site past zich niet aan aan het scherm](files/te-klein.png)
 
@@ -72,7 +72,7 @@ De artikelen en de sidebar blijven nu altijd de beschikbare breedte verdelen. Di
 
 **darkmode toevoegen**
 
-Veel mensen hebben hun computer tegenwoordig standaard op dark mode staan, waarbij de achtergrond donker is en de letters licht. Maak gebruik van een *Media Query* om dit ook voor onze site te realiseren. Je hoeft hierbij niet alle kleuren van een donkere en lichte variante te voorzien: het volstaat dat je de achtergrondkleur van de pagina zelf aanpast en de kleur van de letters, zodat alles nog wel leesbaar blijft.
+Veel mensen [hebben hun computer tegenwoordig standaard op dark mode staan](https://www.searchenginewatch.com/2020/09/30/why-dark-mode-web-designs-are-gaining-popularity/), waarbij de achtergrond donker is en de letters licht. Maak gebruik van een *Media Query* om dit ook voor onze site te realiseren. Je hoeft hierbij niet alle kleuren van een donkere en lichte variante te voorzien: het volstaat dat je de achtergrondkleur van de pagina zelf aanpast en de kleur van de letters, zodat alles nog wel leesbaar blijft.
 
 ![Darkmode](files/darkmode.png)
 
@@ -82,7 +82,7 @@ Veel mensen hebben hun computer tegenwoordig standaard op dark mode staan, waarb
 
 
 !!! Tip "Testen van darkmode"
-    In Google Chrome kun je goed de verschillende renderingen voor dark of light mode testen. Met de developer-tools open klik je op cmd-P en typ je 'rendering'. In het scherm dat dan verschijnt scroll je iets naar beneden om de `CSS-media feature prefers-color-scheme` optie te selecteren.
+    In Google Chrome kun je goed de verschillende renderingen voor dark of light mode testen. Klik in de inspector tools op de drie puntjes naar de console-tab. Hier kun je het tabblad `Rendering` kiezen. In dat tabblad kun je vervolgens het *color-scheme* selecteren.
 
     ![developer tools om prefers-color-scheme te checken](files/prefers-color-scheme.png)
 

@@ -15,7 +15,7 @@ Responsiveness | 3
 Accessibility | 3
 Mobile first | 2
 Repository setup | 1
-Leesopdracht | Voorwaardelijk
+Leesopdracht | 4
 
 ### Toetsmoment 2 
 <sup class="small">[\[Omschrijving\]](week4/memory.md)</sup>
