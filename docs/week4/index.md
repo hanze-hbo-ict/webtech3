@@ -1,6 +1,8 @@
 # Week 4: Javascript async
 
-Nadat vorige week de basis is gelegd, gaan we deze week in op één van de meest fundamentele eigenschappen van Javascript: *asynchroon programmeren*. De meeste programmeertalen die je tot nu toe bent tegengekomen gaan in basis uit van een *call stack* waarbij functies of methoden elkaar aanroepen en wachten totdat die call is afgerond voordat de caller zelf door kan gaan. JavaScript is van meet af aan ingesteld op het werken met calls die lange tijd in beslag kunnen nemen, bijvoorbeeld data ophalen over een netwerk. Om deze reden (en omdat Javascript altijd maar in één *thread* draait) heeft [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich) al vanaf het prille begint gewerkt met zogenaamde *callback functions*. 
+Nadat vorige week de basis is gelegd, gaan we deze week in op één van de meest fundamentele eigenschappen van Javascript: *asynchroon programmeren*. 
+
+De meeste programmeertalen die je tot nu toe in de opleiding bent tegengekomen gaan in basis uit van een *call stack* waarbij functies of methoden elkaar aanroepen en wachten totdat die call is afgerond voordat de caller zelf door kan gaan. JavaScript is van meet af aan ingesteld op het werken met calls die lange tijd in beslag kunnen nemen, bijvoorbeeld data ophalen over een netwerk. Om deze reden (en omdat Javascript altijd maar in één *thread* draait) heeft [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich) al vanaf het prille begint gewerkt met zogenaamde *callback functions*. 
 
 ## Hoorcollege
 
@@ -16,7 +18,7 @@ In het practicum wordt de theorie uit het hoorcollege praktisch uitgewerkt. Aan 
 
 ## Literatuur
 
-- Simpson, Kyle (2015), *Async and Performance*. Uit de (aan te raden) serie [You Don't Know JavaScript](https://github.com/getify/You-Dont-Know-JS). Dit boek is eenvoudig via de Hanze mediatheek te vinden.
+- Simpson, Kyle (2015), *Async and Performance*. Uit de (aan te raden) serie [You Don't Know JavaScript](https://github.com/getify/You-Dont-Know-JS). Dit boek is (min of meer) [eenvoudig via de Hanze mediatheek te vinden](https://hanze.on.worldcat.org/search?queryString=au%3D%22Simpson%2C%20Kyle%22%20AND%20au%3D%22JavaScript%20systems%20architect%22&clusterResults=true&groupVariantRecords=false).
 
 - [`fetch` op MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 

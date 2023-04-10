@@ -16,12 +16,12 @@ Maar andere externe api's zijn natuurlijk ook mogelijk. Voeg een keuze-optie toe
 
 ![Maak gebruik van een select-box voor het selecteren van plaatjes](imgs/select-box.png)
 
-Maak gebruik van `Promise`s en `fetch` voor het ophalen van de afbeeldingen. 
+Maak gebruik van `Promise` en `fetch` voor het ophalen van de afbeeldingen. 
 
 Zorg er voor dat de *gesloten* kaarten ook de kleur krijgen die de speler met de *color picker* heeft uitgezocht. Ook tijdens het spelen moet je deze kleur kunnen aanpassen.
 
 !!! warning "Beoordeling"
-    Naast de functionaliteit zullen wij ook beoordelen op leesbaarheid en netheid van je code. Ook blijft accessibility en responsiveness belangrijk. Gebruik geen libraries en frameworks.
+    Naast de functionaliteit blijven we ook de leesbaarheid en netheid van je code beoordelen. Ook blijft accessibility en responsiveness belangrijk. Gebruik geen libraries en frameworks.
 
 
 ### Leesopgaven
