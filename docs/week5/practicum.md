@@ -85,7 +85,7 @@ Wanneer de bezoeker de verkeerde gegevens (gebruikersnaam of wachtwoord) invult,
 ![Foute inlog-gegevens](imgs/fout.png)
 
 
-## 5: Meesturen van het JWT in elke request
+## 5. Meesturen van het JWT in elke request
 
 De volgende stap is het meesturen van het jwt bij elke request. Je kunt hiervoor [je eigen service maken die elk http-request ondervangt](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Intercept_HTTP_requests) en het jwt injecteert, maar voor deze exercitie is het voldoende om het token handmatig toe te voegen in de headers.
 

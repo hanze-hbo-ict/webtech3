@@ -32,7 +32,7 @@ Vervolgens kun je de opgaven maken in `index.ts` en transpileren met `npx tsc`. 
 !!! Info "Niet altijd nodig"
     Als we later met Angular gaan werken, wordt dit allemaal automatisch voor je gedaan. Mocht je het voor nu te veel gedoe vinden, kun je ook gebruik maken [van de online editor die Microsoft aanbiedt](https://www.typescriptlang.org/play).
 
-## 1: De stad
+## 1. De stad
 
 We beginnen eenvoudig. Maak een klasse `Stad` die de onderstaande eigenschappen bevat. Zorg ervoor dat beide eigenschappen bij het aanmaken van een object van dit type moeten worden meegegeven. Maak `getters` voor beide eigenschappen.
 
@@ -43,7 +43,7 @@ inwoners | number | aantal inwoners
 
 Maak vervolgens de steden Groningen (250.000 inwoners), Winsum (7.500 inwoners) en Delfzijl (24.000 inwoners) aan. Maak gebruik van `map` en `reduce` om op basis van de `getter` van het inwoneraantal van alle drie de steden het *totaal* aantal inwoners van deze drie steden uit te printen. Transpileer je code en bestudeer het gegenereerde JavaScript-bestand. Run tenslotte dit bestand. Als het goed is komt er 281.500 uit.
 
-## 2: Interfaces
+## 2. Interfaces
 
 Eén van de ideeën achter TypeScript is dat deze taal types toevoegt aan JavaScript. In deze opgave gaan we de klasse `Stad` uitbreiden met twee zelfgemaakte typen: `Park` en `Cafe`. Elke goede stad heeft een aantal parken en een aantal café's. Een park heeft een naam, een grootte en een aantal banken dat je in het park kunt vinden. Een café heeft een naam, een aantal tafels en een lijst van bieren die je in dat café kunt bestellen.
 
@@ -65,7 +65,7 @@ console.log(groningen.getCafes())
 ![De IDE helpt ons wanneer de types niet overeenkomen met de objecten](imgs/ide-error.png)
 
 
-## 3: Modules
+## 3. Modules
 
 Waarschijnlijk heb je tot nu toe alle bovenstaande uitwerkingen in één bestand (`index.ts`) staan. Eén van de problemen die JavaScript heeft ([of *had*, eigenlijk](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)) is dat het lastig is om code in verschillende bestanden met elkaar samen te laten werken. Je kunt natuurlijk in je html-bestand verschillende `script`-tags achter elkaar zetten (zoals je weet zijn die *blocking*), maar dat is niet echt praktisch. Om die reden heeft TypeScript het concept van [*modules*](https://www.typescriptlang.org/docs/handbook/modules.html) toegevoegd.
 
@@ -113,7 +113,7 @@ grunn.addSteden(groningen, winsum, delfzijl)
 console.log(`Onze fraaie provincie heeft ${grunn.getInwoners()} inwoners`)
 ```
 
-## Angular
+## 4. Angular
 
 Na deze relatief eenvoudige oefeningen gaan we verder met het werken met Angular. Hiervoor maken we gebruik van [getting started with Angular](https://angular.io/start#take-a-tour-of-the-example-application). Je kunt Angular op je lokale machine installeren, maar je kunt voor dit practicum ook gebruik maken van [StackBlitz](https://stackblitz.com/). Hier kun je eenvoudig in je browser je Angular-projecten uitproberen. Je kunt hier inloggen met je Github-account.
 

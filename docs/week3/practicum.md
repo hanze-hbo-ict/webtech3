@@ -23,7 +23,7 @@ In het HTML bestand staat een element met id `subscription-pop-up`. Deze is nu n
 
 ## 3. User Events (30 minuten)
 
-#### a. Ondertitel tonen bij hover over featured artikel
+#### 3a. Ondertitel tonen bij hover over featured artikel
 Net zoals de 'listed' artikelen, heeft hebben de 'featured' artikelen een ondertitel. Deze staan al in de HTML, maar zijn nog niet zichtbaar. Zorg ervoor dat de ondertitels zichtbaar worden zodra de muis over het artikel zweeft. 
 
 !!! warning "meerdere featured artikelen"
@@ -31,7 +31,7 @@ Net zoals de 'listed' artikelen, heeft hebben de 'featured' artikelen een ondert
 
 ![Ondertitel](files/week3-ondertitel.png) 
 
-#### b. Een irritante pop-up tonen bij eerste keer scrollen
+#### 3b. Een irritante pop-up tonen bij eerste keer scrollen
 In het HTML bestand staat een element met id `cookies-pop-up`. Deze is nu nog niet zichtbaar (`display: none`). Zorg ervoor dat deze zichtbaar wordt bij de eerste keer scrollen. Voeg hiervoor een `EventListener` toe voor het `scroll` event aan de gehele pagina. Zodra je de pop-up zichtbaar hebt gemaakt, zorg dan ook dat het scrollen even niet mogelijk is door `overflow` toe te voegen aan de gehele `body`. Voeg ook een `EventListener` toe voor het `click` event van de knop met id `accept-cookies` om te zorgen dat de pop-up weer verdwijnt. Zorg dan ook dat de `EventListener` voor `scroll` verwijderd wordt, zodat je niet oneindig koekjes moet blijven accepteren...
 
 ![Koekjes](files/koekjes.png)
@@ -42,37 +42,37 @@ De poll over de coronamaatregelen heeft momenteel nog geen functionaliteit, maar
 
 ![Poll](files/week3-poll.PNG)
 
-#### a. De resultaten client-side opslaan
+#### 4a. De resultaten client-side opslaan
 De eerste stap is het opslaan van de resultaten in de `localStorage`. In het `form` element zie je dat de poll uit drie opties bestaat die elk een uniek id bevatten. Maak gebruik van een `EventListener` dat luistert naar het `submit` event van het `form` element. Tel vervolgens het aantal stemmen per optie en bewaar de resultaten in de `localStorage`. Voor deze stap is het genoeg om de resultaten uit te printen in de console. 
 
 ![Poll resultaten in de console](files/week3-poll-resultaten-console.PNG)
 
 
-#### b. Resultaten laten zien zodra er gestemd is
+#### 4b. Resultaten laten zien zodra er gestemd is
 De volgende stap is het tonen van de resultaten die je al hebt kunnen opslaan in de `localStorage`. Onder het element waar de poll in staat, zie je een element met id `poll-results`. Deze kun je gebruiken om op de juiste plek met `innerHTML` de resultaten toe te voegen nadat er gestemd is. 
 
 ![Poll resultaten](files/week3-poll-resultaten.PNG)
 
 
-#### c. Het formulier valideren
+#### 4c. Het formulier valideren
 Nu ga je valideren of de gebruiker überhaupt een optie heeft aangevinkt, voordat we de resultaten tonen. Zo lang de gebruiker nog niets heeft aangevinkt, maar wel de stemknop gebruikt, mogen de resultaten nog niet worden getoond, en verschijnt er een foutmelding. De foutmelding staat al in het HTML document en heeft als id `form-warning`. 
 
 ![Poll waarschuwing](files/poll-warning.PNG)
 
 
-#### d. Teruggaan naar de poll
+#### 4d. Teruggaan naar de poll
 In de laatste stap zorg je ervoor dat je met de knop "Terug naar poll" de poll weer te zien krijgt in plaats van de resultaten, zodat je opnieuw kunt stemmen (en vals kunt spelen?). Voeg hiervoor een `EventListener` toe aan de knop, en schrijf een functie waarmee je de zichtbaarheid van poll vs resultaten kan toggelen.
 
 
 ## 5. Animaties 
 
-#### a. Bewegend chat icoontje
+#### 5a. Bewegend chat icoontje
 Rechts onderaan de pagina zie je een chat icoontje. Zorg met een `setInterval` dat elke 0,1 seconde de hoogte van het icoon wordt aangepast zodat het icoontje continu groter en dan weer kleiner wordt. Dat betekent dat je in een variabele bijhoudt welke richting het icoon op beweegt om te kunnen bepalen of je een pixel erbij moet optellen of juist aftrekken.
 
 ![Chat](files/chat.PNG)
 
 
-#### b. Bij hover over artikel, doorzichtigheid van overige artikelen animeren
+#### 5b. Bij hover over artikel, doorzichtigheid van overige artikelen animeren
 Alle 'listed' artikelen hebben dezelfde class, namelijk `listed`. Zorg ervoor met `getElementsByClassName` dat deze artikelen de class `see-through` krijgen die de doorzichtigheid van de artikelen animeert, zodra je over een artikel hovert met de muis. Doe dit alleen niet voor het artikel waarover je hovert. Hierdoor krijgt het geselecteerde artikel de focus. Zodra de muis over geen enkel artikel zweeft, verdwijnen alle animaties. Doe dit met `getElementsByClassName`, `EventListeners` en een aantal for loops.
 
 ![Opacity](files/opacity.png)

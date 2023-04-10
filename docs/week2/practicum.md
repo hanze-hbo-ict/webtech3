@@ -1,12 +1,12 @@
 # Practicum week 2 – HTML en CSS (2)
 
 
-## Test your skills
+## 1. Test your skills
 
 Tijdens het hoorcollege is uitgebreid stilgestaan bij de positionering van elementen. We beginnen dit practicum met een twee eenvoudige oefeningen [die te vinden zijn op MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Position_skills). 
 
 
-## De nieuwssite
+## 2. De nieuwssite
 
 Deze en volgende week gaan we werken aan een mooie nieuwssite. Volgende week gaan we daar met behulp van JavaScript interactiviteit aan toevoegen; deze week beginnen we met de boel een beetje flexibeler, fraaier en moderner maken.
 
@@ -16,7 +16,7 @@ De pagina bestaat uit een aantal onderdelen: de titel met daaronder wat rubrieke
 
 ![De start van de nieuwssite voorzien van de onderdelen](files/nieuwssite.png)
 
-## De titel en rubrieken.
+#### De titel en rubrieken.
 
 De pagina heeft nu niet een heel nieuwswaardige uitstraling: overal is het lettertype hetzelfde en om historische redenen is het gebruikelijk dat nieuws overtuigende overkomt wanneer in ieder geval de titel van de site een schreefletter heeft. Bovendien is het stom dat deze tekst rücktsichlos gecenteerd wordt.
 
@@ -32,7 +32,7 @@ Zoals je ziet hebben zowel de titel als de rubrieken een klasse `shadow-divider`
 ![Voorbeeld van de uitwerkingen na de eerste stap](files/uitwerking-1.png)
 
 
-## Flexibele vormgeving
+#### Flexibele vormgeving
 
 Momenteel is de site niet echt flexibel: de inhoud past zich niet aan aan de grootte van het scherm (de 'viewport') omdat de breedte van de `div`s hard in pixels is gecodeerd. Dit heeft tot gevolg dat gedeelten van de site buiten beeld komen wanneer je de schermgrootte verandert.
 
@@ -42,7 +42,7 @@ Tijdens het plenaire deel hebben we gesproken over [de css-units](https://develo
 
 ![Responsive website!](files/responsive.png)
 
-## Blurring the images
+#### Blurring the images
 
 Om de site wat moderner te maken, gaan we de plaatjes bij de nieuwsitems animeren. Maak gebruik van [`filter:blur(10px)`](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) om deze afbeeldingen van scherp naar vaag en weer omgekeerd vorm te geven. Maak een animatie waarbij dit elke vier seconden gebeurt.
 
@@ -52,7 +52,7 @@ Om de site wat moderner te maken, gaan we de plaatjes bij de nieuwsitems animere
 ![Blurred images](files/blurred-images.png)
 
 
-## De sidebar beter maken
+#### De sidebar beter maken
 
 Tot nu toe hebben we ons op de artikelen zelf gericht, maar de sidebar behoeft ook enige aandacht. Realiseer de volgende punten:
 
@@ -64,13 +64,13 @@ Tot nu toe hebben we ons op de artikelen zelf gericht, maar de sidebar behoeft o
 
 Let op: je moet voor alle kleuren die je gebruikt een variabele maken en die gebruiken met behulp van [`var`](https://developer.mozilla.org/en-US/docs/Web/CSS/var).
 
-## Media queries
+## 3. Media queries
 
-**breedte aanpassen**
+#### breedte aanpassen
 
 De artikelen en de sidebar blijven nu altijd de beschikbare breedte verdelen. Dit is niet handig wanneer dit erg klein dreigt te worden. Zorg er met behulp van een *Media Query* voor dat de rechterkolom verdwijnt (onder de artikelen wordt gezet) wanneer de breedte van het scherm minder is dan 750px.
 
-**darkmode toevoegen**
+#### darkmode toevoegen
 
 Veel mensen [hebben hun computer tegenwoordig standaard op dark mode staan](https://www.searchenginewatch.com/2020/09/30/why-dark-mode-web-designs-are-gaining-popularity/), waarbij de achtergrond donker is en de letters licht. Maak gebruik van een *Media Query* om dit ook voor onze site te realiseren. Je hoeft hierbij niet alle kleuren van een donkere en lichte variante te voorzien: het volstaat dat je de achtergrondkleur van de pagina zelf aanpast en de kleur van de letters, zodat alles nog wel leesbaar blijft.
 
@@ -87,7 +87,7 @@ Veel mensen [hebben hun computer tegenwoordig standaard op dark mode staan](http
     ![developer tools om prefers-color-scheme te checken](files/prefers-color-scheme.png)
 
 
-## Flexbox
+## 4. Flexbox
 
 Tijdens het hoorcollege zijn verschillende waarden van `display` besproken (zie eventueel [nog de documentatie op MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)). Voor de opzet van onze website is het gebruik van de `flexbox` eigenlijk het meest voor de hand liggend: dan worden de artikelen vanzelf `flexbox-item`s en kun je er voor zorgen dat deze netjes en direct onder elkaar worden weergegeven.
 

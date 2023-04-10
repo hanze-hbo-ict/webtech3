@@ -128,7 +128,7 @@ Bekijk en inspecteer de website: [http://motherfuckingwebsite.com/](http://mothe
 
 ---
 
-## HTML & CSS
+## 2. HTML & CSS
 
 
 Maak in een HTML bestand je (fictieve droom) CV en gebruik tenminste de volgende HTML elementen. Je hoeft nog geen CSS toe te voegen.
