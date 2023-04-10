@@ -23,6 +23,7 @@ npm init -y
 npm install typescript --save-dev
 
 # instalaltie van tsc
+# let op: dat npx is géén typfout
 npx tsc --init
 ```
 
@@ -31,7 +32,7 @@ Vervolgens kun je de opgaven maken in `index.ts` en transpileren met `npx tsc`. 
 !!! Info "Niet altijd nodig"
     Als we later met Angular gaan werken, wordt dit allemaal automatisch voor je gedaan. Mocht je het voor nu te veel gedoe vinden, kun je ook gebruik maken [van de online editor die Microsoft aanbiedt](https://www.typescriptlang.org/play).
 
-### Opgave 1: de stad
+## 1: De stad
 
 We beginnen eenvoudig. Maak een klasse `Stad` die de onderstaande eigenschappen bevat. Zorg ervoor dat beide eigenschappen bij het aanmaken van een object van dit type moeten worden meegegeven. Maak `getters` voor beide eigenschappen.
 
@@ -40,9 +41,9 @@ naam | type | omschrijving
 naam | string | naam van de stad
 inwoners | number | aantal inwoners
 
-Maak vervolgens de steden Groningen (250.000 inwoners), Winsum (7.500 inwoners) en Delfzijl (24.000 inwoners) aan. Maak gebruik van `map` en `reduce` om op basis van de `getter` van het inwoneraantal van alle drie de stenden het *totaal* aantal inwoners van deze drie steden uit te printen. Transpileer je code en bestudeer het gegenereerde JavaScript-bestand. Run tenslotte dit bestand. Als het goed is komt er 281.500 uit.
+Maak vervolgens de steden Groningen (250.000 inwoners), Winsum (7.500 inwoners) en Delfzijl (24.000 inwoners) aan. Maak gebruik van `map` en `reduce` om op basis van de `getter` van het inwoneraantal van alle drie de steden het *totaal* aantal inwoners van deze drie steden uit te printen. Transpileer je code en bestudeer het gegenereerde JavaScript-bestand. Run tenslotte dit bestand. Als het goed is komt er 281.500 uit.
 
-### Opgave 2: interfaces
+## 2: Interfaces
 
 Eén van de ideeën achter TypeScript is dat deze taal types toevoegt aan JavaScript. In deze opgave gaan we de klasse `Stad` uitbreiden met twee zelfgemaakte typen: `Park` en `Cafe`. Elke goede stad heeft een aantal parken en een aantal café's. Een park heeft een naam, een grootte en een aantal banken dat je in het park kunt vinden. Een café heeft een naam, een aantal tafels en een lijst van bieren die je in dat café kunt bestellen.
 
@@ -64,11 +65,11 @@ console.log(groningen.getCafes())
 ![De IDE helpt ons wanneer de types niet overeenkomen met de objecten](imgs/ide-error.png)
 
 
-### Opgave 3: modules
+## 3: Modules
 
-Waarschijnlijk heb je tot nu toe alle bovenstaande uitwerkingen in één bestand (`index.ts`) staan. Eén van de problemen die JavaScript heeft (of *had*, eigenlijk) is dat het lastig is om code in verschillende bestanden met elkaar samen te laten werken. Je kunt natuurlijk in je html-bestand verschillende `script`-tags achter elkaar zetten (zoals je weet zijn die *blocking*), maar dat is niet echt praktisch. Om die reden heeft TypeScript het concept van [*modules*](https://www.typescriptlang.org/docs/handbook/modules.html) toegevoegd.
+Waarschijnlijk heb je tot nu toe alle bovenstaande uitwerkingen in één bestand (`index.ts`) staan. Eén van de problemen die JavaScript heeft ([of *had*, eigenlijk](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)) is dat het lastig is om code in verschillende bestanden met elkaar samen te laten werken. Je kunt natuurlijk in je html-bestand verschillende `script`-tags achter elkaar zetten (zoals je weet zijn die *blocking*), maar dat is niet echt praktisch. Om die reden heeft TypeScript het concept van [*modules*](https://www.typescriptlang.org/docs/handbook/modules.html) toegevoegd.
 
-Hernoem je bestand `index.ts` naar `Stad.ts`. Deze module moet zowel de klasse `Stad` exporteren als de bijhorende interfaces exporteren: voorzie ze daarvoor van het sleutelwoord [`export`](https://www.typescriptlang.org/docs/handbook/modules.html#export).
+Hernoem je bestand `index.ts` (of hoe je hem maar had genoemd) naar `Stad.ts`. Deze module moet zowel de klasse `Stad` als de bijhorende interfaces exporteren: voorzie ze daarvoor van het sleutelwoord [`export`](https://www.typescriptlang.org/docs/handbook/modules.html#export).
 
 Maak vervolgens een nieuw bestand `index.ts` aan, waarin je de klasse `Stad` uit het bestand dat je zojuist hebt gemaakt importeert. Verplaats vervolgens de code die je in de vorige twee opgaven hebt gemaakt naar dit nieuwe index-bestand. Transpileer de boel en bestudeer het gegenereerde JavaScript-bestand. Als het goed is, kun je nu opnieuw de `index.js` runnen en krijg je hetzelfde resultaat.
 
@@ -101,7 +102,7 @@ enum Positie {
 
 Zorg ervoor dat je bij het aanmaken van een object van het type `Provincie` de *naam* en de *positie* mee moet gegven. Voorzie deze klasse verder van een methode `getInwoners()`, waarin je het totaal van de inwoners van alle steden retourneert, en van een methode `addSteden`, waaraan je een *willekeurig aantal* steden kunt meegeven die vervolgens aan de lijst van steden wordt toegevoegd.
 
-!!! Warning: "Let op"
+!!! Warning "Let op"
     Bij deze laatste opgave is het de bedoeling dat je gebruik maakt van de [spread-operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
 Je kunt de onderstaande code gebruiken om je uitwerking te testen, en ook om een beeld te krijgen van wat de bedoeling is.
@@ -109,7 +110,7 @@ Je kunt de onderstaande code gebruiken om je uitwerking te testen, en ook om een
 ```TypeScript
 const grunn:Provincie = new Provincie("Grunn", Positie.Noord);
 grunn.addSteden(groningen, winsum, delfzijl)
-console.log(`Onze provincie heeft ${grunn.getInwoners()} inwoners`)
+console.log(`Onze fraaie provincie heeft ${grunn.getInwoners()} inwoners`)
 ```
 
 ## Angular
