@@ -992,7 +992,7 @@
 <p><img alt="De start van de nieuwssite voorzien van de onderdelen" src="files/nieuwssite.png" /></p>
 <h2 id="de-titel-en-rubrieken">De titel en rubrieken.<a class="headerlink" href="#de-titel-en-rubrieken" title="Permanent link">&para;</a></h2>
 <p>De pagina heeft nu niet een heel nieuwswaardige uitstraling: overal is het lettertype hetzelfde en om historische redenen is het gebruikelijk dat nieuws overtuigende overkomt wanneer in ieder geval de titel van de site een schreefletter heeft. Bovendien is het stom dat deze tekst rücktsichlos gecenteerd wordt.</p>
-<p>Lijn zowel de titel als de rubrieken links uit. Geef de titel ('Het Nieuws') een schreefletter, bijvoorbeeld een <a href="https://en.wikipedia.org/wiki/Garamond">Garamond</a> of <a href="https://en.wikipedia.org/wiki/Baskerville">Baskerville</a>. Zorg er daarbij voor dat er altijd kan worden teruggevallen op het systeem-lettertype met schreef. Zet tenslotte, nu je toch bezig bent, de type van de titel om in bovenkast(kapitalen, hoofdletters).</p>
+<p>Lijn zowel de titel als de rubrieken links uit. Geef de titel ('Het Nieuws') een schreefletter, bijvoorbeeld een <a href="https://en.wikipedia.org/wiki/Garamond">Garamond</a> of <a href="https://en.wikipedia.org/wiki/Baskerville">Baskerville</a>. Zorg er daarbij voor dat er altijd kan worden teruggevallen op het systeem-lettertype met schreef. Zet tenslotte, nu je toch bezig bent, door middel van css de titel om in bovenkast (kapitalen, hoofdletters).</p>
 <p>Voorzie de verschillende links in de rubrieke van wat meer ruimte, zodat het geheel een wat professionelere uitstraling krijgt.</p>
 <p>Zoals je ziet hebben zowel de titel als de rubrieken een klasse <code>shadow-divider</code>. Maak van dit gegeven gebruik om deze elementen wat duidelijker voor het voetlicht te brengen; denk hierbij aan de <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/gradient"><code>gradient</code></a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow"><code>box-shadow</code></a> of <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform"><code>transform</code></a> die we tijdens het plenaire deel hebben laten zien.</p>
 <div class="admonition info">
@@ -1001,7 +1001,7 @@
 </div>
 <p><img alt="Voorbeeld van de uitwerkingen na de eerste stap" src="files/uitwerking-1.png" /></p>
 <h2 id="flexibele-vormgeving">Flexibele vormgeving<a class="headerlink" href="#flexibele-vormgeving" title="Permanent link">&para;</a></h2>
-<p>Momenteel is de site niet echt flexibel: de inhoud past zich niet aan aan de grootte van het scherm (de 'viewport') omdat de breedte van de <code>div</code>s hard in pixels is gecodeerd. Dit heeft tot gevolg dat wanneer je je schermgrootte verandert gedeelten van de site buiten beeld komen.</p>
+<p>Momenteel is de site niet echt flexibel: de inhoud past zich niet aan aan de grootte van het scherm (de 'viewport') omdat de breedte van de <code>div</code>s hard in pixels is gecodeerd. Dit heeft tot gevolg dat gedeelten van de site buiten beeld komen wanneer je de schermgrootte verandert.</p>
 <p><img alt="De grootte van de site past zich niet aan aan het scherm" src="files/te-klein.png" /></p>
 <p>Tijdens het plenaire deel hebben we gesproken over <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units">de css-units</a> <code>vw</code> en <code>vh</code>. Maak van deze properties gebruik zodat de artikelen zo'n tweederde van de schermbreedte gebruiken en de sidebar de resterende eenderde voor z'n rekening neemt. Hou wel in de gaten dat de afbeeldingen bij de artikelen meeschalen. Check je uitwerking door je schermgrootte te vergroten en te verkleinen.</p>
 <p><img alt="Responsive website!" src="files/responsive.png" /></p>
@@ -1026,7 +1026,7 @@
 <p><strong>breedte aanpassen</strong></p>
 <p>De artikelen en de sidebar blijven nu altijd de beschikbare breedte verdelen. Dit is niet handig wanneer dit erg klein dreigt te worden. Zorg er met behulp van een <em>Media Query</em> voor dat de rechterkolom verdwijnt (onder de artikelen wordt gezet) wanneer de breedte van het scherm minder is dan 750px.</p>
 <p><strong>darkmode toevoegen</strong></p>
-<p>Veel mensen hebben hun computer tegenwoordig standaard op dark mode staan, waarbij de achtergrond donker is en de letters licht. Maak gebruik van een <em>Media Query</em> om dit ook voor onze site te realiseren. Je hoeft hierbij niet alle kleuren van een donkere en lichte variante te voorzien: het volstaat dat je de achtergrondkleur van de pagina zelf aanpast en de kleur van de letters, zodat alles nog wel leesbaar blijft.</p>
+<p>Veel mensen <a href="https://www.searchenginewatch.com/2020/09/30/why-dark-mode-web-designs-are-gaining-popularity/">hebben hun computer tegenwoordig standaard op dark mode staan</a>, waarbij de achtergrond donker is en de letters licht. Maak gebruik van een <em>Media Query</em> om dit ook voor onze site te realiseren. Je hoeft hierbij niet alle kleuren van een donkere en lichte variante te voorzien: het volstaat dat je de achtergrondkleur van de pagina zelf aanpast en de kleur van de letters, zodat alles nog wel leesbaar blijft.</p>
 <p><img alt="Darkmode" src="files/darkmode.png" /></p>
 <div class="admonition info">
 <p class="admonition-title">dark mode</p>
@@ -1034,7 +1034,7 @@
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Testen van darkmode</p>
-<p>In Google Chrome kun je goed de verschillende renderingen voor dark of light mode testen. Met de developer-tools open klik je op cmd-P en typ je 'rendering'. In het scherm dat dan verschijnt scroll je iets naar beneden om de <code>CSS-media feature prefers-color-scheme</code> optie te selecteren.</p>
+<p>In Google Chrome kun je goed de verschillende renderingen voor dark of light mode testen. Klik in de inspector tools op de drie puntjes naar de console-tab. Hier kun je het tabblad <code>Rendering</code> kiezen. In dat tabblad kun je vervolgens het <em>color-scheme</em> selecteren.</p>
 <p><img alt="developer tools om prefers-color-scheme te checken" src="files/prefers-color-scheme.png" /></p>
 </div>
 <h2 id="flexbox">Flexbox<a class="headerlink" href="#flexbox" title="Permanent link">&para;</a></h2>

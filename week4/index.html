@@ -913,7 +913,8 @@
 
 
 <h1 id="week-4-javascript-async">Week 4: Javascript async<a class="headerlink" href="#week-4-javascript-async" title="Permanent link">&para;</a></h1>
-<p>Nadat vorige week de basis is gelegd, gaan we deze week in op één van de meest fundamentele eigenschappen van Javascript: <em>asynchroon programmeren</em>. De meeste programmeertalen die je tot nu toe bent tegengekomen gaan in basis uit van een <em>call stack</em> waarbij functies of methoden elkaar aanroepen en wachten totdat die call is afgerond voordat de caller zelf door kan gaan. JavaScript is van meet af aan ingesteld op het werken met calls die lange tijd in beslag kunnen nemen, bijvoorbeeld data ophalen over een netwerk. Om deze reden (en omdat Javascript altijd maar in één <em>thread</em> draait) heeft <a href="https://en.wikipedia.org/wiki/Brendan_Eich">Brendan Eich</a> al vanaf het prille begint gewerkt met zogenaamde <em>callback functions</em>. </p>
+<p>Nadat vorige week de basis is gelegd, gaan we deze week in op één van de meest fundamentele eigenschappen van Javascript: <em>asynchroon programmeren</em>. </p>
+<p>De meeste programmeertalen die je tot nu toe in de opleiding bent tegengekomen gaan in basis uit van een <em>call stack</em> waarbij functies of methoden elkaar aanroepen en wachten totdat die call is afgerond voordat de caller zelf door kan gaan. JavaScript is van meet af aan ingesteld op het werken met calls die lange tijd in beslag kunnen nemen, bijvoorbeeld data ophalen over een netwerk. Om deze reden (en omdat Javascript altijd maar in één <em>thread</em> draait) heeft <a href="https://en.wikipedia.org/wiki/Brendan_Eich">Brendan Eich</a> al vanaf het prille begint gewerkt met zogenaamde <em>callback functions</em>. </p>
 <h2 id="hoorcollege">Hoorcollege<a class="headerlink" href="#hoorcollege" title="Permanent link">&para;</a></h2>
 <p>In het hoorcollege wordt de theorie van asynchroon programmeren toegelicht. We bespreken de noodzaak van deze techniek en de verschillende manieren waarop aan deze noodzaak voldaan kan worden. Aan de hand van de werking van de <em>callback queue</em> en de <em>event loop</em> wordt toegelicht hoe functies conditioneel gemaakt kunnen worden – en hoe ze pas kunnen worden aangeroepen wanneer er aan die conditie voldaan is. We bespreken de theoretische werking van deze techniek en laten zien hoe deze concreet is gerealiseerd in de browser (in de <a href="https://github.com/v8/v8">V8-engine</a>) en in <a href="https://github.com/nodejs/node">nodejs</a>.</p>
 <p>Vervolgens gaan we in op het concept van <code>Promises</code> en het aan elkaar rijgen van functie-aanroepen. We kijken naar goede architecturen om dit soort code efficiënt en leesbaar te maken.</p>
@@ -923,7 +924,7 @@
 <h2 id="literatuur">Literatuur<a class="headerlink" href="#literatuur" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
-<p>Simpson, Kyle (2015), <em>Async and Performance</em>. Uit de (aan te raden) serie <a href="https://github.com/getify/You-Dont-Know-JS">You Don't Know JavaScript</a>. Dit boek is eenvoudig via de Hanze mediatheek te vinden.</p>
+<p>Simpson, Kyle (2015), <em>Async and Performance</em>. Uit de (aan te raden) serie <a href="https://github.com/getify/You-Dont-Know-JS">You Don't Know JavaScript</a>. Dit boek is (min of meer) <a href="https://hanze.on.worldcat.org/search?queryString=au%3D%22Simpson%2C%20Kyle%22%20AND%20au%3D%22JavaScript%20systems%20architect%22&amp;clusterResults=true&amp;groupVariantRecords=false">eenvoudig via de Hanze mediatheek te vinden</a>.</p>
 </li>
 <li>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"><code>fetch</code> op MDN</a></p>

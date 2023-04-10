@@ -735,32 +735,26 @@
     Van TS naar JS
   </a>
   
-    <nav class="md-nav" aria-label="Van TS naar JS">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#opgave-1-de-stad" class="md-nav__link">
-    Opgave 1: de stad
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-de-stad" class="md-nav__link">
+    1: De stad
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#opgave-2-interfaces" class="md-nav__link">
-    Opgave 2: interfaces
+      
+        <li class="md-nav__item">
+  <a href="#2-interfaces" class="md-nav__link">
+    2: Interfaces
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#opgave-3-modules" class="md-nav__link">
-    Opgave 3: modules
+      
+        <li class="md-nav__item">
+  <a href="#3-modules" class="md-nav__link">
+    3: Modules
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -915,32 +909,26 @@
     Van TS naar JS
   </a>
   
-    <nav class="md-nav" aria-label="Van TS naar JS">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#opgave-1-de-stad" class="md-nav__link">
-    Opgave 1: de stad
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-de-stad" class="md-nav__link">
+    1: De stad
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#opgave-2-interfaces" class="md-nav__link">
-    Opgave 2: interfaces
+      
+        <li class="md-nav__item">
+  <a href="#2-interfaces" class="md-nav__link">
+    2: Interfaces
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#opgave-3-modules" class="md-nav__link">
-    Opgave 3: modules
+      
+        <li class="md-nav__item">
+  <a href="#3-modules" class="md-nav__link">
+    3: Modules
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -984,6 +972,7 @@ npm<span class="w"> </span>init<span class="w"> </span>-y
 npm<span class="w"> </span>install<span class="w"> </span>typescript<span class="w"> </span>--save-dev
 
 <span class="c1"># instalaltie van tsc</span>
+<span class="c1"># let op: dat npx is géén typfout</span>
 npx<span class="w"> </span>tsc<span class="w"> </span>--init
 </code></pre></div>
 <p>Vervolgens kun je de opgaven maken in <code>index.ts</code> en transpileren met <code>npx tsc</code>. Dat genereert een bestand <code>index.js</code> wat je vervolgens kun runnen met <code>node</code>.</p>
@@ -991,7 +980,7 @@ npx<span class="w"> </span>tsc<span class="w"> </span>--init
 <p class="admonition-title">Niet altijd nodig</p>
 <p>Als we later met Angular gaan werken, wordt dit allemaal automatisch voor je gedaan. Mocht je het voor nu te veel gedoe vinden, kun je ook gebruik maken <a href="https://www.typescriptlang.org/play">van de online editor die Microsoft aanbiedt</a>.</p>
 </div>
-<h3 id="opgave-1-de-stad">Opgave 1: de stad<a class="headerlink" href="#opgave-1-de-stad" title="Permanent link">&para;</a></h3>
+<h2 id="1-de-stad">1: De stad<a class="headerlink" href="#1-de-stad" title="Permanent link">&para;</a></h2>
 <p>We beginnen eenvoudig. Maak een klasse <code>Stad</code> die de onderstaande eigenschappen bevat. Zorg ervoor dat beide eigenschappen bij het aanmaken van een object van dit type moeten worden meegegeven. Maak <code>getters</code> voor beide eigenschappen.</p>
 <table>
 <thead>
@@ -1014,8 +1003,8 @@ npx<span class="w"> </span>tsc<span class="w"> </span>--init
 </tr>
 </tbody>
 </table>
-<p>Maak vervolgens de steden Groningen (250.000 inwoners), Winsum (7.500 inwoners) en Delfzijl (24.000 inwoners) aan. Maak gebruik van <code>map</code> en <code>reduce</code> om op basis van de <code>getter</code> van het inwoneraantal van alle drie de stenden het <em>totaal</em> aantal inwoners van deze drie steden uit te printen. Transpileer je code en bestudeer het gegenereerde JavaScript-bestand. Run tenslotte dit bestand. Als het goed is komt er 281.500 uit.</p>
-<h3 id="opgave-2-interfaces">Opgave 2: interfaces<a class="headerlink" href="#opgave-2-interfaces" title="Permanent link">&para;</a></h3>
+<p>Maak vervolgens de steden Groningen (250.000 inwoners), Winsum (7.500 inwoners) en Delfzijl (24.000 inwoners) aan. Maak gebruik van <code>map</code> en <code>reduce</code> om op basis van de <code>getter</code> van het inwoneraantal van alle drie de steden het <em>totaal</em> aantal inwoners van deze drie steden uit te printen. Transpileer je code en bestudeer het gegenereerde JavaScript-bestand. Run tenslotte dit bestand. Als het goed is komt er 281.500 uit.</p>
+<h2 id="2-interfaces">2: Interfaces<a class="headerlink" href="#2-interfaces" title="Permanent link">&para;</a></h2>
 <p>Eén van de ideeën achter TypeScript is dat deze taal types toevoegt aan JavaScript. In deze opgave gaan we de klasse <code>Stad</code> uitbreiden met twee zelfgemaakte typen: <code>Park</code> en <code>Cafe</code>. Elke goede stad heeft een aantal parken en een aantal café's. Een park heeft een naam, een grootte en een aantal banken dat je in het park kunt vinden. Een café heeft een naam, een aantal tafels en een lijst van bieren die je in dat café kunt bestellen.</p>
 <p>Definieer de beide interfaces <code>Park</code> en <code>Cafe</code>, overeenkomstig de omschrijving die hierboven gegeven is. Voeg vervolgens een attribuut <code>parken</code> en <code>cafés</code> (eventueel zonder accent aigue) toe aan de klasse <code>Stad</code>: aangezien steden meerdere parken en kroegen kunnen hebben, moet dit natuurlijk een <em>lijst</em> zijn. Voorzie daarom deze klasse van een methode <code>addCafe(c:Cafe)</code> en van een methode <code>addPark(p:Park)</code>. Maak ook <code>getters</code> voor beide attributen. Je kunt onderstaande code gebruiken om je uitwerking te testen.</p>
 <div class="highlight"><pre><span></span><code><span class="nx">groningen</span><span class="p">.</span><span class="nx">addCafe</span><span class="p">({</span><span class="nx">naam</span><span class="o">:</span><span class="s2">&quot;De Minnaar&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">bieren</span><span class="o">:</span><span class="p">[</span><span class="s2">&quot;Jupiler&quot;</span><span class="p">,</span><span class="s2">&quot;Karmeliet&quot;</span><span class="p">],</span><span class="w"> </span><span class="nx">stoelen</span><span class="o">:</span><span class="kt">20</span><span class="p">})</span>
@@ -1031,9 +1020,9 @@ npx<span class="w"> </span>tsc<span class="w"> </span>--init
 <p>Zoals vorige week uitgebreid is toegelicht, kent JavaScript (en dus bij extensie ook TypeScript) zogenaamde <em>Creatio ex nihilo</em>: je ziet dat we in de testcode hierboven geen klasse hebben die die interface implementeert, maar dat we eenvoudig objecten maken en die <em>casten</em> naar die interface. Dit kan natuurlijk misgaan wanneer we de interface aan zouden passen, maar het fijne van de <em>type safety</em> die TypeScript introduceert is dat onze IDE hierover zou vallen. Probeer het maar eens, door bijvoorbeeld <code>wijnen</code> toe te voegen aan de <code>Cafe</code>-interface...</p>
 </div>
 <p><img alt="De IDE helpt ons wanneer de types niet overeenkomen met de objecten" src="imgs/ide-error.png" /></p>
-<h3 id="opgave-3-modules">Opgave 3: modules<a class="headerlink" href="#opgave-3-modules" title="Permanent link">&para;</a></h3>
-<p>Waarschijnlijk heb je tot nu toe alle bovenstaande uitwerkingen in één bestand (<code>index.ts</code>) staan. Eén van de problemen die JavaScript heeft (of <em>had</em>, eigenlijk) is dat het lastig is om code in verschillende bestanden met elkaar samen te laten werken. Je kunt natuurlijk in je html-bestand verschillende <code>script</code>-tags achter elkaar zetten (zoals je weet zijn die <em>blocking</em>), maar dat is niet echt praktisch. Om die reden heeft TypeScript het concept van <a href="https://www.typescriptlang.org/docs/handbook/modules.html"><em>modules</em></a> toegevoegd.</p>
-<p>Hernoem je bestand <code>index.ts</code> naar <code>Stad.ts</code>. Deze module moet zowel de klasse <code>Stad</code> exporteren als de bijhorende interfaces exporteren: voorzie ze daarvoor van het sleutelwoord <a href="https://www.typescriptlang.org/docs/handbook/modules.html#export"><code>export</code></a>.</p>
+<h2 id="3-modules">3: Modules<a class="headerlink" href="#3-modules" title="Permanent link">&para;</a></h2>
+<p>Waarschijnlijk heb je tot nu toe alle bovenstaande uitwerkingen in één bestand (<code>index.ts</code>) staan. Eén van de problemen die JavaScript heeft (<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules">of <em>had</em>, eigenlijk</a>) is dat het lastig is om code in verschillende bestanden met elkaar samen te laten werken. Je kunt natuurlijk in je html-bestand verschillende <code>script</code>-tags achter elkaar zetten (zoals je weet zijn die <em>blocking</em>), maar dat is niet echt praktisch. Om die reden heeft TypeScript het concept van <a href="https://www.typescriptlang.org/docs/handbook/modules.html"><em>modules</em></a> toegevoegd.</p>
+<p>Hernoem je bestand <code>index.ts</code> (of hoe je hem maar had genoemd) naar <code>Stad.ts</code>. Deze module moet zowel de klasse <code>Stad</code> als de bijhorende interfaces exporteren: voorzie ze daarvoor van het sleutelwoord <a href="https://www.typescriptlang.org/docs/handbook/modules.html#export"><code>export</code></a>.</p>
 <p>Maak vervolgens een nieuw bestand <code>index.ts</code> aan, waarin je de klasse <code>Stad</code> uit het bestand dat je zojuist hebt gemaakt importeert. Verplaats vervolgens de code die je in de vorige twee opgaven hebt gemaakt naar dit nieuwe index-bestand. Transpileer de boel en bestudeer het gegenereerde JavaScript-bestand. Als het goed is, kun je nu opnieuw de <code>index.js</code> runnen en krijg je hetzelfde resultaat.</p>
 <div class="highlight"><pre><span></span><code>&gt;<span class="w"> </span>node<span class="w"> </span>index.js
 <span class="o">[</span>
@@ -1058,12 +1047,14 @@ npx<span class="w"> </span>tsc<span class="w"> </span>--init
 <span class="p">}</span>
 </code></pre></div>
 <p>Zorg ervoor dat je bij het aanmaken van een object van het type <code>Provincie</code> de <em>naam</em> en de <em>positie</em> mee moet gegven. Voorzie deze klasse verder van een methode <code>getInwoners()</code>, waarin je het totaal van de inwoners van alle steden retourneert, en van een methode <code>addSteden</code>, waaraan je een <em>willekeurig aantal</em> steden kunt meegeven die vervolgens aan de lijst van steden wordt toegevoegd.</p>
-<p>!!! Warning: "Let op"
-    Bij deze laatste opgave is het de bedoeling dat je gebruik maakt van de <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax">spread-operator</a></p>
+<div class="admonition warning">
+<p class="admonition-title">Let op</p>
+<p>Bij deze laatste opgave is het de bedoeling dat je gebruik maakt van de <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax">spread-operator</a></p>
+</div>
 <p>Je kunt de onderstaande code gebruiken om je uitwerking te testen, en ook om een beeld te krijgen van wat de bedoeling is.</p>
 <div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">grunn</span><span class="o">:</span><span class="kt">Provincie</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">Provincie</span><span class="p">(</span><span class="s2">&quot;Grunn&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">Positie</span><span class="p">.</span><span class="nx">Noord</span><span class="p">);</span>
 <span class="nx">grunn</span><span class="p">.</span><span class="nx">addSteden</span><span class="p">(</span><span class="nx">groningen</span><span class="p">,</span><span class="w"> </span><span class="nx">winsum</span><span class="p">,</span><span class="w"> </span><span class="nx">delfzijl</span><span class="p">)</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`Onze provincie heeft </span><span class="si">${</span><span class="nx">grunn</span><span class="p">.</span><span class="nx">getInwoners</span><span class="p">()</span><span class="si">}</span><span class="sb"> inwoners`</span><span class="p">)</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`Onze fraaie provincie heeft </span><span class="si">${</span><span class="nx">grunn</span><span class="p">.</span><span class="nx">getInwoners</span><span class="p">()</span><span class="si">}</span><span class="sb"> inwoners`</span><span class="p">)</span>
 </code></pre></div>
 <h2 id="angular">Angular<a class="headerlink" href="#angular" title="Permanent link">&para;</a></h2>
 <p>Na deze relatief eenvoudige oefeningen gaan we verder met het werken met Angular. Hiervoor maken we gebruik van <a href="https://angular.io/start#take-a-tour-of-the-example-application">getting started with Angular</a>. Je kunt Angular op je lokale machine installeren, maar je kunt voor dit practicum ook gebruik maken van <a href="https://stackblitz.com/">StackBlitz</a>. Hier kun je eenvoudig in je browser je Angular-projecten uitproberen. Je kunt hier inloggen met je Github-account.</p>
