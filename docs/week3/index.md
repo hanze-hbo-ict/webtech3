@@ -1,6 +1,6 @@
 # Week 3: Javascript
 
-Deze week verlaten we het meer user-design gerichte onderwerp en gaan we in op het interactief maken van onze webpagina's. Dat doen we met behulp van de meest populaire taal op StackOverflow: JavaScript. We bespreken het domein waarin deze taal voorkomt, waarin hij verschilt van de andere talen die al besproken zijn (met name op het gebied van syntax, maar toch zeker ook op met betrekking op missie en doel) en hoe je een project hiermee zou kunnen opzetten.
+Deze week verlaten we het meer user-design gerichte onderwerp en gaan we in op het interactief maken van onze webpagina's. Dat doen we met behulp van [de meest populaire programmeertaal volgens StackOverflow: JavaScript](https://survey.stackoverflow.co/2022/#most-popular-technologies-language). We bespreken het domein waarin deze taal voorkomt, waarin hij verschilt van de andere talen die al besproken zijn (met name op het gebied van syntax, maar toch zeker ook op met betrekking op missie en doel) en hoe je een project hiermee zou kunnen opzetten.
 
 ## Hoorcollege
 
@@ -18,7 +18,7 @@ Tijdens dit practicum zullen methoden en technieken besproken worden die nodig z
 
 ## Literatuur
 
-Er is de wereld aan literatuur over JavaScript te vinden. Zelf vinden we de serie [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) van [Kyle Simpson](https://me.getify.com/) erg fijn: hij bespreekt de echte ins en outs van deze taal. 
+Er is de wereld aan literatuur over JavaScript te vinden. Zelf vinden we de serie [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) van [Kyle Simpson](https://me.getify.com/) erg fijn: hij bespreekt de echte ins en outs van deze taal. Deze hele serie is verkrijgen [bij de Hanze Mediatheek](https://hanze.on.worldcat.org/search?queryString=au%3D%22Simpson%2C%20Kyle%22%20AND%20au%3D%22JavaScript%20systems%20architect%22&clusterResults=true&groupVariantRecords=false)
 
 Natuurlijk kun je ook [op w3schools](https://www.w3schools.com/js/default.asp) een goeie introductie krijgen van hoe en wat in JavaScript. Het nadeel van deze site is dat het niet heel diep gaat en een beetje *cherry picking* blijft.
 

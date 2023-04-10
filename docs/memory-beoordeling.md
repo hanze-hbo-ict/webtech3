@@ -25,7 +25,7 @@ Onderdeel | Wegingsfactor
 Requirements wk 3 | Voorwaardelijk
 Gebruik van Promises en fetch | 2
 externe API's | 2
-Fijne manier van bedanken | 1
+Fijne manier van feliciteren | 1
 code-kwaliteit | 2
 leesopdracht | Voorwaardelijk
 

@@ -9,5 +9,4 @@ Tot nu toe had het memory spel nog geen interactie en functionaliteit: het ziet 
 - Als beide kaarten verschillende letters bevatten, blijven de kaarten open staan.
 - Wanneer er op dat moment op een andere kaart geklikt wordt, worden beide geopende verschillende kaarten weer omgedraaid en de nieuwe kaart getoond.
 - Wanneer een speler op een al omgedraaide kaart klikt gebeurt er niets.
-
-Als alle kaarten zijn omgedraaid, wordt de speler gefeliciteerd. Bedenk zelf een fijne manier om dit te doen.
+- Als alle kaarten zijn omgedraaid, wordt de speler gefeliciteerd. Bedenk zelf een fijne manier om dit te doen.
