@@ -69,7 +69,7 @@ Open de browser en navigeer naar [hanze.nl](https://www.hanze.nl). Klik met de r
 
 #### Network 
 
-1. Open het tabje Network/Netwerk en ververs [hanze.nl](https://www.hanze.nl). Wat is de url van de achtergrondfoto bovenaan de pagina?
+1. Open het tabje Network/Netwerk en ververs [hanze.nl](https://www.hanze.nl). Wat is de url van de eerste foto op de pagina?
 
 1. We gaan testen hoe snel de website laadt op een snel 3G netwerk.
   	- Zorg dat de opname knop aan staat
