@@ -28,7 +28,7 @@ Open de browser en navigeer naar [hanze.nl](https://www.hanze.nl). Klik met de r
 
 ---
 
-Verander de nieuwskoppen van je favoriete nieuwssite naar wat luchtiger/positiever nieuws, publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/klbeard1/webtech).
+Verander de nieuwskoppen van je favoriete nieuwssite naar wat luchtiger/positiever nieuws, publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/bbarnard3/padlet-voor-nieuws-67xalc242mgux68o).
 
 ![Nieuwskoppen van NOS veranderd](files/nos.PNG)
 
