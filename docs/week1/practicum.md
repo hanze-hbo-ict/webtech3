@@ -16,7 +16,7 @@ In dit practicum maak je kennis met algemene frontend technieken, waaronder comp
 
 Open de browser en navigeer naar [hanze.nl](https://www.hanze.nl). Klik met de rechtermuistoets ergens willekeurig op de pagina en selecteer “inspect” of “inspect element”.
 
-1. Wat voor soort HTML elementen/tags worden gebruikt voor het opsommen van de lijst *opleidingen*, *open dagen & voorlichtingen*, en *bedrijven*? 
+1. Wat voor soort HTML elementen/tags worden gebruikt voor het opsommen van de lijst bovenaan de pagina? 
 
 1. Vind voorbeelden van:
     - `<a>`
@@ -56,7 +56,7 @@ Open de browser en navigeer naar [hanze.nl](https://www.hanze.nl). Klik met de r
 
 1. Selecteer een element dat de typische Hanze-oranje kleur bevat. Wat is de kleurcode?
 1. Maak het Hanze logo twee keer zo groot.
-1. Verwijder de achtergrond foto.
+1. Verwijder een achtergrond foto.
 1. De Hanze website wordt natuurlijk veel mooier in een developer-achtige look. Geef alle tekst het lettertype `monospace`.
 1. Vervang de teksten bovenaan de pagina (welkomsttekst, menu-items, etc.) door teksten naar keuze.
 1. Vervang de achtergrondkleuren door een kleur naar keuze.
@@ -110,7 +110,7 @@ Wat gebeurt er met het logo?
 
 Voer bovenstaande code nogmaals uit, maar vervang dit keer de woorden ``rotate`` door ``skewY``. Wat gebeurt er nu? Kun je dit ook op andere elementen toepassen? (let op: geef elk element een uniek id, en gebruik dit id ook in de code) 
 
-Voeg dit principe toe aan een andere website naar keuze, en doe dit met meerdere elementen. Wie maakt de meest gestoorde webpagina? Publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/klbeard1/webtech)
+Voeg dit principe toe aan een andere website naar keuze, en doe dit met meerdere elementen. Wie maakt de meest gestoorde webpagina? Publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/bbarnard3/padlet-voor-gekke-sites-83v2uw53xa8kxuti)
 
 ![Google](files/google.PNG)
 
