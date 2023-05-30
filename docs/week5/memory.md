@@ -28,4 +28,4 @@ Bestudeer eventueel [de documentatie van de LexikJWTAuthenticationBundle](https:
 
 ## Leesopdracht
 
-TBD
+Lees [deze blog op logrocket.com](https://blog.logrocket.com/jwt-authentication-best-practices/). De auteur geeft aan aantal *use-cases*, voor- en nadelen en *best practices* van JWT. Geef van elk een korte samenvatting en reflecteer op hoe dit past binnen de memory-opdracht en de IWA-projectopdracht.
