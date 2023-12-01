@@ -24,11 +24,11 @@ Door de introductie van een dergelijk framework kan de ontwikkelstraat wel wat c
 
 We hebben ook vier *screencasts* gemaakt over werken met Angular. Zier hiervoor de onderstaande links. We raden je aan deze video's vóór het practicum te bekijken.
 
-1. [Korte eerste inleiding in Angular. Opstarten en data laten zien.](https://video.hanze.nl/media/Angular%20-%20deel%201/1_ac4feiap)
+1. [Korte eerste inleiding in Angular. Opstarten en data laten zien.](https://video.hanze.nl/media/Angular%20-%20deel%201/0_1x9609cu)
 
-2. [Het aanmaken van compomenten.](https://video.hanze.nl/media/Angular%20-%20deel%202/1_o3hs5jql)
+2. [Het aanmaken van compomenten.](https://video.hanze.nl/media/Angular%20-%20deel%202/0_hskl4bw4)
 
-3. [Communicatie tussen componenten.](https://video.hanze.nl/media/Angular%20%E2%80%93%20deel%203/1_fd7yxeho)
+3. [Communicatie tussen componenten.](https://video.hanze.nl/media/Angular%20%E2%80%93%20deel%203/0_5qr26zue)
 
-4. [Werken met Services](https://video.hanze.nl/media/angular%20-%20deel%204/1_8pz2ah9z)
+4. [Werken met Services](https://video.hanze.nl/media/angular%20-%20deel%204/0_9hg8513b)
 

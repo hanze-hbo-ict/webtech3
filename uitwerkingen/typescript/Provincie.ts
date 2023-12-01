@@ -15,7 +15,7 @@ export default class Provincie {
         this.steden = [...this.steden, ...steden]
     }
 
-    public getInwoners():number {
+    public getInwoners():number|string {
         return this.steden.map( el => el.getInwoners() )
             .reduce( (acc,el) => acc+el)
     }
