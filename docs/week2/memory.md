@@ -2,13 +2,9 @@
 
 Voor het eerste toetsmoment staat hieronder beschreven wat er opgeleverd dient te worden. Zestig procent van de opdracht bestaat uit het ontwikkelen van het memory spel. Veertig procent bestaat uit leesopdrachten – beantwoord die in een bestand `leesopdrachten.txt` en voeg die toe aan je zip. Lever de uitwerking van de memory en je antwoorden op de leesopdracht in via het betreffende inleverpunt op Blackboard. 
 
+Let op: dit betreft een *formatief toetsmoment*.
+
 ### Memory 1 (70%)
-
-!!! Warning "Let op: alleen visueel!"
-    Let op: het is specifiek *niet* de bedoeling dat alle functionaliteit die hieronder gesuggereerd wordt ook al werkt. In dit eerste moment is het juist het doel de voorkant volledig afgerond te hebben voordat we de boel laten werken.
-
-    Dit gezegd hebbende is het natuurlijk *wel* de bedoeling dat de bezoeker van het spel duidelijk te zien krijgt welke elementen interactief zijn en welke niet: zorg hiervoor voor correct werkende en duidelijke *affordances* (in de betekenis zoals [Gibson hieraan gegeven heeft](https://en.wikipedia.org/wiki/Affordance).
-
 
 Zorg ervoor dat met behulp van html en css de onderstaande requirements zijn gerealiseerd:
 

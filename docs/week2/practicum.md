@@ -34,7 +34,7 @@ Zoals je ziet hebben zowel de titel als de rubrieken een klasse `shadow-divider`
 
 #### Flexibele vormgeving
 
-Momenteel is de site niet echt flexibel: de inhoud past zich niet aan aan de grootte van het scherm (de 'viewport') omdat de breedte van de `div`s hard in pixels is gecodeerd. Dit heeft tot gevolg dat gedeelten van de site buiten beeld komen wanneer je de schermgrootte verandert.
+Momenteel is de site niet echt flexibel: de inhoud past zich niet aan aan de grootte van viewport, omdat de breedte van de `div`s hard in pixels is gecodeerd. Dit heeft tot gevolg dat gedeelten van de site buiten beeld komen wanneer je de schermgrootte verandert.
 
 ![De grootte van de site past zich niet aan aan het scherm](files/te-klein.png)
 

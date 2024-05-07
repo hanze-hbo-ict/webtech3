@@ -33,6 +33,9 @@ Tijdens de module werken studenten in duo's aan een website waarmee het bekende 
 
 Dit moet uiteraard voorzien worden van login-functionaliteit en beveiliging, waar we JWT voor gebruiken. Uiteindelijk moet er ook een pagina gemaakt worden waarbij de opgeslagen data geaggregeerd bevraagd kan worden – denk aan het aantal spelers, de verdeling van de spelers over de tijd, mutaties in de high-scores en meer van dat soort werk.
 
-Ongeveer om de week is er een formeel oplevermoment van de website tot dusver (maar [zie het exacte overzicht](memory-beoordeling.md)). Hiervoor leveren de duo's hun werk in op de daartoe beschikbaar gestelde opleverplekken in Blackboard. De deadline voor het inleveren is telkens de donderdag in de even weken van het thema (zie Blackboard voor de concrete data). Docenten beoordelen het ingeleverde werk op de vrijdag.
+Ongeveer om de week is er een formatief oplevermoment van de website tot dusver (maar [zie het exacte overzicht](memory-beoordeling.md)). Hiervoor leveren de duo's hun werk in op de daartoe beschikbaar gestelde opleverplekken in Blackboard. 
 
-In [het toetsmodel](memory-beoordeling.md) staat beschreven waar de applicatie op dat moment *minimaal* aan moet voldoen. Mocht het werk van een bepaalde week nog onvoldoende zijn, dan kunnen studenten de daaropvolgende week gebruiken om reparatiewerkzaamheden uit te voeren. Omdat de memory-website sequentieel wordt opgebouwd en elke nieuwe iteratie afhankelijk is van de afronding van de vorige is het van belang dat hier geen achterstand bij ontstaat. Studenten wordt dan ook geadviseerd een goede planning op te zetten en zich daaraan te houden.
+!!! Warning "Let op: *formatief* toetsmoment"
+    De semi-wekelijkse oplevermomenten zijn *formatief*, dat wil zeggen dat het studenten vrij staat om het werk tot dan toe in te leveren om daar feedback op te krijgen. Het zijn geen verplichte inlevermomenten.
+
+In [het toetsmodel](memory-beoordeling.md) staat waar het uiteindelijke product *minimaal* aan moet voldoen. Om historische redenen is dit model ingedeeld in verschillende toetsmomenten; die kunnen gezien worden als een generieke planning. 

@@ -1,6 +1,6 @@
 # Week 3: Javascript
 
-Deze week verlaten we het meer user-design gerichte onderwerp en gaan we in op het interactief maken van onze webpagina's. Dat doen we met behulp van [de meest populaire programmeertaal volgens StackOverflow: JavaScript](https://survey.stackoverflow.co/2022/#most-popular-technologies-language). We bespreken het domein waarin deze taal voorkomt, waarin hij verschilt van de andere talen die al besproken zijn (met name op het gebied van syntax, maar toch zeker ook op met betrekking op missie en doel) en hoe je een project hiermee zou kunnen opzetten.
+Deze week verlaten we het meer user-design gerichte onderwerp en gaan we in op het interactief maken van onze webpagina's. Dat doen we met behulp van [de volgens StackOverflow meest populaire programmeertaal: JavaScript](https://survey.stackoverflow.co/2022/#most-popular-technologies-language). We bespreken het domein waarin deze taal voorkomt, waarin hij verschilt van de andere talen die al besproken zijn (met name op het gebied van syntax, maar toch zeker ook op met betrekking op missie en doel) en hoe je een project hiermee zou kunnen opzetten.
 
 ## Hoorcollege
 
