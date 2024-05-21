@@ -1,4 +1,4 @@
-# Memory week 5: JWT (toetsmoment)
+# Memory week 5: JWT (derde formatieve toetsmoment)
 
 Voor dit oplevermoment moet het mogelijk zijn met een backend te communiceren. Hiervoor maken we gebruik van [dezelfde backend als die we bij het practicum hebben gebruikt](https://github.com/hanze-hbo-ict/memory-backend). Het is hierbij niet de bedoeling dat je aanpassingen aan deze backend gaat doen (maar zie de opmerking [bij het practicum zelf](practicum.md)), maar dat je alles regelt vanaf de voorkant.
 
@@ -8,7 +8,7 @@ Voor dit oplevermoment moet het mogelijk zijn met een backend te communiceren. H
 
 - Maak een andere pagina waarop de speler zich kan aanmelden. De backend geeft bij correcte gegevens een JWT token terug dat standaard een TTL heeft van 3600 seconden.
 
-- Sla het JWT op in de `localStorage` en zorg ervoor dat dit bij *elke* request naar de backend in de header wordt meegestuurd.
+- Sla het JWT op in de `localStorage` en zorg ervoor dat dit bij *elke* request naar de backend in de header wordt meegestuurd. Maak hiervoor [je eigen service die elk http-request ondervangt](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Intercept_HTTP_requests).
 
 - Maak een nieuwe pagina waarop de speler zijn of haar voorkeuren kan opgeven. Deze voorkeuren bestaan uit de favoriete plaatjes-API, de kleur voor gevonden kaartjes en de kleur voor gesloten kaarten.
 

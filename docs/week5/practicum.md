@@ -87,7 +87,7 @@ Wanneer de bezoeker de verkeerde gegevens (gebruikersnaam of wachtwoord) invult,
 
 ## 5. Meesturen van het JWT in elke request
 
-De volgende stap is het meesturen van het jwt bij elke request. Je kunt hiervoor [je eigen service maken die elk http-request ondervangt](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Intercept_HTTP_requests) en het jwt injecteert, maar voor deze exercitie is het voldoende om het token handmatig toe te voegen in de headers.
+De volgende stap is het meesturen van het jwt bij elke request. In het memory-spel moet je hiervoor [je eigen service maken die elk http-request ondervangt](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Intercept_HTTP_requests) en het jwt injecteert, maar voor deze exercitie is het voldoende om het token handmatig toe te voegen in de headers.
 
 Voeg het jwt toe met de volgende syntax: `Authorization: Bearer <token>` (bekijk [de documentatie op jwt.io](https://jwt.io/introduction); geen handige links in die pagina, maar ongeveer halverwege staat dit toegelicht). Doe een call naar `/api/player/{id}/games` om een overzicht te krijgen van de spellen die de speler met deze id heeft gespeeld (zoek zelf een bestaande id op in de database; het bijhorende wachtwoord vind je in `create/create_users.sh`). 
 

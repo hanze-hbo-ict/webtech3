@@ -1,4 +1,4 @@
-# Week 2 - Memory 1 - eerste toetsmoment
+# Week 2 - Memory 1 - eerste formatieve toetsmoment
 
 Voor het eerste toetsmoment staat hieronder beschreven wat er opgeleverd dient te worden. Zestig procent van de opdracht bestaat uit het ontwikkelen van het memory spel. Veertig procent bestaat uit leesopdrachten – beantwoord die in een bestand `leesopdrachten.txt` en voeg die toe aan je zip. Lever de uitwerking van de memory en je antwoorden op de leesopdracht in via het betreffende inleverpunt op Blackboard. 
 

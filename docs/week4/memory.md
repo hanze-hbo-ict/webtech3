@@ -1,4 +1,4 @@
-# Week 4 - Memory 2 - tweede toetsmoment
+# Week 4 - Memory 2 - tweede formatieve toetsmoment
 
 ### Memory 2
 
@@ -22,6 +22,8 @@ Zorg er voor dat de *gesloten* kaarten ook de kleur krijgen die de speler met de
 
 !!! Warning "Beoordeling"
     Naast de functionaliteit worden ook de leesbaarheid en netheid van je code beoordeeld. Ook blijft accessibility en responsiveness belangrijk. Gebruik geen libraries en frameworks.
+
+    Zorg ervoor dat je code is opgeslagen in verschillende bestanden (dus niet al je JavaScript-code in één bestand); maak gebruik van [*JavaScript Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)*.
 
 
 ### Leesopgaven
