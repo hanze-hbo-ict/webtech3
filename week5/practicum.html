@@ -22,7 +22,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.21">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.24">
     
     
       
@@ -30,7 +30,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.66ac8b77.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6543a935.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -1243,7 +1243,7 @@
 <p>Wanneer de bezoeker de verkeerde gegevens (gebruikersnaam of wachtwoord) invult, moet daar ook een duidelijke melding van komen.</p>
 <p><img alt="Foute inlog-gegevens" src="imgs/fout.png" /></p>
 <h2 id="5-meesturen-van-het-jwt-in-elke-request">5. Meesturen van het JWT in elke request<a class="headerlink" href="#5-meesturen-van-het-jwt-in-elke-request" title="Permanent link">&para;</a></h2>
-<p>De volgende stap is het meesturen van het jwt bij elke request. Je kunt hiervoor <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Intercept_HTTP_requests">je eigen service maken die elk http-request ondervangt</a> en het jwt injecteert, maar voor deze exercitie is het voldoende om het token handmatig toe te voegen in de headers.</p>
+<p>De volgende stap is het meesturen van het jwt bij elke request. In het memory-spel moet je hiervoor <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Intercept_HTTP_requests">je eigen service maken die elk http-request ondervangt</a> en het jwt injecteert, maar voor deze exercitie is het voldoende om het token handmatig toe te voegen in de headers.</p>
 <p>Voeg het jwt toe met de volgende syntax: <code>Authorization: Bearer &lt;token&gt;</code> (bekijk <a href="https://jwt.io/introduction">de documentatie op jwt.io</a>; geen handige links in die pagina, maar ongeveer halverwege staat dit toegelicht). Doe een call naar <code>/api/player/{id}/games</code> om een overzicht te krijgen van de spellen die de speler met deze id heeft gespeeld (zoek zelf een bestaande id op in de database; het bijhorende wachtwoord vind je in <code>create/create_users.sh</code>). </p>
 <p>Vang de respons van de server op en toon deze weer netjes onder het login-scherm.</p>
 <p><img alt="De hele pagina inclusief de scores" src="imgs/scores.png" /></p>
@@ -1305,7 +1305,7 @@
     <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.result.more.one": "1 extra overeenkomst op deze pagina", "search.result.more.other": "# extra overeenkomsten op deze pagina", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Ontbreekt", "select.version": "Selecteer versie"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.a7c05c9e.min.js"></script>
+      <script src="../assets/javascripts/bundle.081f42fc.min.js"></script>
       
         <script src="../js/imgs.js"></script>
       
