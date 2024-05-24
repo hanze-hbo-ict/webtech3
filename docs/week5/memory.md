@@ -8,7 +8,7 @@ Voor dit oplevermoment moet het mogelijk zijn met een backend te communiceren. H
 
 - Maak een andere pagina waarop de speler zich kan aanmelden. De backend geeft bij correcte gegevens een JWT token terug dat standaard een TTL heeft van 3600 seconden.
 
-- Sla het JWT op in de `localStorage` en zorg ervoor dat dit bij *elke* request naar de backend in de header wordt meegestuurd. Maak hiervoor [je eigen service die elk http-request ondervangt](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Intercept_HTTP_requests).
+- Sla het JWT op in de `localStorage` en zorg ervoor dat dit bij *elke* request naar de backend in de header wordt meegestuurd. Overload hierbij de globalde functie `fetch`, zoals tijdens het practicum is gedemonstreerd.
 
 - Maak een nieuwe pagina waarop de speler zijn of haar voorkeuren kan opgeven. Deze voorkeuren bestaan uit de favoriete plaatjes-API, de kleur voor gevonden kaartjes en de kleur voor gesloten kaarten.
 
