@@ -18,7 +18,4 @@ Bekijk [de omschrijving van deze backend die vorige week gegeven is](../week6/me
 
 - Tot slot is het MVC gedachtegoed aanwezig in de opbouw van de applicatie en worden de principes uit de [Angular Style Guide](https://angular.io/guide/styleguide) toegepast.
 
-## Leesopdracht
-
-Lees het Medium artikel [Will Web Components Replace Frontend Frameworks?](https://medium.com/@mariusbongarts/will-web-components-replace-frontend-frameworks-535891d779ba). Beschrijf één van de redenen die in het artikel worden genoemd over waarom je over Web Components zou moeten leren. Ben jij het hier mee eens of niet? En waarom?
 
