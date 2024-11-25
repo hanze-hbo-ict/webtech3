@@ -20,3 +20,4 @@ Ook tijdens het practicum staan *media queries*, *css-animations* en *positionin
 - [MDN over de flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 - [MDN over de shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM)
 - [MDN over accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
+- Een fijne blog over viewports: [deel 1](https://www.quirksmode.org/mobile/viewports.html) en [deel2](https://www.quirksmode.org/mobile/viewports2.html)
