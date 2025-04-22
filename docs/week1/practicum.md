@@ -28,23 +28,10 @@ Open de browser en navigeer naar [hanze.nl](https://www.hanze.nl). Klik met de r
 
 ---
 
-Verander de nieuwskoppen van je favoriete nieuwssite naar wat luchtiger/positiever nieuws, publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/bbarnard3/padlet-voor-nieuws-omsjmafq6gdlrmm.
+Verander de nieuwskoppen van je favoriete nieuwssite naar wat luchtiger/positiever nieuws, publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/bbarnard3/padlet-voor-nieuwssites-t1ul3mc64d7wolmj).
 
 ![Nieuwskoppen van NOS veranderd](files/nos.PNG)
 
----
-
-Ga naar het Twitter account van de Amerikaanse president Joe Biden. Als je een twitter account hebt, zorg dan dat je **uitgelogd** bent.
-
-1. Scroll naar beneden en je zult gevraagd worden om in te loggen of te registeren. Doe dit niet. Zorg in plaats daarvan dat je de "muur" verwijdert, het het scrollen weer activeert. **Hint**: zoek naar het element waarbij in CSS de `pointer-events` zijn uitgeschakeld (tabje Styles). Als je die gevonden hebt, schakel de pointer events weer in.
-
-1. Pas vervolgens een willekeurige tweet aan door een tekst naar keuze, publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/bbarnard3/padlet-voor-biden-z6zpc2gsyy3e3h3f).
-
-![Joe Biden](files/biden.PNG)
-
----
-
-Wat vind je ervan dat je zomaar nieuwssites en Twitter posts kunt aanpassen?
 
 ![Fact / Fake](files/fake.jpeg)
 
@@ -109,7 +96,7 @@ Wat gebeurt er met het logo?
 
 Voer bovenstaande code nogmaals uit, maar vervang dit keer de woorden ``rotate`` door ``skewY``. Wat gebeurt er nu? Kun je dit ook op andere elementen toepassen? (let op: geef elk element een uniek id, en gebruik dit id ook in de code) 
 
-Voeg dit principe toe aan een andere website naar keuze, en doe dit met meerdere elementen. Wie maakt de meest gestoorde webpagina? Publiceer de schermafbeelding (of schermopname) ervan op [deze Padlet](https://padlet.com/bbarnard3/padlet-voor-gekke-site-i2kcrh5ym4mowqmh).
+Voeg dit principe toe aan een andere website naar keuze, en doe dit met meerdere elementen. Wie maakt de meest gestoorde webpagina? Publiceer de schermafbeelding (of schermopname) ervan op [deze Padlet](https://padlet.com/bbarnard3/padlet-voor-gekke-sites-opanbzifnuo00z7g).
 
 ![Google](files/google.PNG)
 
