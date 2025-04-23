@@ -41,7 +41,7 @@ Verder zijn er nog de volgende niet-functionele vereisten:
 
 ### Leesopdracht (30%)
 
-1. Lees het [artikel over webtoegankelijkheid](https://bighack.org/5-most-annoying-website-features-i-face-as-a-blind-screen-reader-user-accessibility/) (of hier als [bestand](../materialen/week2-flexbox/toegankelijkheid.pdf)) en beantwoord de volgende vragen in een korte alinea per vraag.
+1. Lees het [artikel over webtoegankelijkheid](../materialen/week2-flexbox/toegankelijkheid.pdf) en beantwoord de volgende vragen in een korte alinea per vraag.
 
     a. Probeer je voor te stellen dat je niet (meer) kunt zien, maar wel je favoriete site wilt bezoeken. Welke van de in het artikel genoemde frustratie over (on)toegankelijkheid lijkt jou het meest belemmerend? En waarom?
 
