@@ -8,14 +8,10 @@ Bekijk [de omschrijving van deze backend die vorige week gegeven is](../week6/me
 
 - Er worden `services` gebruikt voor het afhandelen van de API requests, JWT logica, en eventueel functionaliteiten en data die gedeeld worden door meerdere `components`.
 
-- Indien daar een goede reden voor is mogen `NgModules` gebruikt worden, maar dit is niet noodzakelijk.
-
 - Het Angular project gebruikt Typescript als taal, dus geen JavaScript.
 
-- Het delen van data tussen componenten d.m.v. `@Input()`, `@Output()`, *property binding* en *event binding* komt voor in de applicatie.
+- Er wordt gebruik gemaakt van herhalende groepen en conditionele statements; hierbij worden minsten `@if` en `@for` ingezet.
 
-- Directives `*ngIf` en `*ngFor` komen beiden voor in de applicatie.
-
-- Tot slot is het MVC gedachtegoed aanwezig in de opbouw van de applicatie en worden de principes uit de [Angular Style Guide](https://angular.io/guide/styleguide) toegepast.
+- Tot slot is het MVC gedachtegoed aanwezig in de opbouw van de applicatie en worden de principes uit de [Angular Style Guide](https://angular.dev/style-guide) toegepast.
 
 

@@ -1,6 +1,6 @@
 # Memory week 5: JWT (derde formatieve toetsmoment)
 
-Voor dit oplevermoment moet het mogelijk zijn met een backend te communiceren. Hiervoor maken we gebruik van [dezelfde backend als die we bij het practicum hebben gebruikt](https://github.com/hanze-hbo-ict/memory-backend). Het is hierbij niet de bedoeling dat je aanpassingen aan deze backend gaat doen (maar zie de opmerking [bij het practicum zelf](practicum.md)), maar dat je alles regelt vanaf de voorkant.
+Dit moment staat de communicatie met de backend centraal. Hiervoor maken we gebruik van [dezelfde backend als die we bij het practicum hebben gebruikt](https://github.com/hanze-hbo-ict/memory-backend). Het is hierbij niet de bedoeling dat je aanpassingen aan deze backend gaat doen (maar zie de opmerking [bij het practicum zelf](practicum.md)), maar dat je alles regelt vanaf de voorkant.
 
 - Zorg ervoor dat de top vijf (of hoeveel je maar laat zien) die je bij het memory-spel laat zien daarwerkelijk de top vijf is die op de backend geregisteerd is.
 
@@ -25,6 +25,8 @@ lexik_jwt_authentication:
 ```
 
 Bestudeer eventueel [de documentatie van de LexikJWTAuthenticationBundle](https://github.com/lexik/LexikJWTAuthenticationBundle/blob/2.x/Resources/doc/1-configuration-reference.rst) om een beeld te krijgen van de werking hiervan.
+
+<!-- TODO: log in with github -->
 
 ## Leesopdracht
 

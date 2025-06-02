@@ -8,7 +8,7 @@ In deze en de volgende week gaan we in op methoden en technieken die hiervoor ve
 
 ## Hoorcollege
 
-Het eerste hoorcollege van dit tweeluik radicaliseert de problemen die ontstaan wanneer er géén gebruik gemaakt wordt van compartimentalisatie (of MVC). Aan de hand van concrete voorbeelden wordt duidelijk gemaakt dat je al heel snel een onoverzichtelijke brij aan code, klassen en bestanden hebt die niet alleen slecht 'performt', maar ook nog een onleesbaar en dus ononderhoudbaar is. 
+Het eerste hoorcollege van dit tweeluik illustreert de problemen die ontstaan wanneer er géén gebruik gemaakt wordt van compartimentalisatie (of MVC). Aan de hand van concrete voorbeelden wordt duidelijk gemaakt dat je al heel snel een onoverzichtelijke brij aan code, klassen en bestanden hebt die niet alleen slecht 'performt', maar ook nog een onleesbaar en dus ononderhoudbaar is. 
 
 Hierna bespreken we verschillende manieren om deze problemen te voorkomen, waarbij we uiteindelijk uitkomen op het MVC-ontwerppatroon (of meer hedendaagse vormen daarvan). Tenslotte bespreken we hoe je dit patroon in kunt zetten in een JavaScript-ontwikkelproces.
 
@@ -21,14 +21,3 @@ Door de introductie van een dergelijk framework kan de ontwikkelstraat wel wat c
 ## Literatuur
 
 [Wikipedia over MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
-
-We hebben ook vier *screencasts* gemaakt over werken met Angular. Zier hiervoor de onderstaande links. We raden je aan deze video's vóór het practicum te bekijken.
-
-1. [Korte eerste inleiding in Angular. Opstarten en data laten zien.](https://video.hanze.nl/media/Angular%20-%20deel%201/0_1x9609cu)
-
-2. [Het aanmaken van compomenten.](https://video.hanze.nl/media/Angular%20-%20deel%202/0_hskl4bw4)
-
-3. [Communicatie tussen componenten.](https://video.hanze.nl/media/Angular%20%E2%80%93%20deel%203/0_5qr26zue)
-
-4. [Werken met Services](https://video.hanze.nl/media/angular%20-%20deel%204/0_9hg8513b)
-

@@ -115,6 +115,4 @@ console.log(`Onze fraaie provincie heeft ${grunn.getInwoners()} inwoners`)
 
 ## 4. Angular
 
-Na deze relatief eenvoudige oefeningen gaan we verder met het werken met Angular. Hiervoor maken we gebruik van [getting started with Angular](https://angular.io/start#take-a-tour-of-the-example-application). Je kunt Angular op je lokale machine installeren, maar je kunt voor dit practicum ook gebruik maken van [StackBlitz](https://stackblitz.com/). Hier kun je eenvoudig in je browser je Angular-projecten uitproberen. Je kunt hier inloggen met je Github-account.
-
-![Angular in Stackblitz](imgs/stackblitz.png)
+Na deze relatief eenvoudige oefeningen gaan we verder met het werken met Angular. Hiervoor maken we gebruik van [getting started with Angular](https://angular.dev/tutorials/learn-angular).
