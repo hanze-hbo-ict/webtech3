@@ -1,4 +1,4 @@
-# Beoordelingsmodel memory-game
+
 
 Hieronder staat per week schematisch het beoordelingsmodel aan de hand waarvan [het memory-spel](memory.md) beoordeeld wordt. Per week kunnen de docenten besluiten nog een bonus of malus toe te kennen.
 
@@ -52,11 +52,11 @@ Onderdeel | Wegingsfactor
 ----|----
 Separaat inlogscherm | 1
 JWT opgeslagen en meegestuurd | 1
-gebruik van componenten | 2
-gebruik van services | 2
-property binding | 2
+gebruik van componenten | 1
+gebruik van services | 1
+property binding | 1
 directives | 1
 typering/interfaces | 1
 code-kwaliteit | 1
-leesopdracht | Voorwaardelijk
+leesopdracht | 1
 Leuke visualisatie | 1
