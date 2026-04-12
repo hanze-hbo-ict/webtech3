@@ -4,7 +4,7 @@ Zo gauw een applicatie data van een andere computer haalt dan waarop deze zelf d
 
 Vanzelfsprekend gaan we niet in op alle aspecten van beveiliging: daar is immers een hele eigen opleiding voor. We beperken ons tot de meest voor de hand liggende zaken die elke goede (web)-programmeur zou moeten inzetten om de applicaties op z'n minst een *beetje* te beschermen. Specifiek gaan we in op een techniek die sinds enige jaren hier veel voor wordt gebruikt: [json web tokens](https://jwt.io/).
 
-## Hoorcollege
+## Plenaire deel
 
 Na een korte introductie over beveiliging bespreken we methoden en technieken waarmee webapplicaties veiliger gemaakt kunnen worden. Hierin passeren zaken als `password hashing`, het toevoegen van `salt` en `2FA` de revue. In aansluiting hierop gaan we in op de problemen die met al deze technieken samenhangen en waarvoor `json webtokens` (`JWT`) een oplossing probeert te formeren.
 

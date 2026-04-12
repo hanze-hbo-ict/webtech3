@@ -1,23 +1,17 @@
 # Memory week 3
 
-Tot nu toe had het memory spel nog geen interactie en functionaliteit: het ziet er wel mooi uit, maar de kaarten kunnen nog niet omgedraaid worden en de score wordt nog niet bijgehouden. Maar dat ga je vanaf nu veranderen; je gaat met Javascript aan de slag. Voeg de volgende functionaliteiten toe aan het spel:
+Deze week begin je met de functionaliteit van je spel uit te werken. Zorg ervoor dat je *game play* op een logische en transparante manier verloopt, dat spelers kunnen winnen en verliezen en dat er op de één of andere manier een score wordt bijgehouden (en wordt getoond). 
 
-- Bij het begin van het spel worden in eerste instantie willekeurig letters uit het alfabet gekozen (later zullen we dit nog aanpassen). Zorg ervoor dat er de helft zoveel willekeurige letters worden gekozen als er kaarten zijn.
+### Leesopgaven
 
-- Wanneer het spel start begint de tijd te lopen. Je kunt voor het starten van het spel een knop gebruiken, of gewoon de tijd starten wanneer op de eerste kaart geklikt wordt.
+1. Lees hoofdstuk 2.5 van het proefschrift [JavaScript: an analysis of the language and its impact on web development](https://repository.cardiffmet.ac.uk/bitstream/handle/10369/8554/Henson,%20Thomas.pdf?isAllowed=y&sequence=1) door Thomas Henson (of hier [offline](../materialen/week4-jwt/Proefschrift-Henson,Thomas.pdf)). Welke methode wordt er voornamelijk beschreven om een idee te krijgen bij de impact van JavaScript op webpagina's? Voer deze methode zelf ook uit in je browser en bekijk vier van je favoriete websites. Wat valt je op?
 
-- De speler klikt op een gesloten kaart: de kleur van de kaart verandert in de kleur die bij open hoort en de letter die bij deze kaart hoort wordt weergegeven.
+2. Lees hoofdstuk 2.7 "Will it still be relevant in the future?" van hetzelfde proefschrift. Beschrijf één van de redenen die de schrijver noemt waardoor er andere talen dan JavaScript worden overwogen voor het web. Denk je dat dit inderdaad een belangrijke reden is om JavaScript te vervangen? Beargumenteer je antwoord.
 
-- Vervolgens klikt de speler op een andere gesloten kaart. Ook deze kaart verandert van kleur en de bijhorende letter wordt getoond.
 
-- Als beide letters gelijk zijn worden de letters in deze cellen permanent getoond. De kleur van de kaarten wordt weer veranderd, om duidelijk te maken dat ze gevonden zijn.
+### Beoordelingscriteria
 
-- Als beide kaarten verschillende letters bevatten, blijven de kaarten open staan.
-
-- Wanneer er op dat moment op een andere kaart geklikt wordt, worden beide geopende verschillende kaarten weer omgedraaid en de nieuwe kaart getoond.
-
-- Wanneer een speler op een al omgedraaide kaart klikt gebeurt er niets.
-
-- Als alle kaarten zijn omgedraaid, is het spel voorbij en wordt de speler gefeliciteerd. Bedenk zelf een fijne manier om dit te doen.
-
-- Wanneer het spel voorbij is, wordt het totaal aantal seconden dat hiervoor nodig was op de één of andere manier aan de speler getoond. Later zullen we dit ook nog in de backend opslaan. Bij dit spel is het zo dat een lagere score een betere score is.
+- Het spel is goed speelbaar.
+- Het JavaScript is gebouwd met gebruik van hedendaagse technieken: een modulaire opbouw met callback-functions en zo min mogelijk globale variabelen
+- De code voldoet aan [de *general guidelines* zoals die op MDN te vinden zijn](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript)
+- Er zijn goede en volledige antwoorden gegeven op de vragen bij de leesopdracht hierboven.

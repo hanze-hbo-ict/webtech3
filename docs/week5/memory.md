@@ -1,6 +1,6 @@
-# Memory week 5: JWT (derde formatieve toetsmoment)
+# Memory week 5
 
-Dit moment staat de communicatie met de backend centraal. Hiervoor maken we gebruik van [dezelfde backend als die we bij het practicum hebben gebruikt](https://github.com/hanze-hbo-ict/memory-backend). Het is hierbij niet de bedoeling dat je aanpassingen aan deze backend gaat doen (maar zie de opmerking [bij het practicum zelf](practicum.md)), maar dat je alles regelt vanaf de voorkant.
+Deze week staat de communicatie met de backend centraal. Hiervoor maken we gebruik van [dezelfde backend als die we bij het practicum hebben gebruikt](https://github.com/hanze-hbo-ict/memory-backend). Het is hierbij niet de bedoeling dat je aanpassingen aan deze backend gaat doen (maar zie de opmerking [bij het practicum zelf](practicum.md)), maar dat je alles regelt vanaf de voorkant.
 
 - Zorg ervoor dat de top vijf (of hoeveel je maar laat zien) die je bij het memory-spel laat zien daarwerkelijk de top vijf is die op de backend geregisteerd is.
 
@@ -31,3 +31,10 @@ Bestudeer eventueel [de documentatie van de LexikJWTAuthenticationBundle](https:
 ## Leesopdracht
 
 Lees [deze blog op logrocket.com](https://blog.logrocket.com/jwt-authentication-best-practices/). De auteur geeft aan aantal *use-cases*, voor- en nadelen en *best practices* van JWT. Geef van elk een korte samenvatting en reflecteer op hoe dit past binnen de memory-opdracht en de IWA-projectopdracht.
+
+
+### Beoordelingscriteria
+- De functionele eisen die hierboven staan zijn allemaal gerealiseerd.
+- De methode `fetch` is globaal overschreven zodat het JWT bij elke request naar de backend wordt meegestuurd.
+- Er zijn goede en volledige antwoorden gegeven op de vragen bij de leesopdracht hierboven.
+

@@ -2,7 +2,7 @@
 
 In deze eerste week kijken we naar de algemene architectuur van het web, bespreken we de verhouding tussen de voor- en de achterkant van webapplicaties en gaan we nog wat dieper in op html en css.
 
-## Hoorcollege
+## Plenaire deel
 
 In deze eerste week gaan we dieper in op HTML en CSS. We bouwen verder op webtechnologie 1 (dat in de propdeuse gegeven wordt) en op de eerste week van webtechnologie 2 (periode 2.3). We gaan hier in op de exacte werking van deze technieken, bespreken de meer semantische elementen en kijken hoe je kunt ontwerpen voor toegankelijkheid. 
 

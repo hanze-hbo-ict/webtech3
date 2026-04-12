@@ -2,7 +2,7 @@
 
 Deze week verlaten we het meer user-design gerichte onderwerp en gaan we in op het interactief maken van onze webpagina's. Dat doen we met behulp van [de volgens StackOverflow meest populaire programmeertaal: JavaScript](https://survey.stackoverflow.co/2022/#most-popular-technologies-language). We bespreken het domein waarin deze taal voorkomt, waarin hij verschilt van de andere talen die al besproken zijn (met name op het gebied van syntax, maar toch zeker ook op met betrekking op missie en doel) en hoe je een project hiermee zou kunnen opzetten.
 
-## Hoorcollege
+## Plenaire deel
 
 Na een zeer korte historische inleiding bespreken we de rol en positie die JavaScript inneemt in het hedendaagse vakgebied in het algemeen en in web-development in het bijzonder. We laten zien hoe JavaScript wordt uitgevoerd en welke gevolgen dat heeft voor de ontwikkeling. Vervolgens gaan we in op client-side scripting met JavaScript, en bespreken we onder andere syntax, variabelen, verschillende data types, functies, objecten, events en loops. Ook behandelen we DOM manipulation: het aanpassen van de HTML elementen in de Document Object Model met behulp van bijvoorbeeld een query selector.
 

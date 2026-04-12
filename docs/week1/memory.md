@@ -1,11 +1,19 @@
 # Memory week 1
 
-Gedurende dit kwartaal maken we het bekende spel 'Memory' na. Eerst alleen nog in HTML en CSS., maar elke week breiden we het uit met meer functionaliteit. Deze week zetten we de layout op en voegen we wat minimale styling toe aan het memory spel.
+Gedurende dit kwartaal werk je aan een interessante en vernieuwende versie van het bekende spel 'Memory'. Begin met het nadenken over de *game play* van je spel, beschrijf dit in een document en maak op basis hiervan een *mock up* van de schermen. 
 
-Maak een leeg HTML bestand aan, en creëer een HTML "skelet" (een soort "hello world" bestand). Zorg in ieder geval dat er een document type gedeclareerd wordt, en dat de html- en bodytags er op een juiste manier in staan. Bestudeer eventueel [de HTML Basic op w3schools](https://www.w3schools.com/html/).
+Omdat we later in het kwartaal met een specifieke backend gaan werken, zijn er een aantal technische eisen die aan het spel worden gesteld:
 
-Bestudeer onderstaande afbeelding van het memory spel en zorg er met HTML elementen voor dat het dezelfde *structuur* heeft als wat je op de afbeelding ziet: titels, teksten, knopjes, en een speelveld van 6 bij 6. 
+- er moet sprake zijn van een *speler* die op de één of andere manier *punten* kan halen (bijvoorbeeld seconden die nodig zijn om het spel uit te spelen);
+- de speler moet kunnen inloggen en zich kunnen registreren;
+- er moet in het spel een logische interpretatie zijn van de *kleur* van een *open* en een *gesloten* kaart;
+- er moet binnen het spel logisch gebruik gemaakt kunnen worden van een externe API (bijvoorbeeld [cataas.com](https://cataas.com/)).
 
-De speelvlakken hebben vooralsnog twee statussen: 'open' en 'gesloten'. Nu volstaat het om deze twee "hard coded" aan verschillende `div`s mee te geven – in de loop van de komende periode zullen we hier werkelijk functionaliteit aan toevoegen. Bekijk [de volledige omschrijving](../week2/memory.md) bij het oplevermoment.
+Maak in de eerste week het document en de mockups. Laat deze door de docenten goedkeuren voordat je daadwerkelijk gaat bouwen.
 
-![Het memory-spel zoals het er uit kan komen te zien](../imgs/memory-demo.png)
+### Beoordelingscriteria
+
+- Het spel heeft een duidelijke *creatief en innovatief karakter*.
+- Het spel is *goed en helder omschreven*, waarbij rekening is gehouden met *edge cases* en valsspeelmogelijkheden.
+- Er is een goed uitgewerkte en volledige mockup opgeleverd.
+

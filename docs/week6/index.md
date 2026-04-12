@@ -6,9 +6,9 @@ In deze en de volgende week gaan we in op methoden en technieken die hiervoor ve
 
 ![Compartimentalisatie in software engineering is een groot goed](../imgs/compartimentalisation.png)
 
-## Hoorcollege
+## Plenaire deel
 
-Het eerste hoorcollege van dit tweeluik illustreert de problemen die ontstaan wanneer er géén gebruik gemaakt wordt van compartimentalisatie (of MVC). Aan de hand van concrete voorbeelden wordt duidelijk gemaakt dat je al heel snel een onoverzichtelijke brij aan code, klassen en bestanden hebt die niet alleen slecht 'performt', maar ook nog een onleesbaar en dus ononderhoudbaar is. 
+Het eerste deel van dit tweeluik illustreert de problemen die ontstaan wanneer er géén gebruik gemaakt wordt van compartimentalisatie (of MVC). Aan de hand van concrete voorbeelden wordt duidelijk gemaakt dat je al heel snel een onoverzichtelijke brij aan code, klassen en bestanden hebt die niet alleen slecht 'performt', maar ook nog een onleesbaar en dus ononderhoudbaar is. 
 
 Hierna bespreken we verschillende manieren om deze problemen te voorkomen, waarbij we uiteindelijk uitkomen op het MVC-ontwerppatroon (of meer hedendaagse vormen daarvan). Tenslotte bespreken we hoe je dit patroon in kunt zetten in een JavaScript-ontwikkelproces.
 

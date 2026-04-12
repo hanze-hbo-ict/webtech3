@@ -1,4 +1,4 @@
-# Memory week 7: Geaggregeerde data (summatief toetsmoment)
+# Memory week 7 
 
 Voor de angular-applicatie gelden voor de code dezelfde regels als voor het memory-spel zelf, dus gebruikersvriendelijkheid, responsiveness en mobile first. Zorg er ook voor dat je de applicatie voorziet van een fraaie vormgeving (wat 'fraai' is mag je zelf bedenken).
 

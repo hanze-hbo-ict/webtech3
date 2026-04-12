@@ -4,9 +4,9 @@ Deze laatste week gaan we verder met MVC en frameworks. Waar we vorige week geë
 
 ![Er zijn veel JavaScript-frameworks in omloop](../imgs/javascript-frameworks.png)
 
-## Hoorcollege
+## Plenaire deel
 
-In het hoorcollege gaan we in op de drie grote spelers op dit gebeid: Vue, Angular en React. We bespreken de verschillen en overeenkomsten tussen deze drie frameworks, gaan in op specifieke *use cases* en geven van alledrie een korte introductie. De focus ligt hierbij op de manier waarop deze frameworks de geïdentificeerde problemen adresseren.
+In het plenaire deel gaan we in op de drie grote spelers op dit gebeid: Vue, Angular en React. We bespreken de verschillen en overeenkomsten tussen deze drie frameworks, gaan in op specifieke *use cases* en geven van alledrie een korte introductie. De focus ligt hierbij op de manier waarop deze frameworks de geïdentificeerde problemen adresseren.
 
 Verder gaan we dieper in op [TypeScript](https://www.typescriptlang.org/), de *de facto* industriestandaard waarmee we vorige week begonnen zijn. Hierbij laten we zien hoe dit verschilt en overeenkomt met JavaScript en welke gevolgen deze taal heeft voor het ontwikkelproces.
 

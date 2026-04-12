@@ -1,8 +1,11 @@
+## Beoordelingen memory-spel
 
+Tijdens het blok werken studenten in duo's (of eventueel alleen) aan de uitwerking van een memory-spel, en reflecteren ze op een aantal voorgeschreven stukken tekst.
+
+Het spel *moet* een creatieve component bevatten, zowel op het gebied van vormgeving als op het gebied van *game play*: een eenvoudig vormgegeven spel met een speelvlak waarbij de spelers twee kaarten bij elkaar moeten zoeken is onvoldoende. Een mogelijk voorbeeld kan zijn dat spelers de afbeelding van een kat bij de afbeelding van de eigenaar moeten vinden, of dat er in plaats van twee drie kaarten bij elkaar horen. Wees creatief.
 
 Hieronder staat per week schematisch het beoordelingsmodel aan de hand waarvan [het memory-spel](memory.md) beoordeeld wordt. Per week kunnen de docenten besluiten nog een bonus of malus toe te kennen.
 
-*Let op:* De toetsmomenten zijn in week 2, week 4, week 5 en week 7.
 
 ### Toetsmoment 1
 <sup class="small">[\[Omschrijving\]](week2/memory.md)</sup>
