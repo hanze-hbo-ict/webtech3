@@ -7,9 +7,10 @@ Omdat we later in het kwartaal met een specifieke backend gaan werken, zijn er e
 - er moet sprake zijn van een *speler* die op de één of andere manier *punten* kan halen (bijvoorbeeld seconden die nodig zijn om het spel uit te spelen);
 - de speler moet kunnen inloggen en zich kunnen registreren;
 - er moet in het spel een logische interpretatie zijn van de *kleur* van een *open* en een *gesloten* kaart;
-- er moet binnen het spel logisch gebruik gemaakt kunnen worden van een externe API (bijvoorbeeld [cataas.com](https://cataas.com/)).
+- er moet binnen het spel logisch gebruik gemaakt kunnen worden van een externe API voor afbeeldingen (bijvoorbeeld [cataas.com](https://cataas.com/)).
 
-Maak in de eerste week het document en de mockups. Laat deze door de docenten goedkeuren voordat je daadwerkelijk gaat bouwen.
+!!! Warning "Laat het checken"
+    Maak in de eerste week het document en de mockups. Laat deze door de docenten goedkeuren voordat je daadwerkelijk gaat bouwen.
 
 ### Beoordelingscriteria
 

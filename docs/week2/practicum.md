@@ -3,7 +3,7 @@
 
 ## 1. Test your skills
 
-Tijdens het hoorcollege is uitgebreid stilgestaan bij de positionering van elementen. We beginnen dit practicum met een twee eenvoudige oefeningen [die te vinden zijn op MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Position_skills). 
+Tijdens het plenaire deel is uitgebreid stilgestaan bij de positionering van elementen. We beginnen dit practicum met een twee eenvoudige oefeningen [die te vinden zijn op MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Position_skills). 
 
 
 ## 2. De nieuwssite
@@ -89,7 +89,7 @@ Veel mensen [hebben hun computer tegenwoordig standaard op dark mode staan](http
 
 ## 4. Flexbox
 
-Tijdens het hoorcollege zijn verschillende waarden van `display` besproken (zie eventueel [nog de documentatie op MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)). Voor de opzet van onze website is het gebruik van de `flexbox` eigenlijk het meest voor de hand liggend: dan worden de artikelen vanzelf `flexbox-item`s en kun je er voor zorgen dat deze netjes en direct onder elkaar worden weergegeven.
+Tijdens het plenaire deel zijn verschillende waarden van `display` besproken (zie eventueel [nog de documentatie op MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)). Voor de opzet van onze website is het gebruik van de `flexbox` eigenlijk het meest voor de hand liggend: dan worden de artikelen vanzelf `flexbox-item`s en kun je er voor zorgen dat deze netjes en direct onder elkaar worden weergegeven.
 
 Pas de css aan, zodat hierbij gebruik gemaakt wordt van de `flexbox`.
 
