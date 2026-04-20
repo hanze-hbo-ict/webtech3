@@ -28,7 +28,7 @@ Open de browser en navigeer naar [hanze.nl](https://www.hanze.nl). Klik met de r
 
 ---
 
-Verander de nieuwskoppen van je favoriete nieuwssite naar wat luchtiger/positiever nieuws, publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/bbarnard3/padlet-voor-nieuwssites-t1ul3mc64d7wolmj).
+Verander de nieuwskoppen van je favoriete nieuwssite naar wat luchtiger/positiever nieuws, publiceer de schermafbeelding ervan op [deze Padlet](https://padlet.com/hanzehogeschool5/padlet-voor-nieuwssites-6zusphwjle9r2sg4).
 
 ![Nieuwskoppen van NOS veranderd](files/nos.PNG)
 
@@ -96,7 +96,7 @@ Wat gebeurt er met het logo?
 
 Voer bovenstaande code nogmaals uit, maar vervang dit keer de woorden ``rotate`` door ``skewY``. Wat gebeurt er nu? Kun je dit ook op andere elementen toepassen? (let op: geef elk element een uniek id, en gebruik dit id ook in de code) 
 
-Voeg dit principe toe aan een andere website naar keuze, en doe dit met meerdere elementen. Wie maakt de meest gestoorde webpagina? Publiceer de schermafbeelding (of schermopname) ervan op [deze Padlet](https://padlet.com/bbarnard3/padlet-voor-gekke-sites-opanbzifnuo00z7g).
+Voeg dit principe toe aan een andere website naar keuze, en doe dit met meerdere elementen. Wie maakt de meest gestoorde webpagina? Publiceer de schermafbeelding (of schermopname) ervan op [deze Padlet](https://padlet.com/hanzehogeschool5/padlet-voor-webpagina-waa2wr2m86is4sfn).
 
 ![Google](files/google.PNG)
 
