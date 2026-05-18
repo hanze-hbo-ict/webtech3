@@ -64,7 +64,6 @@ plugins:
 
 nav:
   - Introductie: 'index.md'
-  - Werkwijze tijdens de practica: 'practicum.md'
   - Memory game: 'memory.md'
   - '1. HTML en CSS 1':
     - Inleiding: 'week1/index.md'

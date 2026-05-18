@@ -36,7 +36,7 @@ week | onderwerpen
 
 Tijdens de module werken studenten in duo's aan een website waarmee het bekende memory-spel geïmplementeerd moet worden. De realisatie van deze site volgt het klassieke ontwikkelmodel en tevens de onderdelen die in de tabel hierboven worden weergegeven. 
 
-Er wordt eerst een statische webpagina gemaakt met puur de HTML en de CSS, vervolgens wordt client-based functionaliteit toegevoegd met behulp van JavaScript. Daarna wordt er gebruik gemaakt van een backend (of eigenlijk meerdere backends) om plaatjes van dit memory-spel op te halen, om de gegevens van spelers op te slaan en scores bij te houden. 
+Er wordt eerst een statische webpagina gemaakt met puur de HTML en de CSS, vervolgens wordt client-based functionaliteit toegevoegd met behulp van JavaScript. Daarna wordt er gebruik gemaakt van een backend (of eigenlijk meerdere backends), bijvoorbeeld om plaatjes van dit memory-spel op te halen, om de gegevens van spelers op te slaan en scores bij te houden. 
 
 Dit moet uiteraard voorzien worden van login-functionaliteit en beveiliging, waar we JWT voor gebruiken. Uiteindelijk moet er ook een pagina gemaakt worden waarbij de opgeslagen data geaggregeerd bevraagd kan worden – denk aan het aantal spelers, de verdeling van de spelers over de tijd, mutaties in de high-scores en meer van dat soort werk.
 
