@@ -7,11 +7,22 @@ Maak gebruik van [Angular](https://angular.dev) om met behulp van [de backend va
 !!! Warning "Niet opnieuw bouwen"
     Je hoeft dus niet het hele memory-spel opnieuw in Angular om te bouwen, maar je kunt hier natuurlijk wel een linkje naar de administrator-kant maken. 
 
+## Een fraaie visualisatie
+
 Je bent vrij in de uitwerking en layout van de applicatie, dus leef je uit! Er moet *wel* een visualisatie inzitten, dus niet gewoon een row-dump van de data. Je mag zelf de visualisatie bedenken, of gebruik maken van de standaarden die in Angular zitten.
+
+Er zijn redelijk wat bibliotheken die je kunt gebruiken om data fraai en interactief weer te geven:
+
+- [Hicharts for Angular](https://www.highcharts.com/integrations/angular/) kent vrij veel fraaie visualisaties.
+- [KendoUI for Angular]() is iets minder fraai en wat minder interactief, maar heeft (daardoor?) wel een wat volwassener of serieuzere vormgeving.
+- Een meer algemene bibliotheek is [https://a2ui.org/]A2UI, die [je ook kunt gebruiken binnen een Angular-omgeving](https://dev.to/vishalmysore/building-interactive-data-visualizations-in-a2ui-angular-a-complete-guide-c9a).
+- En nóg wat uitgebreidere omgeving voor data-visalisatie in JavaScript is [d3js](https://d3js.org/). Dit is niet per se geport voor Angular, maar omdat het gebruik maakt van svg's kun je het hier wel voor inzetten.
 
 De memory-adminpagina die je in Angular moet bouwen is een andere app dan het memory spel zelf. Hij draait ook op een andere poort (standaard poort 4200). Het hele architectuurplaatje komt er dan als volgt uit te zien:
 
 ![De architectuur van het eindproject](imgs/architectuur.png)
+
+## Inleveren
 
 Aan het eind van het blok lever je *alleen* het memory-spel en de memory-adminpagina (*zonder de `node_modules`-directory) in. Zie verder [de uitgebreide omschrijving bij het toetsmoment](../week7/memory.md).
 

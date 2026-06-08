@@ -26,7 +26,11 @@ lexik_jwt_authentication:
 
 Bestudeer eventueel [de documentatie van de LexikJWTAuthenticationBundle](https://github.com/lexik/LexikJWTAuthenticationBundle/blob/2.x/Resources/doc/1-configuration-reference.rst) om een beeld te krijgen van de werking hiervan.
 
-<!-- TODO: log in with github -->
+## Login met github
+
+Je via de memory backend ook inloggen met github. Bestudeert [de documentatie hiervan in de readme](https://github.com/hanze-hbo-ict/memory-backend#login-met-github) en implementeer dit. Bestudeer eventueel de betreffende dia uit de presentatie, die hieronder is weergegeven.
+
+![Login met een authenticatie-provider](imgs/login-google.jpeg)
 
 ## Leesopdracht
 

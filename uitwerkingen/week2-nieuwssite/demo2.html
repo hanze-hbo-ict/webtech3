@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=375, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body { font-family:Calibri,Verdana,sans-serif; }
+
+        div.container {
+            display:flex;
+            flex-direction:column;
+        }
+
+        .item { 
+            padding:2vh 2vw;
+            color:white;
+            height:20vw;
+            text-align:center;
+        }
+
+        #item1 { background-color:green; }
+        #item2 { background-color:black; }
+
+        @media screen and (min-width:600px) {
+            div.container {
+                flex-direction:row;
+                width:60vw;
+            }
+
+            #item1 { width:60%; }
+            #item2 { width:30%; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="item1">item 1</div>
+        <div class="item" id="item2">item 2</div>
+    </div><!-- container -->
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(50, 50, 50)
+}
+
+body { margin:0; padding:0 40px;  }
+
+div.articles { width:750px; float:left; }
+div.sidebar { width:250px; float:left; padding-top:40px;}
+div.sidebar div {padding:5px;  background-color:sandybrown; }
+div.sidebar img { width:100%; }
+div.featured, div.listed { width: 95%; border-bottom:dotted gray 2px; padding-top:20px; }
+
+footer { clear:both; }
+
+/* EERSTE OPDRACHT */
+/* Lijn zowel de titel als de rubrieken links uit. 
+Geef de titel ('Het Nieuws') een schreefletter, bijvoorbeeld een Garamond of Baskerville.
+Zet door middel van css de titel om in bovenkast (kapitalen, hoofdletters).
+Voorzie de verschillende links in de rubrieke van wat meer ruimte, zodat het geheel een 
+wat professionelere uitstraling krijgt.
+*/
+
+#header { 
+    text-transform:uppercase; 
+    font-family:Garamond,Baskerville,serif; 
+}
+
+#header, #sub-header { text-align:left; }
+#sub-header a { margin:0 2vw; }
+
+/*
+Zoals je ziet hebben zowel de titel als de rubrieken een klasse shadow-divider. Maak van 
+dit gegeven gebruik om deze elementen wat duidelijker voor het voetlicht te brengen.
+*/
+
+div.shadow-divider { box-shadow: 10px 5px 5px gray; }
+
+/* 
+Maak van deze properties gebruik zodat de artikelen zo'n tweederde van de schermbreedte 
+gebruiken en de sidebar de resterende eenderde voor z'n rekening neemt. 
+*/
+
+div.articles { width:60vw; }
+div.articles img { width:90%; }
+div.sidebar { width:30vw; }
+

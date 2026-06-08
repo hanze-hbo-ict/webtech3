@@ -2,6 +2,8 @@
 
 Voor de angular-applicatie gelden voor de code dezelfde regels als voor het memory-spel zelf, dus gebruikersvriendelijkheid, responsiveness en mobile first. Zorg er ook voor dat je de applicatie voorziet van een fraaie vormgeving (wat 'fraai' is mag je zelf bedenken).
 
+## Vereisten voor de angular-app
+
 Bekijk [de omschrijving van deze backend die vorige week gegeven is](../week6/memory.md). Zorg er verder voor dat de volgende niet-functionele requirements in je applicatie verwerkt zitten:
 
 - (Herhalende) functionaliteiten/onderdelen zijn op een logische manier gescheiden in verschillende `components`.
@@ -14,4 +16,9 @@ Bekijk [de omschrijving van deze backend die vorige week gegeven is](../week6/me
 
 - Tot slot is het MVC gedachtegoed aanwezig in de opbouw van de applicatie en worden de principes uit de [Angular Style Guide](https://angular.dev/style-guide) toegepast.
 
+
+## Beoordelingscriteria
+
+- De functionele vereisten van de memory-adminpagina [zoals beschreven bij week 6](../week6/memory.md) zijn goed en volledig geïmplementeerd. 
+- Er wordt aan de niet-functionele vereisten zoals die hierboven zijn beschreven zijn voldaan.
 
