@@ -18,4 +18,41 @@ Het spel wordt beoordeeld met een cijfer. In het geval van een onvoldoende worde
 
 Behalve de beoordeling van het memory-spel zelf is er ook de beoordeling van het administratie-gedeelte, dat je in Angular hebt gemaakt. Bekijk de beoordeling hiervan [op de betreffende pagina](week7/memory.md#beoordelingscriteria).
 
-Het memory-spel zelf telt voor driekwart mee met je eindcijfer, het cijfer van het administratie-gedeelte voor de overige kwart.
+Het memory-spel zelf telt voor driekwart mee met je eindcijfer, het cijfer van het administratie-gedeelte voor de overige kwart. Concreet is de beoordeling als volgt:
+
+__Memory game__
+
+Criterium | Punten
+----|----
+__week 1__
+creatief en innovatief concept	| 4
+goed en helder omschreven	| 2
+goed uitgewerkte en volledige mockup | 4
+__week 2__
+correcte html en css	| 4
+overdachte vormgeving |	6
+mobile first	| 8
+overeenkomst met ontwerp | 2
+antwoorden op leesvragen  | 2
+__week 3__
+goed speelbaar	| 9
+js met hedendaagse technieken	| 7
+mdn developer guidelines	| 2
+antwoorden op leesopdrachten| 2 
+__week 4__
+gebruik van een externe api	| 9
+promises en fetch	| 4
+functionele eisen	| 4
+login met github	| 2
+fetch overschreven  | 4 
+
+
+__Administratieomgeving__
+
+Criterium | Punten
+----|----
+check op admin	| 6
+fraaie visualisatie	| 6
+components en services	| 7
+templates met `@if` en `@for`	| 3
+MVC toegepast | 3

@@ -22,13 +22,13 @@ De module kent de volgende weekindeling
 
 week | onderwerpen 
 --|--
-1 | [Inleiding, HTML en CSS 1](week1/) 
-2 | [HTML en CSS 2](week2) 
-3 | [JavaScript](week3) 
-4 | [JavaScript async programmeren](week4) 
-5 | [Beveiliging en JWT](week5) 
-6 | [MVC en Frameworks 1](week6)
-7 | [MVC en Frameworks 2](week7)
+1 | [Inleiding, HTML en CSS 1](week1/index.md) 
+2 | [HTML en CSS 2](week2/index.md) 
+3 | [JavaScript](week3/index.md) 
+4 | [JavaScript async programmeren](week4/index.md) 
+5 | [Beveiliging en JWT](week5/index.md) 
+6 | [MVC en Frameworks 1](week6/index.md)
+7 | [MVC en Frameworks 2](week7/index.md)
 8 | Uitloop 
 
 
