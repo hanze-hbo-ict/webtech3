@@ -1076,6 +1076,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Memory
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="memory.html" class="md-nav__link md-nav__link--active">
         
   
@@ -1092,6 +1110,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhoudsopgave">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#een-fraaie-visualisatie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Een fraaie visualisatie
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inleveren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inleveren
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1263,6 +1322,36 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#een-fraaie-visualisatie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Een fraaie visualisatie
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inleveren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inleveren
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1285,9 +1374,18 @@
 <p class="admonition-title">Niet opnieuw bouwen</p>
 <p>Je hoeft dus niet het hele memory-spel opnieuw in Angular om te bouwen, maar je kunt hier natuurlijk wel een linkje naar de administrator-kant maken. </p>
 </div>
+<h2 id="een-fraaie-visualisatie">Een fraaie visualisatie<a class="headerlink" href="#een-fraaie-visualisatie" title="Permanent link">&para;</a></h2>
 <p>Je bent vrij in de uitwerking en layout van de applicatie, dus leef je uit! Er moet <em>wel</em> een visualisatie inzitten, dus niet gewoon een row-dump van de data. Je mag zelf de visualisatie bedenken, of gebruik maken van de standaarden die in Angular zitten.</p>
+<p>Er zijn redelijk wat bibliotheken die je kunt gebruiken om data fraai en interactief weer te geven:</p>
+<ul>
+<li><a href="https://www.highcharts.com/integrations/angular/">Hicharts for Angular</a> kent vrij veel fraaie visualisaties.</li>
+<li><a href="">KendoUI for Angular</a> is iets minder fraai en wat minder interactief, maar heeft (daardoor?) wel een wat volwassener of serieuzere vormgeving.</li>
+<li>Een meer algemene bibliotheek is [<a href="https://a2ui.org/]A2UI">https://a2ui.org/]A2UI</a>, die <a href="https://dev.to/vishalmysore/building-interactive-data-visualizations-in-a2ui-angular-a-complete-guide-c9a">je ook kunt gebruiken binnen een Angular-omgeving</a>.</li>
+<li>En nóg wat uitgebreidere omgeving voor data-visalisatie in JavaScript is <a href="https://d3js.org/">d3js</a>. Dit is niet per se geport voor Angular, maar omdat het gebruik maakt van svg's kun je het hier wel voor inzetten.</li>
+</ul>
 <p>De memory-adminpagina die je in Angular moet bouwen is een andere app dan het memory spel zelf. Hij draait ook op een andere poort (standaard poort 4200). Het hele architectuurplaatje komt er dan als volgt uit te zien:</p>
 <p><img alt="De architectuur van het eindproject" src="imgs/architectuur.png" /></p>
+<h2 id="inleveren">Inleveren<a class="headerlink" href="#inleveren" title="Permanent link">&para;</a></h2>
 <p>Aan het eind van het blok lever je <em>alleen</em> het memory-spel en de memory-adminpagina (*zonder de <code>node_modules</code>-directory) in. Zie verder <a href="../week7/memory.html">de uitgebreide omschrijving bij het toetsmoment</a>.</p>
 
 
