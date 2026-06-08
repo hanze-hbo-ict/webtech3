@@ -24,35 +24,35 @@ __Memory game__
 
 Criterium | Punten
 ----|----
-__week 1__
-creatief en innovatief concept	| 4
-goed en helder omschreven	| 2
-goed uitgewerkte en volledige mockup | 4
-__week 2__
-correcte html en css	| 4
-overdachte vormgeving |	6
-mobile first	| 8
-overeenkomst met ontwerp | 2
-antwoorden op leesvragen  | 2
-__week 3__
-goed speelbaar	| 9
-js met hedendaagse technieken	| 7
-mdn developer guidelines	| 2
-antwoorden op leesopdrachten| 2 
-__week 4__
-gebruik van een externe api	| 9
-promises en fetch	| 4
-functionele eisen	| 4
-login met github	| 2
-fetch overschreven  | 4 
+__Week 1__
+Creatief en innovatief concept	| 4
+Goed en helder omschreven	| 2
+Goed uitgewerkte en volledige mockup | 4
+__Week 2__
+Correcte html en css	| 4
+Doordachte vormgeving |	6
+Mobile first	| 8
+Overeenkomst met ontwerp | 2
+Antwoorden op leesvragen  | 2
+__Week 3__
+Goed speelbaar	| 9
+JS met hedendaagse technieken	| 7
+MDN developer guidelines	| 2
+Antwoorden op leesopdrachten| 2 
+__Week 4__
+Gebruik van een externe api	| 9
+Promises en fetch	| 4
+Functionele eisen	| 4
+Login met github	| 2
+Fetch overschreven  | 4 
 
 
 __Administratieomgeving__
 
 Criterium | Punten
 ----|----
-check op admin	| 6
-fraaie visualisatie	| 6
-components en services	| 7
-templates met `@if` en `@for`	| 3
+Check op admin	| 6
+Fraaie visualisatie	| 6
+Components en services	| 7
+Templates met `@if` en `@for`	| 3
 MVC toegepast | 3
