@@ -15,3 +15,7 @@ Elke week wordt een klein overzicht gegeven van de eisen waar je memory-spel in 
 Op deze site vind je verschillende beschrijvingen van het memory-spel. Bij de meeste van deze beschrijvingen vind je ook de *beoordelingscriteria*; bestudeer deze om een beeld te krijgen van waar het spel ongeveer aan moet voldoen.
 
 Het spel wordt beoordeeld met een cijfer. In het geval van een onvoldoende worden er individuele reparatiewerkzaamheden afgesproken, die studenten in de daaropvolgende week moeten uitvoeren. Zie ook het onderdeel [toetsing, beoordeling en herkansingsmogelijkheden](index.md#toetsing-beoordeling-en-herkansingsmogelijkheden) in de algemene introductie. 
+
+Behalve de beoordeling van het memory-spel zelf is er ook de beoordeling van het administratie-gedeelte, dat je in Angular hebt gemaakt. Bekijk de beoordeling hiervan [op de betreffende pagina](week7/memory.md#beoordelingscriteria).
+
+Het memory-spel zelf telt voor driekwart mee met je eindcijfer, het cijfer van het administratie-gedeelte voor de overige kwart.
